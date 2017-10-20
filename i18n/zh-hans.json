@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"bs-preferences-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
+	"bs-bluespicepreferences-label": "参数设置",
+	"action-bluespicepreferences-viewspecialpage": "查看特殊页面“{{int:bluespicepreferences}}”",
+	"bluespicepreferences": "Bluespice参数设置"
+}

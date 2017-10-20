@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-preferences-desc": "הצעת האפשרות למנהלי המערכת, להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
+	"bs-bluespicepreferences-label": "העדפות",
+	"action-bluespicepreferences-viewspecialpage": "לצפות בדף המיוחד \"{{int:bluespicepreferences}}\""
+}

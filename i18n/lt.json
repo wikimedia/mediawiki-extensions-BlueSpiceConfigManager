@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"bs-preferences-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
+	"bs-bluespicepreferences-label": "Nustatymai",
+	"action-bluespicepreferences-viewspecialpage": "žiūrėti specialųpuslapį „{{int:bluespicepreferences}}“",
+	"bluespicepreferences": "BlueSpice parametrai"
+}

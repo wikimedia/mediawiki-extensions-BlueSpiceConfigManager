@@ -1,0 +1,7 @@
+==Prefernces.class.php==
+
+'BSWikiAdminPreferencesBeforeSetVariable':
+ $this:
+ &$var:
+ &$value:
+ &$bReturn:

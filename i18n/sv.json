@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"bs-preferences-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
+	"bs-bluespicepreferences-label": "Inställningar",
+	"action-bluespicepreferences-viewspecialpage": "visa specialsidan \"{{int:bluespicepreferences}}\"",
+	"bluespicepreferences": "Bluespice-inställningar"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-preferences-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
+	"bs-bluespicepreferences-label": "Innstillinger",
+	"action-bluespicepreferences-viewspecialpage": "vis spesialsiden «{{int:bluespicepreferences}}»",
+	"bluespicepreferences": "Bluespice-innstillinger"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"bs-preferences-desc": "Permite a los administradores configurar todo el wiki desde una única página especial",
+	"bs-bluespicepreferences-label": "Preferencias",
+	"action-bluespicepreferences-viewspecialpage": "ver la página especial \"{{int:bluespicepreferences}}\"",
+	"bluespicepreferences": "Preferencias de Bluespice"
+}

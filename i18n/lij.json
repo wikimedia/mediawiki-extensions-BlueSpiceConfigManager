@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"bs-preferences-desc": "O l'ofre a poscibilitæ a-i aministratoî, de configuâ tutta a wiki da 'n'unnica paggina speciale",
+	"bs-bluespicepreferences-label": "Preferençe",
+	"action-bluespicepreferences-viewspecialpage": "amia a paggina speciale \"{{int:bluespicepreferences}}\"",
+	"bluespicepreferences": "Preferençe Bluespice"
+}

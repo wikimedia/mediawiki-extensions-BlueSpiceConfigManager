@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"bs-preferences-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі",
+	"bs-bluespicepreferences-label": "Налады",
+	"action-bluespicepreferences-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:bluespicepreferences}}»",
+	"bluespicepreferences": "Налады Bluespice"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата",
+			"Andriykopanytsia",
+			"Piramidion"
+		]
+	},
+	"bs-preferences-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
+	"bs-bluespicepreferences-label": "Налаштування",
+	"action-bluespicepreferences-viewspecialpage": "перегляд спеціальної сторінки «{{int:bluespicepreferences}}»",
+	"bluespicepreferences": "Налаштування Bluespice"
+}

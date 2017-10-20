@@ -1,0 +1,9 @@
+{
+  "name": "mediawiki/blue-spice-config-manager",
+  "type": "mediawiki-extension",
+  "description": "Administration interface for configurations.",
+  "license": "GPL-3.0",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
