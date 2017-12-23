@@ -7,6 +7,7 @@
 		]
 	},
 	"bs-preferences-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
+	"prefs-bluespice": "BlueSpice",
 	"bs-bluespicepreferences-label": "Настройки",
 	"action-bluespicepreferences-viewspecialpage": "просмотр специальной страницы «{{int:bluespicepreferences}}»",
 	"bluespicepreferences": "Настройки BlueSpice"
