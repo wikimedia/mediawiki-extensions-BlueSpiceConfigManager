@@ -7,7 +7,7 @@
 		"Stephan Muggli"
 	],
 	"descriptionmsg": "bs-preferences-desc",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"type": "bluespice",
 	"bsgExtensions": {
 		"BlueSpiceConfigManager": {
