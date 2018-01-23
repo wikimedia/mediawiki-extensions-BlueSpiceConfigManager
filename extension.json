@@ -7,22 +7,38 @@
 		"Stephan Muggli"
 	],
 	"descriptionmsg": "bs-preferences-desc",
-	"license-name": "GPL-2.0-or-later",
+	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceConfigManager": {
-			"className": "BsPreferences",
-			"extPath": "/BlueSpiceConfigManager"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceConfigManager": {
+					"className": "BsPreferences",
+					"extPath": "/BlueSpiceConfigManager"
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-config-manager": "BlueSpice\\ConfigManager\\AdminTool"
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
 		}
 	},
 	"MessagesDirs": {
-		"Preferences": [
+		"BlueSpiceConfigManager": [
 			"i18n"
 		]
 	},
 	"AutoloadClasses": {
 		"BsPreferences": "Preferences.class.php",
 		"SpecialBlueSpicePreferences": "includes/specials/SpecialBlueSpicePreferences.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ConfigManager\\" : "src/"
 	},
 	"ExtensionMessagesFiles": {
 		"BlueSpicePreferencesAlias": "includes/specials/SpecialBlueSpicePreferences.alias.php"
@@ -45,6 +61,6 @@
 	"Hooks": {
 		"BeforePageDisplay": "BsPreferences::onBeforePageDisplay"
 	},
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"load_composer_autoloader" : true
 }

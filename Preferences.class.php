@@ -30,31 +30,12 @@
  * @filesource
  */
 
-// Last review MRG (01.07.11 13:56)
-
 /**
  * the Preferences class
  * @package BlueSpice_Extensions
  * @subpackage Preferences
  */
 class BsPreferences extends BsExtensionMW {
-
-	public function __construct() {
-		wfProfileIn( 'BS::' . __METHOD__ );
-		// Base settings
-		$this->mExtensionFile = __FILE__;
-		$this->mExtensionType = EXTTYPE::SPECIALPAGE;
-
-		WikiAdmin::registerModule( 'BlueSpicePreferences', [
-			'image' => '/extensions/BlueSpiceExtensions/WikiAdmin/resources/images/bs-btn_einstellungen_v1.png',
-			'level' => 'wikiadmin',
-			'message' => 'bs-bluespicepreferences-label',
-			'iconCls' => 'bs-icon-wrench',
-			'permissions' => [ 'bluespicepreferences-viewspecialpage' ],
-		]);
-
-		wfProfileOut( 'BS::' . __METHOD__ );
-	}
 
 	protected function initExt() {
 		$this->mCore->registerPermission( 'bluespicepreferences-viewspecialpage', array( 'sysop' ), array( 'type' => 'global' ) );
