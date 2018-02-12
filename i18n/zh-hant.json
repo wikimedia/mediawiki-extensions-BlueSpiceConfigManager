@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
-	"bs-bluespicepreferences-label": "偏好設定"
+	"bs-preferences-desc": "為管理員提供可從一個特殊頁面來設置整個 wiki",
+	"prefs-bluespice": "BlueSpice",
+	"bs-bluespicepreferences-label": "偏好設定",
+	"action-bluespicepreferences-viewspecialpage": "檢視特殊頁面「{{int:bluespicepreferences}}」",
+	"bluespicepreferences": "Bluespice 偏好設定"
 }
