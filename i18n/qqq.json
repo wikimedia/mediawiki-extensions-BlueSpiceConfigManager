@@ -4,12 +4,14 @@
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Shirayuki",
 			"Raymond",
-			"Umherirrender"
+			"Umherirrender",
+			"Patric Wirth <wirth@hallowelt.com>"
 		]
 	},
-	"bs-preferences-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of preferences extension",
-	"prefs-bluespice": "{{optional}}\nUsed in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], headline for bluespice section in preferences.\n{{Identical|BlueSpice}}",
-	"bs-bluespicepreferences-label": "Anchor text for preferences\n{{Identical|Preferences}}",
-	"action-bluespicepreferences-viewspecialpage": "label for denied special page\n{{doc-action|bluespicepreferences-viewspecialpage}}",
-	"bluespicepreferences": "title label for special page"
+	"bs-bluespiceconfigmanager-admintool-label": "Anchor text for the config manager\n{{Identical|Config Manager}}",
+	"action-bluespiceconfigmanager-viewspecialpage": "label for denied special page\n{{doc-action|bluespiceconfigmanager-viewspecialpage}}",
+	"bluespiceconfigmanager": "title label for special page",
+	"bs-configmanager-desc": "Description of the BlueSpiceConfigManager extension",
+	"bs-configmanager-discardchanges": "Text for prompt that asks you if you want to discard changes made in config manager",
+	"bs-configmanager-noentry": "Display text when no entry could be found in config manger search"
 }

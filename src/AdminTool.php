@@ -7,16 +7,16 @@ use BlueSpice\IAdminTool;
 class AdminTool implements IAdminTool {
 
 	public function getURL() {
-		$tool = \SpecialPage::getTitleFor( 'ConfigManager' );
+		$tool = \SpecialPage::getTitleFor( 'BlueSpiceConfigManager' );
 		return $tool->getLocalURL();
 	}
 
 	public function getDescription() {
-		return wfMessage( 'bs-bluespicepreferences-desc' );
+		return wfMessage( 'bs-bluespiceconfigmanager-desc' );
 	}
 
 	public function getName() {
-		return wfMessage( 'bs-bluespicepreferences-label' );
+		return wfMessage( 'bs-bluespiceconfigmanager-admintool-label' );
 	}
 
 	public function getClasses() {
@@ -33,7 +33,7 @@ class AdminTool implements IAdminTool {
 
 	public function getPermissions() {
 		$permissions = array(
-			'bluespicepreferences-viewspecialpage'
+			'bluespiceconfigmanager-viewspecialpage'
 		);
 		return $permissions;
 	}

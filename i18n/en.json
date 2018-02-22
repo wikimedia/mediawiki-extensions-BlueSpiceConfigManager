@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Leonid Verhovskij <verhovskij@hallowelt.com>"
+			"Leonid Verhovskij <verhovskij@hallowelt.com>",
+			"Patric Wirth <wirth@hallowelt.com>"
 		]
 	},
-	"bs-preferences-desc": "Offers the possibility to admins, to configurate the whole wiki from a single SpecialPage",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Preferences",
-	"action-bluespicepreferences-viewspecialpage": "view specialpage \"{{int:bluespicepreferences}}\"",
-	"bluespicepreferences": "Bluespice preferences"
+	"bs-bluespiceconfigmanager-admintool-label": "Config Manager",
+	"action-bluespiceconfigmanager-viewspecialpage": "view specialpage \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Bluespice Config Manager",
+	"bs-configmanager-desc": "Offers the possibility to admins, to configurate the whole wiki from a single SpecialPage",
+	"bs-configmanager-discardchanges": "Discard changes?",
+	"bs-configmanager-noentry": "No entry found"
 }
