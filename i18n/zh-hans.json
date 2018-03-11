@@ -4,9 +4,5 @@
 			"Liuxinyu970226"
 		]
 	},
-	"bs-preferences-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "参数设置",
-	"action-bluespicepreferences-viewspecialpage": "查看特殊页面“{{int:bluespicepreferences}}”",
-	"bluespicepreferences": "Bluespice参数设置"
+	"bs-configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能"
 }

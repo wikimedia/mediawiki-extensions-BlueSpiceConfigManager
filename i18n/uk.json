@@ -7,9 +7,5 @@
 			"Movses"
 		]
 	},
-	"bs-preferences-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Налаштування",
-	"action-bluespicepreferences-viewspecialpage": "перегляд спеціальної сторінки «{{int:bluespicepreferences}}»",
-	"bluespicepreferences": "Налаштування Bluespice"
+	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки"
 }

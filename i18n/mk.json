@@ -4,8 +4,5 @@
 			"Bjankuloski06"
 		]
 	},
-	"bs-preferences-desc": "Администраторска можност за нагодување на цело вики од една службена страница",
-	"bs-bluespicepreferences-label": "Нагодувања",
-	"action-bluespicepreferences-viewspecialpage": "погл. службената страница „{{int:bluespicepreferences}}“",
-	"bluespicepreferences": "Нагодувања на Bluespice"
+	"bs-configmanager-desc": "Администраторска можност за нагодување на цело вики од една службена страница"
 }

@@ -5,8 +5,5 @@
 			"Selven"
 		]
 	},
-	"bs-preferences-desc": "Offre la possibilità agli amministratori, di configurare tutta la wiki da un'unica pagina speciale",
-	"bs-bluespicepreferences-label": "Preferenze",
-	"action-bluespicepreferences-viewspecialpage": "vedere la pagina speciale \"{{int:bluespicepreferences}}\"",
-	"bluespicepreferences": "Preferenze Bluespice"
+	"bs-configmanager-desc": "Offre la possibilità agli amministratori, di configurare tutta la wiki da un'unica pagina speciale"
 }

@@ -4,9 +4,5 @@
 			"Jon Harald Søby"
 		]
 	},
-	"bs-preferences-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Innstillinger",
-	"action-bluespicepreferences-viewspecialpage": "vis spesialsiden «{{int:bluespicepreferences}}»",
-	"bluespicepreferences": "Bluespice-innstillinger"
+	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside"
 }

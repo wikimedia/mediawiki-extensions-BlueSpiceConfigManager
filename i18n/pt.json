@@ -5,9 +5,5 @@
 			"Hamilton Abreu"
 		]
 	},
-	"bs-preferences-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Preferências",
-	"action-bluespicepreferences-viewspecialpage": "ver página especial \"{{int:bluespicepreferences}}\"",
-	"bluespicepreferences": "Preferências Bluespice"
+	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial"
 }

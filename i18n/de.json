@@ -5,9 +5,10 @@
 			"Metalhead64"
 		]
 	},
-	"bs-preferences-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Einstellungen",
-	"action-bluespicepreferences-viewspecialpage": "die Spezialseite „{{int:bluespicepreferences}}“ anzusehen",
-	"bluespicepreferences": "BlueSpice-Einstellungen"
+	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
+	"action-bluespiceconfigmanager-viewspecialpage": "die Spezialseite „{{int:bluespiceconfigmanager}}“ anzusehen",
+	"bluespiceconfigmanager": "Blue Spice Konfigurationsverwaltung",
+	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
+	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
+	"bs-configmanager-noentry": "Keinen Eintrag gefunden"
 }

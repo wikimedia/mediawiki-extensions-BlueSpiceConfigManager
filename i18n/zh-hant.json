@@ -5,9 +5,5 @@
 			"Kly"
 		]
 	},
-	"bs-preferences-desc": "為管理員提供可從一個特定頁面來設置整個 wiki",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "偏好設定",
-	"action-bluespicepreferences-viewspecialpage": "檢視特定頁面「{{int:bluespicepreferences}}」",
-	"bluespicepreferences": "Bluespice 偏好設定"
+	"bs-configmanager-desc": "為管理員提供可從一個特定頁面來設置整個 wiki"
 }

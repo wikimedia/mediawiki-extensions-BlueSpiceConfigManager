@@ -5,9 +5,5 @@
 			"Macofe"
 		]
 	},
-	"bs-preferences-desc": "Permite a los administradores configurar todo el wiki desde una única página especial",
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "Preferencias",
-	"action-bluespicepreferences-viewspecialpage": "ver la página especial «{{int:bluespicepreferences}}»",
-	"bluespicepreferences": "Preferencias de Bluespice"
+	"bs-configmanager-desc": "Permite a los administradores configurar todo el wiki desde una única página especial"
 }

@@ -4,8 +4,5 @@
 			"Nikosgranturismogt"
 		]
 	},
-	"bs-preferences-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα",
-	"bs-bluespicepreferences-label": "Προτιμήσεις",
-	"action-bluespicepreferences-viewspecialpage": "δείτε την ειδική σελίδα \"{{int:bluespicepreferences}}\"",
-	"bluespicepreferences": "Προτιμήσεις του Bluespice"
+	"bs-configmanager-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα"
 }

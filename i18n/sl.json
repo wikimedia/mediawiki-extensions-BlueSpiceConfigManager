@@ -5,8 +5,5 @@
 			"Dbc334"
 		]
 	},
-	"bs-preferences-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani",
-	"bs-bluespicepreferences-label": "Nastavitve",
-	"action-bluespicepreferences-viewspecialpage": "ogled posebne strani »{{int:bluespicepreferences}}«",
-	"bluespicepreferences": "Nastavitve Bluespice"
+	"bs-configmanager-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani"
 }

@@ -4,7 +4,5 @@
 			"Purodha"
 		]
 	},
-	"bs-preferences-desc": "Deiht alle Enschtällonge för de Wikki-Köhbeße för et janze Wikki zosamme ob en eijnzel {{int:specialpage}}.",
-	"prefs-bluespice": "<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Blou Jewöhz“\">Blue-Spice</i>",
-	"bs-bluespicepreferences-label": "Enschtällonge"
+	"bs-configmanager-desc": "Deiht alle Enschtällonge för de Wikki-Köhbeße för et janze Wikki zosamme ob en eijnzel {{int:specialpage}}."
 }
