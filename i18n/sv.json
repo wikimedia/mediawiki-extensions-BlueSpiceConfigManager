@@ -6,5 +6,10 @@
 			"WikiPhoenix"
 		]
 	},
-	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida"
+	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationshanterare",
+	"action-bluespiceconfigmanager-viewspecialpage": "visa specialsidan \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Konfigurationshanterare för Bluespice",
+	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
+	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
+	"bs-configmanager-noentry": "Ingen post hittades"
 }

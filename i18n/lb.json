@@ -4,7 +4,7 @@
 			"Robby"
 		]
 	},
-	"bs-bluespicepreferences-label": "Astellungen",
-	"action-bluespicepreferences-viewspecialpage": "d'Spezialsäit \"{{int:bluespicepreferences}}\" weisen",
-	"bluespicepreferences": "BlueSpice-Astellungen"
+	"action-bluespiceconfigmanager-viewspecialpage": "d'Spezialsäit \"{{int:bluespiceconfigmanager}}\" weisen",
+	"bs-configmanager-discardchanges": "Ännerungen annuléieren?",
+	"bs-configmanager-noentry": "Näischt fonnt"
 }
