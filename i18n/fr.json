@@ -5,5 +5,10 @@
 			"Wladek92"
 		]
 	},
-	"bs-configmanager-desc": "Offre la possibilité aux administrateurs de configurer l’ensemble du wiki depuis une unique page spéciale"
+	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",
+	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page spéciale \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Gestionnaire de configuration Bluespice",
+	"bs-configmanager-desc": "Offre la possibilité aux administrateurs de configurer l’ensemble du wiki depuis une unique page spéciale",
+	"bs-configmanager-discardchanges": "Annuler les modifications ?",
+	"bs-configmanager-noentry": "Aucune entrée trouvée"
 }
