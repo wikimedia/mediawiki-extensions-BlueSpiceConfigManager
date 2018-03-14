@@ -16,8 +16,6 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	initComponent: function() {
 		var me = this;
 
-		this.addEvents( 'pathsresolved' );
-
 		me.setLoading( true );
 		this.store = new BS.store.BSApi({
 			apiAction: 'bs-configmanager-store',

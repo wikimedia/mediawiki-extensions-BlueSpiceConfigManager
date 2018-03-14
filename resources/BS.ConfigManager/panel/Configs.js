@@ -12,7 +12,6 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 	autoScroll: true,
 
 	initComponent: function() {
-		this.addEvents( 'dirty' );
 		this.manager.pnlPath.on( 'pathselection', this.pathSelectionChanged, this );
 		this.callParent( arguments );
 	},
@@ -95,8 +94,8 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 		var height = $( $( '#bs-configmanager-form' )[0] ).height();
 		this.setHeight( height );
 		this.manager.setHeight( height+100 );
-		this.doLayout();
-		this.manager.doLayout();
+		this.updateLayout();
+		this.manager.updateLayout();
 	},
 
 	getData: function() {

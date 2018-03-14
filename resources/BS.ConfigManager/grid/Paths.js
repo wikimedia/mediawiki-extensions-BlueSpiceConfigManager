@@ -9,7 +9,6 @@ Ext.define( 'BS.ConfigManager.grid.Paths', {
 
 	initComponent: function() {
 		var me = this;
-		this.addEvents( 'pathselection' );
 
 		this.columns = [{
 			dataIndex: 'path',
