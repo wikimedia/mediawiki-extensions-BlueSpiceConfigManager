@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Special;
+use BlueSpice\Services;
 
 class ConfigManager extends \BsSpecialPage {
 
@@ -31,6 +32,34 @@ class ConfigManager extends \BsSpecialPage {
 		$this->getOutput()->addHTML( \Html::element( 'div', [
 			'id' => 'bs-configmanager',
 		]));
+
+		$cfgDefFactory = Services::getInstance()
+			->getBSConfigDefinitionFactory();
+		$pathMessages = [];
+
+		foreach( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
+			if( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
+				continue;
+			}
+			$this->extractPathMessageKeys( $cfgDef, $pathMessages );
+		}
+
+		$this->getOutput()->addJsConfigVars(
+			'ConfigManagerPathMessages',
+			$pathMessages
+		);
+	}
+
+	protected function extractPathMessageKeys( $cfgDef, &$pathMessages ) {
+		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
+		foreach( $cfgDef->getPaths() as $path ) {
+			foreach( explode( '/', $path ) as $section ) {
+				if( !$msgKey = $msgFactory->getMessageKey( $section ) ) {
+					continue;
+				}
+				$pathMessages[$section] = $msgKey;
+			}
+		}
 	}
 
 }
