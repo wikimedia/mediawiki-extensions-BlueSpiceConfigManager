@@ -187,8 +187,9 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	},
 
 	getPathSectionMessage: function( path ) {
-		return mw.message( 'bs-setting-path-' + path ).exists()
-			? mw.message( 'bs-setting-path-' + path ).plain()
+		var pathMsgs = mw.config.get( 'ConfigManagerPathMessages', {} );
+		return mw.message( pathMsgs[path] || '' ).exists()
+			? mw.message( pathMsgs[path] ).plain()
 			: path;
 	},
 
