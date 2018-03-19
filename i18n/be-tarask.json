@@ -5,5 +5,9 @@
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Кіраваньне канфігурацыяй",
-	"bs-configmanager-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі"
+	"action-bluespiceconfigmanager-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:bluespiceconfigmanager}}»",
+	"bluespiceconfigmanager": "Кіраваньне канфігурацыяй Bluespice",
+	"bs-configmanager-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі",
+	"bs-configmanager-discardchanges": "Скасаваць зьмены?",
+	"bs-configmanager-noentry": "Запіс ня знойдзены"
 }
