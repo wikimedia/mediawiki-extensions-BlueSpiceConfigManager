@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bodhisattwa"
+			"Bodhisattwa",
+			"Aftabuzzaman"
 		]
 	},
-	"bs-bluespicepreferences-label": "পছন্দসমূহ"
+	"action-bluespiceconfigmanager-viewspecialpage": "বিশেষ পাতা \"{{int:bluespiceconfigmanager}}\" দেখার"
 }
