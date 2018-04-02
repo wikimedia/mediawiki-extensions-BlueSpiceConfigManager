@@ -4,5 +4,10 @@
 			"Guycn2"
 		]
 	},
-	"bs-configmanager-desc": "הצעת האפשרות למנהלי המערכת, להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד"
+	"bs-bluespiceconfigmanager-admintool-label": "ניהול הגדרות תצורה",
+	"action-bluespiceconfigmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "ניהול הגדרות תצורה של Bluespice",
+	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
+	"bs-configmanager-discardchanges": "למחוק את השינויים?",
+	"bs-configmanager-noentry": "לא נמצא ערך"
 }
