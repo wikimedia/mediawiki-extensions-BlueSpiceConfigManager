@@ -13,5 +13,7 @@
 	"bluespiceconfigmanager": "title label for special page",
 	"bs-configmanager-desc": "Description of the BlueSpiceConfigManager extension",
 	"bs-configmanager-discardchanges": "Text for prompt that asks you if you want to discard changes made in config manager",
-	"bs-configmanager-noentry": "Display text when no entry could be found in config manger search"
+	"bs-configmanager-noentry": "Display text when no entry could be found in config manger search",
+	"apihelp-bs-configmanager-tasks-summary": "{{doc-apihelp-summary|bs-configmanager-tasks}}",
+	"apihelp-bs-configmanager-store-summary": "{{doc-apihelp-summary|bs-configmanager-store}}"
 }

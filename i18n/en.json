@@ -11,5 +11,7 @@
 	"bluespiceconfigmanager": "Bluespice Config Manager",
 	"bs-configmanager-desc": "Offers the possibility to admins, to configurate the whole wiki from a single SpecialPage",
 	"bs-configmanager-discardchanges": "Discard changes?",
-	"bs-configmanager-noentry": "No entry found"
+	"bs-configmanager-noentry": "No entry found",
+	"apihelp-bs-configmanager-tasks-summary": "Manage tasks",
+	"apihelp-bs-configmanager-store-summary": "Manage stores"
 }
