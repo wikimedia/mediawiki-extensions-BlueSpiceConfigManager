@@ -10,5 +10,7 @@
 	"bluespiceconfigmanager": "Blue Spice Konfigurationsverwaltung",
 	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
 	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
-	"bs-configmanager-noentry": "Keinen Eintrag gefunden"
+	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
+	"apihelp-bs-configmanager-tasks-summary": "Verwaltet Aufgaben",
+	"apihelp-bs-configmanager-store-summary": "Verwaltet Speicher"
 }
