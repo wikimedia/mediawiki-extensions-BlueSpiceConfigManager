@@ -9,5 +9,7 @@
 	"bluespiceconfigmanager": "ניהול הגדרות תצורה של Bluespice",
 	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
 	"bs-configmanager-discardchanges": "למחוק את השינויים?",
-	"bs-configmanager-noentry": "לא נמצא ערך"
+	"bs-configmanager-noentry": "לא נמצא ערך",
+	"apihelp-bs-configmanager-tasks-summary": "ניהול משימות",
+	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים"
 }

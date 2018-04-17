@@ -11,5 +11,6 @@
 	"bluespiceconfigmanager": "Konfigurationshanterare för Bluespice",
 	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
 	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
-	"bs-configmanager-noentry": "Ingen post hittades"
+	"bs-configmanager-noentry": "Ingen post hittades",
+	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter"
 }

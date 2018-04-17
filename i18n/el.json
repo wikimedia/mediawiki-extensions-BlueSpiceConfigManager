@@ -4,5 +4,7 @@
 			"Nikosgranturismogt"
 		]
 	},
-	"bs-configmanager-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα"
+	"bs-configmanager-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα",
+	"apihelp-bs-configmanager-tasks-summary": "Διαχείριση εργασιών",
+	"apihelp-bs-configmanager-store-summary": "Διαχείριση καταστημάτων"
 }

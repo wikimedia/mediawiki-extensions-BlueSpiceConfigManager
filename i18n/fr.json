@@ -10,5 +10,7 @@
 	"bluespiceconfigmanager": "Gestionnaire de configuration Bluespice",
 	"bs-configmanager-desc": "Offre la possibilité aux administrateurs de configurer l’ensemble du wiki depuis une unique page spéciale",
 	"bs-configmanager-discardchanges": "Annuler les modifications ?",
-	"bs-configmanager-noentry": "Aucune entrée trouvée"
+	"bs-configmanager-noentry": "Aucune entrée trouvée",
+	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
+	"apihelp-bs-configmanager-store-summary": "Gérer les magasins"
 }

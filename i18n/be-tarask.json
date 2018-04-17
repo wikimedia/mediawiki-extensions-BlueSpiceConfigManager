@@ -9,5 +9,6 @@
 	"bluespiceconfigmanager": "Кіраваньне канфігурацыяй Bluespice",
 	"bs-configmanager-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі",
 	"bs-configmanager-discardchanges": "Скасаваць зьмены?",
-	"bs-configmanager-noentry": "Запіс ня знойдзены"
+	"bs-configmanager-noentry": "Запіс ня знойдзены",
+	"apihelp-bs-configmanager-tasks-summary": "Кіраваньне заданьнямі"
 }
