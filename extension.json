@@ -64,6 +64,9 @@
 			"bluespiceconfigmanager-viewspecialpage": true
 		}
 	},
+	"AvailableRights": [
+		"bluespiceconfigmanager-viewspecialpage"
+	],
 	"ResourceModules": {
 		"ext.bluespice.configmanager": {
 			"scripts": "bluespice.configmanager.js",
