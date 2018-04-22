@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "مدير التهيئة",
+	"action-bluespiceconfigmanager-viewspecialpage": "عرض الصفحة الخاصة \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "مدير تهيئة Bluespice",
+	"bs-configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
+	"bs-configmanager-discardchanges": "تجاهل التغييرات؟",
+	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
+	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
+	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر"
+}
