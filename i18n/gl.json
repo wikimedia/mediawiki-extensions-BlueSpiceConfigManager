@@ -4,5 +4,6 @@
 			"Elisardojm"
 		]
 	},
-	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde huna única páxina especial"
+	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde huna única páxina especial",
+	"bs-configmanager-discardchanges": "Descartar as modificacións?"
 }
