@@ -212,7 +212,12 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 		var data = this.getData();
 		var taskData = {};
 		for( var i in data ) {
-			taskData[data[i].name] = data[i].value;
+			if (data[i].name.endsWith("[]")) {
+				short=data[i].name.slice(0, -2);
+				(taskData[short] || (taskData[short] = [])).push(data[i].value);
+			} else {
+				taskData[data[i].name] = data[i].value;
+			}
 		}
 		this.save( taskData );
 	},
