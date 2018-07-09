@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceConfigManager",
-	"version": "3.0.0-alpha",
+	"version": "3.0.0-beta",
 	"url": "https://help.bluespice.com/index.php/ConfigManager",
 	"author": [
 		"Patric Wirth"
