@@ -13,5 +13,6 @@
 	"bs-configmanager-discardchanges": "Discard changes?",
 	"bs-configmanager-noentry": "No entry found",
 	"apihelp-bs-configmanager-tasks-summary": "Manage tasks",
-	"apihelp-bs-configmanager-store-summary": "Manage stores"
+	"apihelp-bs-configmanager-store-summary": "Manage stores",
+	"right-bluespiceconfigmanager-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceConfigManager]]."
 }
