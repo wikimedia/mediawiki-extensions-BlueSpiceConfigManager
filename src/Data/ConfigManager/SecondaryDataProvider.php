@@ -29,10 +29,11 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 		if( !$formField = $cfgDfn->getHtmlFormField() ) {
 			return;
 		}
+
 		if( $formField instanceof \OOUI\Element ) {
 			$form .= (string) $formField;
 		} else {
-			$form .= $formField->getTableRow( $cfgDfn->getValue() );
+			$form .= $formField->getOOUI( $cfgDfn->getValue() );
 		}
 
 		$dataSet->set(

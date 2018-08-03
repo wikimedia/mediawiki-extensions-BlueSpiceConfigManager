@@ -10,6 +10,7 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 	htmlClassPrefix: "bs-configmanager-configpanel-",
 	dirty: false,
 	autoScroll: true,
+	oouiWidgets: {},
 
 	initComponent: function() {
 		this.manager.pnlPath.on( 'pathselection', this.pathSelectionChanged, this );
@@ -34,6 +35,10 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 
 	displayConfigs: function( records ) {
 		var me = this;
+		// When changing "pages" all changes to previous page are lost
+		// so we can forget about OOUI Widgets previously infused
+		me.oouiWidgets = {};
+
 		var contentClass = me.htmlClassPrefix + "content";
 		if( records.length < 1 ) {
 			contentClass += ' ' + me.htmlClassPrefix + 'noentry';
@@ -78,14 +83,44 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 				}
 			});
 			content += '<div>' + records[i].get( 'form' ) + '</div>';
+
+			// Check if html contain infusable OOUI element
+			var widgetId = me.getOOUIWidgetElementId( records[i].get( 'form' ) );
+			if( widgetId ) {
+				// At this point, we can only get widget ID, not the instance
+				me.oouiWidgets[records[i].get( 's_name' )] = widgetId;
+			}
 		}
 		content += '</fieldset>';
 		content += '</form>';
-		me.body.update( content );
+		me.body.setHtml( content, false, function() {
+			// Infuse OOUI widgets, must be done after the content has been added
+			for ( var field in me.oouiWidgets ) {
+				var widgetId = me.oouiWidgets[field];
+				var widget = OO.ui.infuse( widgetId );
+				widget.on( 'change', function() { me.setDirty( true ) } );
+				// Now we are able to replace widget id with an instance
+				me.oouiWidgets[field] = widget;
+			}
+		} );
 		$( "#" + me.formId + " :input" ).on( 'input change', function() {
 			me.setDirty( true );
 		});
+
 		me.resize();
+	},
+
+	getOOUIWidgetElementId: function( html ) {
+		var $widget = $( html ).find( '.oo-ui-widget' );
+		if( $widget.length == 0 ) {
+			return false;
+		}
+
+		if( ! $widget.data( 'ooui' ) ) {
+			// No infusion data
+			return false;
+		}
+		return $widget.attr( 'id' );
 	},
 
 	resize: function() {
@@ -112,6 +147,15 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 				data.push( { "name": this.name, "value": false } );
 			}
 		);
+
+		// Get data from infused OOUI widgets
+		for ( var field in this.oouiWidgets ) {
+			data.push( {
+				name: field,
+				value: this.oouiWidgets[field].getValue()
+			});
+		}
+
 		return data;
 	},
 
