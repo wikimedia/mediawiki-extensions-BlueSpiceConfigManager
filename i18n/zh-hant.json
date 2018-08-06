@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "放棄變更？",
 	"bs-configmanager-noentry": "查無項目",
 	"apihelp-bs-configmanager-tasks-summary": "管理任務",
-	"apihelp-bs-configmanager-store-summary": "管理貯存"
+	"apihelp-bs-configmanager-store-summary": "管理貯存",
+	"right-bluespiceconfigmanager-viewspecialpage": "授予存取特殊頁面 [[Special:BlueSpiceConfigManager]] 的權限。"
 }

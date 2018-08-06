@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
 	"apihelp-bs-configmanager-tasks-summary": "Verwaltet Aufgaben",
-	"apihelp-bs-configmanager-store-summary": "Verwaltet Speicher"
+	"apihelp-bs-configmanager-store-summary": "Verwaltet Speicher",
+	"right-bluespiceconfigmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceConfigManager]] gewähren."
 }

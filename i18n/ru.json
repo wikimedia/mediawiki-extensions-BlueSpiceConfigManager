@@ -3,8 +3,10 @@
 		"authors": [
 			"Okras",
 			"Gazimagomedov",
-			"Facenapalm"
+			"Facenapalm",
+			"Vlad5250"
 		]
 	},
-	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице"
+	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
+	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]"
 }

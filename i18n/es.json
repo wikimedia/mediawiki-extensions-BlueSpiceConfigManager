@@ -11,5 +11,6 @@
 	"bs-configmanager-desc": "Permite a los administradores configurar todo el wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
-	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas"
+	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
+	"right-bluespiceconfigmanager-viewspecialpage": "Otorga acceso a la página especial [[Special:BlueSpiceConfigManager]]."
 }

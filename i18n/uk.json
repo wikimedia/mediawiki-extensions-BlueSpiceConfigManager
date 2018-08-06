@@ -4,8 +4,10 @@
 			"Ата",
 			"Andriykopanytsia",
 			"Piramidion",
-			"Movses"
+			"Movses",
+			"Vlad5250"
 		]
 	},
-	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки"
+	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
+	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]."
 }

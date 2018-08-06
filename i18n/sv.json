@@ -12,5 +12,6 @@
 	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
 	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
 	"bs-configmanager-noentry": "Ingen post hittades",
-	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter"
+	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",
+	"right-bluespiceconfigmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceConfigManager]]."
 }

@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "Descartar mudanças?",
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gerenciar tarefas",
-	"apihelp-bs-configmanager-store-summary": "Gerenciar armazenamento"
+	"apihelp-bs-configmanager-store-summary": "Gerenciar armazenamento",
+	"right-bluespiceconfigmanager-viewspecialpage": "Concede acesso à página especial [[Special:BlueSpiceConfigManager]]."
 }

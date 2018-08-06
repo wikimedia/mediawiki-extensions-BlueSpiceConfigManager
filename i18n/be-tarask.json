@@ -11,5 +11,6 @@
 	"bs-configmanager-discardchanges": "Скасаваць зьмены?",
 	"bs-configmanager-noentry": "Запіс ня знойдзены",
 	"apihelp-bs-configmanager-tasks-summary": "Кіраваньне заданьнямі",
-	"apihelp-bs-configmanager-store-summary": "Кіраваньне сховішчамі"
+	"apihelp-bs-configmanager-store-summary": "Кіраваньне сховішчамі",
+	"right-bluespiceconfigmanager-viewspecialpage": "Доступ да спэцыяльнай старонкі [[Special:BlueSpiceConfigManager]]."
 }

@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "¿Descartar los cambeos?",
 	"bs-configmanager-noentry": "Nun s'atopó nenguna entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Alministrar xeres",
-	"apihelp-bs-configmanager-store-summary": "Alministrar almacenes"
+	"apihelp-bs-configmanager-store-summary": "Alministrar almacenes",
+	"right-bluespiceconfigmanager-viewspecialpage": "Permite l'accesu a la páxina especial [[Special:BlueSpiceConfigManager]]."
 }

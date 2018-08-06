@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "Annuler les modifications ?",
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
-	"apihelp-bs-configmanager-store-summary": "Gérer les magasins"
+	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
+	"right-bluespiceconfigmanager-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:BlueSpiceConfigManager]]."
 }
