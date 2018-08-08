@@ -4,5 +4,6 @@
 			"Jon Harald Søby"
 		]
 	},
-	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside"
+	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
+	"right-bluespiceconfigmanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:BlueSpiceConfigManager]]."
 }
