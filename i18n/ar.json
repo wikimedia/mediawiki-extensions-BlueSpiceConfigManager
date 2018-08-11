@@ -11,5 +11,6 @@
 	"bs-configmanager-discardchanges": "تجاهل التغييرات؟",
 	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
 	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
-	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر"
+	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر",
+	"right-bluespiceconfigmanager-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:BlueSpiceConfigManager]]."
 }
