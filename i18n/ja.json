@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Suyama"
 		]
 	},
-	"prefs-bluespice": "BlueSpice",
-	"bs-bluespicepreferences-label": "個人設定"
+	"right-bluespiceconfigmanager-viewspecialpage": "特別ページ [[Special:BlueSpiceConfigManager]] の利用を許可します。"
 }
