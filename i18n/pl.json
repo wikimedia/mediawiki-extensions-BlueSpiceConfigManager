@@ -4,5 +4,6 @@
 			"Chrumps"
 		]
 	},
-	"bs-configmanager-discardchanges": "Porzucić zmiany?"
+	"bs-configmanager-discardchanges": "Porzucić zmiany?",
+	"right-bluespiceconfigmanager-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:BlueSpiceConfigManager]]."
 }
