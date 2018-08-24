@@ -150,9 +150,13 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 
 		// Get data from infused OOUI widgets
 		for ( var field in this.oouiWidgets ) {
+			var value = this.oouiWidgets[field].getValue();
+			if( this.oouiWidgets[field] instanceof OO.ui.CheckboxInputWidget ) {
+				value = this.oouiWidgets[field].isSelected();
+			}
 			data.push( {
 				name: field,
-				value: this.oouiWidgets[field].getValue()
+				value: value
 			});
 		}
 
