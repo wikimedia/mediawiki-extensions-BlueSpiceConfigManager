@@ -23,7 +23,9 @@
 				"bluespiceconfigmanager-viewspecialpage": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
 					]
 				}
 			}
