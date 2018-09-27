@@ -8,7 +8,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 		'BS.ConfigManager.grid.Paths',
 		'BS.ConfigManager.panel.Configs'
 	],
-	height: 3000,
+	minHeight: 600,
 	autoHeight: true,
 	paths: null,
 	mainPathSelection: null,
