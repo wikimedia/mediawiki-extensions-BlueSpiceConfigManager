@@ -75,7 +75,8 @@
 			"dependencies": [
 				"ext.bluespice",
 				"ext.bluespice.extjs",
-				"ext.bluespice.configmanager.messages"
+				"ext.bluespice.configmanager.messages",
+				"oojs-ui-core"
 			],
 			"messages": [
 				"bs-configmanager-discardchanges",
