@@ -12,6 +12,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	autoHeight: true,
 	paths: null,
 	mainPathSelection: null,
+	updateSearchField: null,
 
 	initComponent: function() {
 		var me = this;
@@ -135,7 +136,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 		if( !me.mainPathSelection || !me.paths[me.mainPathSelection] ) {
 			me.mainPathSelection = Object.keys(me.paths)[0];
 		}
-		me.setLoading( false );
+		me.pnlConfig.setLoading( false );
 
 		this.fireEvent( 'pathsresolved', me, me.mainPathSelection, me.paths );
 	},
@@ -196,7 +197,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	onSearchFieldChanged: function( field, newValue, oldValue, eOpts ) {
 		var me = this;
 		var updater = function() {
-			me.setLoading( true );
+			me.pnlConfig.setLoading( true );
 			me.store.proxy.extraParams.query = newValue;
 			me.store.reload();
 		};
@@ -204,7 +205,10 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 			me.confirmDiscardChanges( updater );
 			return false;
 		}
-		updater();
+		if ( this.updateSearchField ) {
+			clearTimeout( this.updateSearchField );
+		}
+		this.updateSearchField = setTimeout( updater, 500 );
 		return true;
 	},
 
@@ -223,7 +227,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	},
 
 	onBtnResetClick: function( oButton, oEvent ) {
-		this.setLoading( true );
+		this.pnlConfig.setLoading( true );
 		this.store.reload();
 	},
 
@@ -233,12 +237,12 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 
 	save: function( taskData ) {
 		var me = this;
-		this.setLoading( true );
+		this.pnlConfig.setLoading( true );
 		var $dfd = $.Deferred();
 
 		bs.api.tasks.execSilent( 'configmanager', 'save', taskData )
 		.done( function( response ) {
-			me.setLoading( false );
+			me.pnlConfig.setLoading( false );
 			if( response.message && response.message !== '' ) {
 				bs.util.alert(
 					'configmanager-save-fail',
