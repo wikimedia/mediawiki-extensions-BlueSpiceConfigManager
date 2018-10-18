@@ -3,7 +3,7 @@
 namespace BlueSpice\ConfigManager\Special;
 use BlueSpice\Services;
 
-class ConfigManager extends \BsSpecialPage {
+class ConfigManager extends \BlueSpice\SpecialPage {
 
 	public function __construct() {
 		parent::__construct(
