@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Metalhead64"
+			"Metalhead64",
+			"Hwboehm"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
 	"action-bluespiceconfigmanager-viewspecialpage": "die Spezialseite „{{int:bluespiceconfigmanager}}“ anzusehen",
-	"bluespiceconfigmanager": "Blue Spice Konfigurationsverwaltung",
+	"bluespiceconfigmanager": "Konfigurationsverwaltung",
 	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
 	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
