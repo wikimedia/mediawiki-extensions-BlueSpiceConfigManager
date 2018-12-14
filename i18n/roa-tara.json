@@ -6,7 +6,7 @@
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestore de Configurazione",
 	"action-bluespiceconfigmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "Gestore d'a configurazione de BlueSpice",
+	"bluespiceconfigmanager": "Gestore d'a configurazione",
 	"bs-configmanager-desc": "Dèje 'a possibbilità a le amministrature, de configurà 'a uicchi da 'na pàgena singole SpecialPage",
 	"bs-configmanager-discardchanges": "Scitte le cangiaminde?",
 	"bs-configmanager-noentry": "Nisciuna vôsce acchiate",

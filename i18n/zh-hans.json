@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Hwboehm"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "配置管理器",
 	"action-bluespiceconfigmanager-viewspecialpage": "查看特殊页面“{{int:bluespiceconfigmanager}}”",
-	"bluespiceconfigmanager": "Bluespice配置管理器",
+	"bluespiceconfigmanager": "配置管理器",
 	"bs-configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
 	"bs-configmanager-discardchanges": "放弃更改么？",
 	"bs-configmanager-noentry": "找不到记录",
