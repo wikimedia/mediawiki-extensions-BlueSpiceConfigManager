@@ -7,7 +7,7 @@
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gerente de Configuração",
 	"action-bluespiceconfigmanager-viewspecialpage": "ver página especial \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "Gerenciador Bluespice da configuração",
+	"bluespiceconfigmanager": "Gerenciador da configuração",
 	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
 	"bs-configmanager-discardchanges": "Descartar mudanças?",
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
