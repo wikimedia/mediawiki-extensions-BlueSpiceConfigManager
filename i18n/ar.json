@@ -6,7 +6,7 @@
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "مدير التهيئة",
 	"action-bluespiceconfigmanager-viewspecialpage": "عرض الصفحة الخاصة \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "مدير تهيئة Bluespice",
+	"bluespiceconfigmanager": "مدير التهيئة",
 	"bs-configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
 	"bs-configmanager-discardchanges": "تجاهل التغييرات؟",
 	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
