@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ilimanaq29"
+			"Ilimanaq29",
+			"Dvorapa"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Nastavit manažera",
 	"action-bluespiceconfigmanager-viewspecialpage": "Zobrazit speciální stránku \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "Bluespice Config Manager",
+	"bluespiceconfigmanager": "Konfigurační manažer",
 	"bs-configmanager-discardchanges": "Zahodit změny?",
 	"bs-configmanager-noentry": "Žádný záznam nenalezen"
 }
