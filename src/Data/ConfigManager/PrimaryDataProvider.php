@@ -42,6 +42,9 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 		if( !$cfgDfn ) {
 			return;
 		}
+		if( $cfgDfn->isHidden() ) {
+			return;
+		}
 		if( !empty( $this->readerParams->getQuery() ) ) {
 			$res = \BsStringHelper::filter(
 				'ct',
