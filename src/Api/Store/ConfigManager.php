@@ -5,7 +5,7 @@ use BlueSpice\Context;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store;
 use BlueSpice\Services;
 
-class ConfigManager extends \BlueSpice\StoreApiBase {
+class ConfigManager extends \BlueSpice\Api\Store {
 
 	protected function getRequiredPermissions() {
 		return [ 'bluespiceconfigmanager-viewspecialpage' ];
