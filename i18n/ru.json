@@ -4,9 +4,11 @@
 			"Okras",
 			"Gazimagomedov",
 			"Facenapalm",
-			"Vlad5250"
+			"Vlad5250",
+			"Romanko Mikhail"
 		]
 	},
+	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]"
 }
