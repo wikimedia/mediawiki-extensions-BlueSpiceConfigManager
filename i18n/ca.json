@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Edustus"
+			"Edustus",
+			"Fitoschido"
 		]
 	},
-	"bs-bluespicepreferences-label": "Preferències"
+	"action-bluespiceconfigmanager-viewspecialpage": "mostra la pàgina especial «{{int:bluespiceconfigmanager}}»"
 }
