@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
+
 use BlueSpice\ConfigDefinitionFactory;
 
 class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
@@ -15,9 +16,9 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 		$this->factory = $factory;
 	}
 
-	protected function doExtend( &$dataSet ){
+	protected function doExtend( &$dataSet ) {
 		$cfgDfn = $this->factory->factory( $dataSet->get( Record::NAME ) );
-		if( !$cfgDfn ) {
+		if ( !$cfgDfn ) {
 			return;
 		}
 		$form = '';
@@ -26,12 +27,12 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 			'ltr'
 		);
 
-		if( !$formField = $cfgDfn->getHtmlFormField() ) {
+		if ( !$formField = $cfgDfn->getHtmlFormField() ) {
 			return;
 		}
 
-		if( $formField instanceof \OOUI\Element ) {
-			$form .= (string) $formField;
+		if ( $formField instanceof \OOUI\Element ) {
+			$form .= (string)$formField;
 		} else {
 			$form .= $formField->getOOUI( $cfgDfn->getValue() );
 		}

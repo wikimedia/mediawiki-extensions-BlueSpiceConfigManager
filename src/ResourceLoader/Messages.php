@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\ResourceLoader;
+
 use BlueSpice\ConfigDefinition;
 use BlueSpice\Services;
 
@@ -15,8 +16,8 @@ class Messages extends \ResourceLoaderModule {
 	public function getMessages() {
 		$messages = parent::getMessages();
 		$cfgDefFactory = Services::getInstance()->getBSConfigDefinitionFactory();
-		foreach( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
-			if( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
+		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
+			if ( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
 				continue;
 			}
 			$this->extractPathMessages( $cfgDef, $messages );
@@ -28,9 +29,9 @@ class Messages extends \ResourceLoaderModule {
 	protected function extractPathMessages( ConfigDefinition $cfgDef, &$messages ) {
 		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
 
-		foreach( $cfgDef->getPaths() as $path ) {
-			foreach( explode( '/', $path ) as $section ) {
-				if( !$msgKey = $msgFactory->getMessageKey( $section ) ) {
+		foreach ( $cfgDef->getPaths() as $path ) {
+			foreach ( explode( '/', $path ) as $section ) {
+				if ( !$msgKey = $msgFactory->getMessageKey( $section ) ) {
 					continue;
 				}
 				$messages[] = $msgKey;
