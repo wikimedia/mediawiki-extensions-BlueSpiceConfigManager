@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
+
 use BlueSpice\ConfigDefinitionFactory;
 
 class Reader extends \BlueSpice\Data\Settings\Reader {
