@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Api\Store;
+
 use BlueSpice\Context;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store;
 use BlueSpice\Services;

@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
+
 use BlueSpice\ConfigDefinitionFactory;
 
 class Store extends \BlueSpice\Data\Settings\Store {
@@ -14,6 +15,8 @@ class Store extends \BlueSpice\Data\Settings\Store {
 	/**
 	 *
 	 * @param \IContextSource $context
+	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
+	 * @param ConfigDefinitionFactory $factory
 	 */
 	public function __construct( $context, $loadBalancer, ConfigDefinitionFactory $factory ) {
 		parent::__construct( $context, $loadBalancer );

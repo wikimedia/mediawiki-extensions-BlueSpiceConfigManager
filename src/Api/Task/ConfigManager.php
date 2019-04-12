@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\ConfigManager\Api\Task;
+
 use BlueSpice\Services;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\Data\Settings\Store;
@@ -13,9 +14,9 @@ class ConfigManager extends \BSApiTasksBase {
 	 * Methods that can be called by task param
 	 * @var array
 	 */
-	protected $aTasks = array(
+	protected $aTasks = [
 		'save',
-	);
+	];
 
 	/**
 	 * Returns an array of tasks and their required permissions
@@ -23,9 +24,9 @@ class ConfigManager extends \BSApiTasksBase {
 	 * @return type
 	 */
 	protected function getRequiredTaskPermissions() {
-		return array(
+		return [
 			'save' => [ 'bluespiceconfigmanager-viewspecialpage' ],
-		);
+		];
 	}
 
 	public function task_save( $taskData, $aParams ) {
@@ -33,20 +34,20 @@ class ConfigManager extends \BSApiTasksBase {
 
 		$records = [];
 		$factory = $this->getServices()->getBSConfigDefinitionFactory();
-		foreach( (array)$taskData as $cfgName => $value ) {
-			if( !$field = $factory->factory( $cfgName ) ) {
+		foreach ( (array)$taskData as $cfgName => $value ) {
+			if ( !$field = $factory->factory( $cfgName ) ) {
 				continue;
 			}
 			$record = new Record( (object)[
 				Record::NAME => $field->getName(),
 				Record::VALUE => $value,
-			]);
+			] );
 
 			$res = $field->getHtmlFormField()->validate(
 				$value,
 				(array)$taskData
 			);
-			if( $res !== true ) {
+			if ( $res !== true ) {
 				$record->getStatus()->fatal( $res );
 			}
 			$records[] = $record;
@@ -55,15 +56,15 @@ class ConfigManager extends \BSApiTasksBase {
 		$recordSet = $this->getStore()->getWriter()->write(
 			new RecordSet( $records )
 		);
-		foreach( $recordSet->getRecords() as $record ) {
-			if( $record->getStatus()->isOK() ) {
+		foreach ( $recordSet->getRecords() as $record ) {
+			if ( $record->getStatus()->isOK() ) {
 				continue;
 			}
 			$result->message .= $record->get( Record::NAME ) . ': ';
 			$result->message .= $record->getStatus()->getHTML( false, false );
 			$result->message .= \Html::element( 'br' );
 		}
-		if( empty( $result->message ) ) {
+		if ( empty( $result->message ) ) {
 			$result->success = true;
 		}
 		return $result;
