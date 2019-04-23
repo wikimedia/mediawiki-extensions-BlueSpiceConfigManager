@@ -5,6 +5,8 @@
 			"Mainframe98"
 		]
 	},
+	"action-bluespiceconfigmanager-viewspecialpage": "de speciale pagina \"{{int:bluespiceconfigmanager}}\" te bekijken",
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
-	"bs-configmanager-discardchanges": "Wijzigingen negeren?"
+	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
+	"right-bluespiceconfigmanager-viewspecialpage": "Geeft toegang tot de speciale pagina [[Special:BlueSpiceConfigManager]]."
 }
