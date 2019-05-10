@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Zoranzoki21"
 		]
 	},
-	"bs-bluespicepreferences-label": "Подешавања",
-	"action-bluespicepreferences-viewspecialpage": "преглед посебне странице „{{int:bluespicepreferences}}“"
+	"bs-bluespiceconfigmanager-admintool-label": "Менаџер конфигурације",
+	"action-bluespiceconfigmanager-viewspecialpage": "погледај посебну страницу \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Менаџер конфигурације",
+	"bs-configmanager-desc": "Пружа могућост администраторима, да конфигуришу цео вики из једне специјалне странице",
+	"bs-configmanager-discardchanges": "Одбаци промене?",
+	"bs-configmanager-noentry": "Нису пронађени уноси",
+	"apihelp-bs-configmanager-tasks-summary": "Управљај задацима",
+	"apihelp-bs-configmanager-store-summary": "Управљај продавницама",
+	"right-bluespiceconfigmanager-viewspecialpage": "Додељује приступ специјалној страници [[Special:BlueSpiceConfigManager]]."
 }
