@@ -9,5 +9,6 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "vedere la pagina speciale \"{{int:bluespiceconfigmanager}}\"",
 	"bs-configmanager-desc": "Offre la possibilità agli amministratori, di configurare tutta la wiki da un'unica pagina speciale",
 	"apihelp-bs-configmanager-tasks-summary": "Gestisci attività",
-	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi"
+	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi",
+	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]"
 }
