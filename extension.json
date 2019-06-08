@@ -32,9 +32,9 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.31.0",
+		"MediaWiki": "~1.31",
 		"extensions": {
-			"BlueSpiceFoundation": "*"
+			"BlueSpiceFoundation": "~3.1"
 		}
 	},
 	"MessagesDirs": {
