@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Steeve815"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "ניהול הגדרות תצורה",
 	"action-bluespiceconfigmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "ניהול הגדרות תצורה של Bluespice",
+	"bluespiceconfigmanager": "ניהול הגדרות תצורה",
 	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
 	"bs-configmanager-discardchanges": "למחוק את השינויים?",
 	"bs-configmanager-noentry": "לא נמצא ערך",
