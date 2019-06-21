@@ -3,8 +3,9 @@
 namespace BlueSpice\ConfigManager\Special;
 
 use BlueSpice\Services;
+use BlueSpice\Special\ManagerBase;
 
-class ConfigManager extends \BlueSpice\SpecialPage {
+class ConfigManager extends ManagerBase {
 
 	public function __construct() {
 		parent::__construct(
@@ -26,29 +27,6 @@ class ConfigManager extends \BlueSpice\SpecialPage {
 			throw new \ReadOnlyError;
 		}
 		$this->getOutput()->enableOOUI();
-		$this->getOutput()->addModules( 'ext.bluespice.configmanager' );
-		$this->getOutput()->addModuleStyles(
-			'ext.bluespice.configmanager.styles'
-		);
-		$this->getOutput()->addHTML( \Html::element( 'div', [
-			'id' => 'bs-configmanager',
-		] ) );
-
-		$cfgDefFactory = Services::getInstance()
-			->getBSConfigDefinitionFactory();
-		$pathMessages = [];
-
-		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
-			if ( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
-				continue;
-			}
-			$this->extractPathMessageKeys( $cfgDef, $pathMessages );
-		}
-
-		$this->getOutput()->addJsConfigVars(
-			'ConfigManagerPathMessages',
-			$pathMessages
-		);
 	}
 
 	protected function extractPathMessageKeys( $cfgDef, &$pathMessages ) {
@@ -63,4 +41,37 @@ class ConfigManager extends \BlueSpice\SpecialPage {
 		}
 	}
 
+	/**
+	 * @return string ID of the HTML element being added
+	 */
+	protected function getId() {
+		return 'bs-configmanager';
+	}
+
+	/**
+	 * @return array
+	 */
+	protected function getModules() {
+		return [
+			'ext.bluespice.configmanager',
+			'ext.bluespice.configmanager.styles'
+		];
+	}
+
+	protected function getJSVars() {
+		$cfgDefFactory = Services::getInstance()
+			->getBSConfigDefinitionFactory();
+		$pathMessages = [];
+
+		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
+			if ( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
+				continue;
+			}
+			$this->extractPathMessageKeys( $cfgDef, $pathMessages );
+		}
+
+		return [
+			'ConfigManagerPathMessages' => $pathMessages
+		];
+	}
 }
