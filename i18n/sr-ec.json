@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менаџер конфигурације",
@@ -13,5 +14,5 @@
 	"bs-configmanager-noentry": "Нису пронађени уноси",
 	"apihelp-bs-configmanager-tasks-summary": "Управљај задацима",
 	"apihelp-bs-configmanager-store-summary": "Управљај продавницама",
-	"right-bluespiceconfigmanager-viewspecialpage": "Додељује приступ специјалној страници [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceConfigManager]]"
 }
