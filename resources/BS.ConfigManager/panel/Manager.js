@@ -122,6 +122,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 		me.pnlConfig.setDirty( false );
 		me.paths = {};
 		me.btnOK.disable();
+		me.btnOK.removeCls( 'x-btn-progressive' );
 		me.btnReset.disable();
 		for( var i = 0; i < records.length; i++ ) {
 			records[i].get( 'paths' ).forEach( function( path ) {
@@ -265,9 +266,11 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	onConfigDirty: function( cfgPnl, dirty ) {
 		if( dirty === true ) {
 			this.btnOK.enable();
+			this.btnOK.addCls( 'x-btn-progressive' );
 			this.btnReset.enable();
 		} else {
 			this.btnOK.disable();
+			this.btnOK.removeCls( 'x-btn-progressive' );
 			this.btnReset.disable();
 		}
 	},
