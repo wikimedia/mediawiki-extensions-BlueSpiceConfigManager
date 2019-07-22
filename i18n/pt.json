@@ -13,5 +13,5 @@
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gerir tarefas",
 	"apihelp-bs-configmanager-store-summary": "Gerir armazenamento",
-	"right-bluespiceconfigmanager-viewspecialpage": "Concede acesso à página especial [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceConfigManager]]"
 }
