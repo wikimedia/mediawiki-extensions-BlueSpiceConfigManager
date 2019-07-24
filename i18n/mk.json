@@ -7,6 +7,7 @@
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "погл. службената страница „{{int:bluespiceconfigmanager}}“",
 	"bs-configmanager-desc": "Администраторска можност за нагодување на цело вики од една службена страница",
+	"bs-configmanager-noentry": "Не е пронајден ниеден запис",
 	"apihelp-bs-configmanager-tasks-summary": "Раководство со задачи",
 	"right-bluespiceconfigmanager-viewspecialpage": "Пристап до службената страница [[Special:BlueSpiceConfigManager]]"
 }
