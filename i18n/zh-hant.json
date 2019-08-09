@@ -13,5 +13,5 @@
 	"bs-configmanager-noentry": "查無項目",
 	"apihelp-bs-configmanager-tasks-summary": "管理任務",
 	"apihelp-bs-configmanager-store-summary": "管理儲存",
-	"right-bluespiceconfigmanager-viewspecialpage": "授予存取特殊頁面 [[Special:BlueSpiceConfigManager]] 的權限。"
+	"right-bluespiceconfigmanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceConfigManager]] 的權限。"
 }

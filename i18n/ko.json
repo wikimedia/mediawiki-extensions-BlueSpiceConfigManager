@@ -12,5 +12,6 @@
 	"bs-configmanager-discardchanges": "변경 사항을 버리겠습니까?",
 	"bs-configmanager-noentry": "항목을 찾을 수 없습니다",
 	"apihelp-bs-configmanager-tasks-summary": "태스크 관리",
-	"apihelp-bs-configmanager-store-summary": "스토어 관리"
+	"apihelp-bs-configmanager-store-summary": "스토어 관리",
+	"right-bluespiceconfigmanager-viewspecialpage": "[[Special:BlueSpiceConfigManager]] 특수 문서로 접근"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Hwboehm",
-			"佛壁灯"
+			"佛壁灯",
+			"科劳"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "配置管理器",
@@ -14,5 +15,5 @@
 	"bs-configmanager-noentry": "找不到记录",
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
 	"apihelp-bs-configmanager-store-summary": "管理商店",
-	"right-bluespiceconfigmanager-viewspecialpage": "授予访问特殊页面 [[Special:BlueSpiceConfigManager]] 的权限。"
+	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。"
 }

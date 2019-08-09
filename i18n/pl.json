@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"bs-configmanager-discardchanges": "Porzucić zmiany?",
-	"right-bluespiceconfigmanager-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceConfigManager]]."
 }

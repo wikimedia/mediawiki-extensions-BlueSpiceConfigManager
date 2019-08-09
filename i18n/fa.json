@@ -3,9 +3,11 @@
 		"authors": [
 			"Alirezaaa",
 			"Huji",
-			"Amirsara"
+			"Amirsara",
+			"FarsiNevis"
 		]
 	},
 	"bs-configmanager-desc": "به مدیران این امکان را می‌دهد که تمام ویکی را از طریق یک صفحهٔ ویژه پیکربندی کنند",
-	"bs-configmanager-discardchanges": "دور ریختن تغییرات"
+	"bs-configmanager-discardchanges": "دور ریختن تغییرات",
+	"action-bluespiceconfigmanager-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:bluespiceconfigmanager}}»"
 }
