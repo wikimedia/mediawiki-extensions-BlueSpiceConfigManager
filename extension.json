@@ -75,6 +75,7 @@
 			"dependencies": [
 				"ext.bluespice",
 				"ext.bluespice.extjs",
+				"ext.bluespice.oojs",
 				"ext.bluespice.configmanager.messages",
 				"oojs-ui-core"
 			],
