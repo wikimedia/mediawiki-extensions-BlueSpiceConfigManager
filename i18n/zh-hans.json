@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Hwboehm"
+			"Hwboehm",
+			"佛壁灯",
+			"科劳"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "配置管理器",
@@ -12,5 +14,6 @@
 	"bs-configmanager-discardchanges": "放弃更改么？",
 	"bs-configmanager-noentry": "找不到记录",
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
-	"apihelp-bs-configmanager-store-summary": "管理商店"
+	"apihelp-bs-configmanager-store-summary": "管理商店",
+	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。"
 }

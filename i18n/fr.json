@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Eihel"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",
 	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page spéciale \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "Gestionnaire de configuration Bluespice",
+	"bluespiceconfigmanager": "Gestionnaire de configuration",
 	"bs-configmanager-desc": "Offre la possibilité aux administrateurs de configurer l’ensemble du wiki depuis une unique page spéciale",
 	"bs-configmanager-discardchanges": "Annuler les modifications ?",
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
 	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
-	"right-bluespiceconfigmanager-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Accès à la page spéciale [[Special:BlueSpiceConfigManager]]"
 }
