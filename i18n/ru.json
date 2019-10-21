@@ -9,6 +9,10 @@
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
+	"action-bluespiceconfigmanager-viewspecialpage": "просмотр специальной страницы «{{int:bluespiceconfigmanager}}»",
+	"bluespiceconfigmanager": "Менеджер конфигурации",
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
+	"bs-configmanager-discardchanges": "Отменить изменения?",
+	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]"
 }
