@@ -3,14 +3,15 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Eihel"
+			"Eihel",
+			"Verdy p"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",
-	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page spéciale \"{{int:bluespiceconfigmanager}}\"",
+	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page spéciale « {{int:bluespiceconfigmanager}} »",
 	"bluespiceconfigmanager": "Gestionnaire de configuration",
-	"bs-configmanager-desc": "Offre la possibilité aux administrateurs de configurer l’ensemble du wiki depuis une unique page spéciale",
-	"bs-configmanager-discardchanges": "Annuler les modifications ?",
+	"bs-configmanager-desc": "Offre aux administrateurs la possibilité de configurer l’intégralité du wiki depuis une unique page spéciale",
+	"bs-configmanager-discardchanges": "Abandonner les modifications ?",
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
 	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
