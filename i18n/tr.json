@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "Yapılandırma Yöneticisi",
+	"action-bluespiceconfigmanager-viewspecialpage": "özel sayfayı görüntüle \"{{in:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Yapılandırma Yöneticisi",
+	"bs-configmanager-desc": "Yöneticilere, tüm wikiyi tek bir özel sayfadan yapılandırma imkanı sunar.",
+	"bs-configmanager-discardchanges": "Değişiklikleri gözardı edilsin mi?",
+	"bs-configmanager-noentry": "Giriş bulunamadı",
+	"apihelp-bs-configmanager-tasks-summary": "Görevleri yönet",
+	"apihelp-bs-configmanager-store-summary": "Mağazaları yönet",
+	"right-bluespiceconfigmanager-viewspecialpage": "Özel sayfaya erişin [[Special:BlueSpiceConfigManager]]"
+}
