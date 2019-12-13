@@ -4,6 +4,7 @@ namespace BlueSpice\ConfigManager\Special;
 
 use BlueSpice\Services;
 use BlueSpice\Special\ManagerBase;
+use BlueSpice\ConfigDefinition;
 
 class ConfigManager extends ManagerBase {
 
@@ -16,7 +17,6 @@ class ConfigManager extends ManagerBase {
 
 	/**
 	 *
-	 * @global OutputPage $this->getOutput()
 	 * @param string $param
 	 * @return type
 	 */
@@ -29,11 +29,17 @@ class ConfigManager extends ManagerBase {
 		$this->getOutput()->enableOOUI();
 	}
 
+	/**
+	 *
+	 * @param ConfigDefinition $cfgDef
+	 * @param array &$pathMessages
+	 */
 	protected function extractPathMessageKeys( $cfgDef, &$pathMessages ) {
 		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {
-				if ( !$msgKey = $msgFactory->getMessageKey( $section ) ) {
+				$msgKey = $msgFactory->getMessageKey( $section );
+				if ( !$msgKey ) {
 					continue;
 				}
 				$pathMessages[$section] = $msgKey;
@@ -58,13 +64,18 @@ class ConfigManager extends ManagerBase {
 		];
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getJSVars() {
 		$cfgDefFactory = Services::getInstance()
 			->getBSConfigDefinitionFactory();
 		$pathMessages = [];
 
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
-			if ( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
+			$cfgDef = $cfgDefFactory->factory( $name );
+			if ( !$cfgDef ) {
 				continue;
 			}
 			$this->extractPathMessageKeys( $cfgDef, $pathMessages );
