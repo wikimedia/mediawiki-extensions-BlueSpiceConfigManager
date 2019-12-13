@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use BlueSpice\Data\IRecord;
 
 class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 
@@ -12,10 +13,19 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 	 */
 	protected $factory = null;
 
+	/**
+	 *
+	 * @param ConfigDefinitionFactory $factory
+	 */
 	public function __construct( ConfigDefinitionFactory $factory ) {
 		$this->factory = $factory;
 	}
 
+	/**
+	 *
+	 * @param IRecord &$dataSet
+	 * @return IRecord
+	 */
 	protected function doExtend( &$dataSet ) {
 		$cfgDfn = $this->factory->factory( $dataSet->get( Record::NAME ) );
 		if ( !$cfgDfn ) {
@@ -27,7 +37,8 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 			'ltr'
 		);
 
-		if ( !$formField = $cfgDfn->getHtmlFormField() ) {
+		$formField = $cfgDfn->getHtmlFormField();
+		if ( !$formField ) {
 			return;
 		}
 
