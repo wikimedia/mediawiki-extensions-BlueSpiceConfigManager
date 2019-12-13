@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
+use Wikimedia\Rdbms\IDatabase;
 use BlueSpice\ConfigDefinitionFactory;
 
 class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
@@ -18,6 +19,11 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 	 */
 	protected $factory = null;
 
+	/**
+	 *
+	 * @param IDatabase $db
+	 * @param ConfigDefinitionFactory $factory
+	 */
 	public function __construct( $db, ConfigDefinitionFactory $factory ) {
 		parent::__construct( $db );
 		$this->factory = $factory;
@@ -39,6 +45,11 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 		return $this->data;
 	}
 
+	/**
+	 *
+	 * @param \stdClass $row
+	 * @return null
+	 */
 	protected function appendRowToData( $row ) {
 		$cfgDfn = $this->factory->factory( $row->{Record::NAME} );
 		if ( !$cfgDfn ) {

@@ -17,7 +17,8 @@ class Messages extends \ResourceLoaderModule {
 		$messages = parent::getMessages();
 		$cfgDefFactory = Services::getInstance()->getBSConfigDefinitionFactory();
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
-			if ( !$cfgDef = $cfgDefFactory->factory( $name ) ) {
+			$cfgDef = $cfgDefFactory->factory( $name );
+			if ( !$cfgDef ) {
 				continue;
 			}
 			$this->extractPathMessages( $cfgDef, $messages );
@@ -26,12 +27,19 @@ class Messages extends \ResourceLoaderModule {
 		return array_values( $messages );
 	}
 
+	/**
+	 *
+	 * @param ConfigDefinition $cfgDef
+	 * @param array &$messages
+	 * @return array
+	 */
 	protected function extractPathMessages( ConfigDefinition $cfgDef, &$messages ) {
 		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
 
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {
-				if ( !$msgKey = $msgFactory->getMessageKey( $section ) ) {
+				$msgKey = $msgFactory->getMessageKey( $section );
+				if ( !$msgKey ) {
 					continue;
 				}
 				$messages[] = $msgKey;

@@ -23,6 +23,10 @@ class Store extends \BlueSpice\Data\Settings\Store {
 		$this->factory = $factory;
 	}
 
+	/**
+	 *
+	 * @return Reader
+	 */
 	public function getReader() {
 		return new Reader(
 			$this->factory,
@@ -31,6 +35,10 @@ class Store extends \BlueSpice\Data\Settings\Store {
 		);
 	}
 
+	/**
+	 *
+	 * @return Writer
+	 */
 	public function getWriter() {
 		return new Writer(
 			$this->factory,
