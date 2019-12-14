@@ -2,7 +2,9 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
+use Wikimedia\Rdbms\LoadBalancer;
 use BlueSpice\ConfigDefinitionFactory;
+use BlueSpice\Data\ReaderParams;
 
 class Reader extends \BlueSpice\Data\Settings\Reader {
 
@@ -12,19 +14,39 @@ class Reader extends \BlueSpice\Data\Settings\Reader {
 	 */
 	protected $factory = null;
 
-	public function __construct( ConfigDefinitionFactory $factory, $loadBalancer, \IContextSource $context = null ) {
+	/**
+	 *
+	 * @param ConfigDefinitionFactory $factory
+	 * @param LoadBalancer $loadBalancer
+	 * @param \IContextSource|null $context
+	 */
+	public function __construct( ConfigDefinitionFactory $factory, $loadBalancer,
+		\IContextSource $context = null ) {
 		parent::__construct( $loadBalancer, $context );
 		$this->factory = $factory;
 	}
 
+	/**
+	 *
+	 * @param ReaderParams $params
+	 * @return PrimaryDataProvider
+	 */
 	protected function makePrimaryDataProvider( $params ) {
 		return new PrimaryDataProvider( $this->db, $this->factory );
 	}
 
+	/**
+	 *
+	 * @return SecondaryDataProvider
+	 */
 	protected function makeSecondaryDataProvider() {
 		return new SecondaryDataProvider( $this->factory );
 	}
 
+	/**
+	 *
+	 * @return Schema
+	 */
 	public function getSchema() {
 		return new Schema();
 	}

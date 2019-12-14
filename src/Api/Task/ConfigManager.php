@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Api\Task;
 
 use BlueSpice\Services;
+use BlueSpice\Api\Response\Standard;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\Data\Settings\Store;
 use BlueSpice\Data\RecordSet;
@@ -29,13 +30,20 @@ class ConfigManager extends \BSApiTasksBase {
 		];
 	}
 
+	/**
+	 *
+	 * @param \stdClass $taskData
+	 * @param array $aParams
+	 * @return Standard
+	 */
 	public function task_save( $taskData, $aParams ) {
 		$result = $this->makeStandardReturn();
 
 		$records = [];
 		$factory = $this->getServices()->getBSConfigDefinitionFactory();
 		foreach ( (array)$taskData as $cfgName => $value ) {
-			if ( !$field = $factory->factory( $cfgName ) ) {
+			$field = $factory->factory( $cfgName );
+			if ( !$field ) {
 				continue;
 			}
 			$record = new Record( (object)[
