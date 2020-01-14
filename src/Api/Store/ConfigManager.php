@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ConfigManager\Api\Store;
 
-use BlueSpice\Context;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store;
+use BlueSpice\Context;
 use BlueSpice\Services;
 
 class ConfigManager extends \BlueSpice\Api\Store {

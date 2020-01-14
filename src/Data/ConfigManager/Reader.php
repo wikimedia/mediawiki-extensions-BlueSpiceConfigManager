@@ -2,9 +2,9 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
-use Wikimedia\Rdbms\LoadBalancer;
 use BlueSpice\ConfigDefinitionFactory;
 use BlueSpice\Data\ReaderParams;
+use Wikimedia\Rdbms\LoadBalancer;
 
 class Reader extends \BlueSpice\Data\Settings\Reader {
 

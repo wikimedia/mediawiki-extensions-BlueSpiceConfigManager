@@ -2,9 +2,9 @@
 
 namespace BlueSpice\ConfigManager\Special;
 
+use BlueSpice\ConfigDefinition;
 use BlueSpice\Services;
 use BlueSpice\Special\ManagerBase;
-use BlueSpice\ConfigDefinition;
 
 class ConfigManager extends ManagerBase {
 

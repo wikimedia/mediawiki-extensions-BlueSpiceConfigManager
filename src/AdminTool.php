@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ConfigManager;
 
-use Message;
 use BlueSpice\IAdminTool;
+use Message;
 
 class AdminTool implements IAdminTool {
 

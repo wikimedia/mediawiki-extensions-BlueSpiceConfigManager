@@ -2,12 +2,12 @@
 
 namespace BlueSpice\ConfigManager\Api\Task;
 
-use BlueSpice\Services;
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
-use BlueSpice\Data\Settings\Store;
-use BlueSpice\Data\RecordSet;
 use BlueSpice\Context;
+use BlueSpice\Data\RecordSet;
+use BlueSpice\Data\Settings\Store;
+use BlueSpice\Services;
 
 class ConfigManager extends \BSApiTasksBase {
 

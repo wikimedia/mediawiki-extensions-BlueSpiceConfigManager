@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
-use Wikimedia\Rdbms\IDatabase;
 use BlueSpice\ConfigDefinitionFactory;
+use Wikimedia\Rdbms\IDatabase;
 
 class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
