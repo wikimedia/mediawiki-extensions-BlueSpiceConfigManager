@@ -6,7 +6,8 @@
 				bs.em.paths.get( 'BlueSpiceConfigManager' ) + '/resources/BS.ConfigManager'
 			);
 			Ext.create( 'BS.ConfigManager.panel.Manager', {
-				renderTo: 'bs-configmanager'
+				renderTo: 'bs-configmanager',
+				height: 1
 			});
 		});
 	});
