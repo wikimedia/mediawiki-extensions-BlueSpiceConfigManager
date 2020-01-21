@@ -96,11 +96,16 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 		me.body.setHtml( content, false, function() {
 			// Infuse OOUI widgets, must be done after the content has been added
 			for ( var field in me.oouiWidgets ) {
-				var widgetId = me.oouiWidgets[field];
-				var widget = OO.ui.infuse( widgetId );
-				widget.on( 'change', function() { me.setDirty( true ) } );
-				// Now we are able to replace widget id with an instance
-				me.oouiWidgets[field] = widget;
+				try {
+					var widgetId = me.oouiWidgets[field];
+					var widget = OO.ui.infuse( $( '#' + widgetId ) );
+					widget.on( 'change', function() { me.setDirty( true ) } );
+					// Now we are able to replace widget id with an instance
+					me.oouiWidgets[field] = widget;
+				} catch( e ) {
+					console.log( 'Widget with id "' + widgetId + '" could not be infused' );
+					continue;
+				}
 			}
 		} );
 		$( "#" + me.formId + " :input" ).on( 'input change', function() {
@@ -128,7 +133,7 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 		//stop weired jquery never changing height behavings by re-wrapping
 		var height = $( $( '#bs-configmanager-form' )[0] ).height();
 		this.setHeight( height );
-		this.manager.setHeight( height+100 );
+		this.manager.setHeight( ( height || 0 ) +100 );
 		this.updateLayout();
 		this.manager.updateLayout();
 	},
