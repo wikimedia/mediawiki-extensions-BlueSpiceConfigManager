@@ -8,5 +8,6 @@
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
 	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"action-bluespiceconfigmanager-viewspecialpage": "de speciale pagina \"{{int:bluespiceconfigmanager}}\" te bekijken",
-	"right-bluespiceconfigmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceConfigManager]]",
+	"apihelp-bs-configmanager-tasks-summary": "Taken beheren"
 }
