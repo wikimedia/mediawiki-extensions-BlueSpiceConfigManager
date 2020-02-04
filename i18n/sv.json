@@ -4,7 +4,8 @@
 			"Jopparn",
 			"Lokal Profil",
 			"WikiPhoenix",
-			"Sturban"
+			"Sturban",
+			"Mjälten"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationshanterare",
@@ -14,5 +15,6 @@
 	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
 	"bs-configmanager-noentry": "Ingen post hittades",
 	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",
-	"right-bluespiceconfigmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
+	"apihelp-bs-configmanager-store-summary": "Hantera roller"
 }

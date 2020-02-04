@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Macofe",
-			"Carlosmg.dg"
+			"Carlosmg.dg",
+			"DannyS712"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
@@ -14,5 +15,5 @@
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
 	"apihelp-bs-configmanager-store-summary": "Administrar roles",
-	"right-bluespiceconfigmanager-viewspecialpage": "Otorga acceso a la página especial [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]"
 }
