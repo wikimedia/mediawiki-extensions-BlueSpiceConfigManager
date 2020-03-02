@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"हिमाल सुबेदी"
 		]
 	},
-	"bs-bluespicepreferences-label": "अभिरुचीहरु"
+	"bs-configmanager-discardchanges": "परिवर्तन रद्द गर्न चाहनुहुन्छ?"
 }
