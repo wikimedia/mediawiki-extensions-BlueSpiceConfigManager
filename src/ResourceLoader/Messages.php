@@ -15,7 +15,7 @@ class Messages extends \ResourceLoaderModule {
 	 */
 	public function getMessages() {
 		$messages = parent::getMessages();
-		$cfgDefFactory = Services::getInstance()->getBSConfigDefinitionFactory();
+		$cfgDefFactory = Services::getInstance()->getService( 'BSConfigDefinitionFactory' );
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
 			$cfgDef = $cfgDefFactory->factory( $name );
 			if ( !$cfgDef ) {
@@ -34,7 +34,7 @@ class Messages extends \ResourceLoaderModule {
 	 * @return array
 	 */
 	protected function extractPathMessages( ConfigDefinition $cfgDef, &$messages ) {
-		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
+		$msgFactory = Services::getInstance()->getService( 'BSSettingPathFactory' );
 
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {

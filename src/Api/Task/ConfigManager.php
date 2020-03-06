@@ -40,7 +40,7 @@ class ConfigManager extends \BSApiTasksBase {
 		$result = $this->makeStandardReturn();
 
 		$records = [];
-		$factory = $this->getServices()->getBSConfigDefinitionFactory();
+		$factory = $this->getServices()->getService( 'BSConfigDefinitionFactory' );
 		foreach ( (array)$taskData as $cfgName => $value ) {
 			$field = $factory->factory( $cfgName );
 			if ( !$field ) {
