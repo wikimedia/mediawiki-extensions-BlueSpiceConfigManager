@@ -25,7 +25,7 @@ class ConfigManager extends \BlueSpice\Api\Store {
 		return new Store(
 			new Context( \RequestContext::getMain(), $this->getConfig() ),
 			$services->getDBLoadBalancer(),
-			$services->getBSConfigDefinitionFactory()
+			$services->getService( 'BSConfigDefinitionFactory' )
 		);
 	}
 }

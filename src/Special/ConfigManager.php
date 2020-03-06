@@ -35,7 +35,7 @@ class ConfigManager extends ManagerBase {
 	 * @param array &$pathMessages
 	 */
 	protected function extractPathMessageKeys( $cfgDef, &$pathMessages ) {
-		$msgFactory = Services::getInstance()->getBSSettingPathFactory();
+		$msgFactory = Services::getInstance()->getService( 'BSSettingPathFactory' );
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {
 				$msgKey = $msgFactory->getMessageKey( $section );
@@ -70,7 +70,7 @@ class ConfigManager extends ManagerBase {
 	 */
 	protected function getJSVars() {
 		$cfgDefFactory = Services::getInstance()
-			->getBSConfigDefinitionFactory();
+			->getService( 'BSConfigDefinitionFactory' );
 		$pathMessages = [];
 
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
