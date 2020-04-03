@@ -6,4 +6,5 @@ class Record extends \BlueSpice\Data\Settings\Record {
 	const LABEL = 'label';
 	const PATHS = 'paths';
 	const FORM = 'form';
+	const VAR_NAME = 'var_name';
 }
