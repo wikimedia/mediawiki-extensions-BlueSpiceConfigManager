@@ -85,7 +85,10 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 			content += '<div>' + records[i].get( 'form' ) + '</div>';
 
 			// Check if html contain infusable OOUI element
-			var widgetId = me.getOOUIWidgetElementId( records[i].get( 'form' ) );
+			var widgetId = me.getOOUIWidgetElementId(
+				records[i].get( 'var_name' ),
+				records[i].get( 'form' )
+			);
 			if( widgetId ) {
 				// At this point, we can only get widget ID, not the instance
 				me.oouiWidgets[records[i].get( 's_name' )] = widgetId;
@@ -115,9 +118,10 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 		me.resize();
 	},
 
-	getOOUIWidgetElementId: function( html ) {
-		var $widget = $( html ).find( '.oo-ui-widget' );
-		if( $widget.length == 0 ) {
+	getOOUIWidgetElementId: function( configVar, html ) {
+		var $widget = $( html ).find( '#' + configVar + '.oo-ui-widget' );
+
+		if( $widget.length === 0 ) {
 			return false;
 		}
 
