@@ -70,6 +70,7 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 		}
 		$this->data[] = new Record( (object)[
 			Record::NAME => $row->{Record::NAME},
+			Record::VAR_NAME => $cfgDfn->getVariableName(),
 			Record::VALUE => $cfgDfn->getValue(),
 			Record::LABEL => \Message::newFromKey( $cfgDfn->getLabelMessageKey() )->plain(),
 			Record::PATHS => $cfgDfn->getPaths(),
