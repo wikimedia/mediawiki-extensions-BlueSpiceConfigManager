@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko",
-			"Wladek92",
 			"Eihel",
+			"Gomoko",
+			"Thibaut120094",
 			"Verdy p",
-			"Thibaut120094"
+			"Wladek92"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",

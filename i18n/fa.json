@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
-			"Huji",
 			"Amirsara",
-			"FarsiNevis"
+			"FarsiNevis",
+			"Huji"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:bluespiceconfigmanager}}»",

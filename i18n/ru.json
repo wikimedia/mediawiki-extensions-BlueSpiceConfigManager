@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
-			"Gazimagomedov",
 			"Facenapalm",
-			"Vlad5250",
-			"Romanko Mikhail"
+			"Gazimagomedov",
+			"Meerrahtar",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
@@ -13,6 +14,7 @@
 	"bluespiceconfigmanager": "Менеджер конфигурации",
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
 	"bs-configmanager-discardchanges": "Отменить изменения?",
+	"bs-configmanager-noentry": "Запись не найдена",
 	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]"
 }
