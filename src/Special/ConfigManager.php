@@ -23,9 +23,7 @@ class ConfigManager extends ManagerBase {
 	public function execute( $param ) {
 		parent::execute( $param );
 
-		if ( wfReadOnly() ) {
-			throw new \ReadOnlyError;
-		}
+		$this->checkReadOnly();
 		$this->getOutput()->enableOOUI();
 	}
 
