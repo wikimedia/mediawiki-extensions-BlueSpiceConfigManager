@@ -50,7 +50,7 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 	 * @param \stdClass $row
 	 * @return null
 	 */
-	protected function appendRowToData( $row ) {
+	protected function appendRowToData( \stdClass $row ) {
 		$cfgDfn = $this->factory->factory( $row->{Record::NAME} );
 		if ( !$cfgDfn ) {
 			return;
