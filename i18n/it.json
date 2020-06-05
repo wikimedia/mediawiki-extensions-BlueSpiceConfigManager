@@ -4,7 +4,8 @@
 			"Beta16",
 			"Dansita",
 			"Sarah Bernabei",
-			"Selven"
+			"Selven",
+			"ValeJappo"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "vedere la pagina speciale \"{{int:bluespiceconfigmanager}}\"",
@@ -12,5 +13,6 @@
 	"apihelp-bs-configmanager-tasks-summary": "Gestisci attività",
 	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi",
 	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]",
-	"bs-configmanager-noentry": "Nessun dato trovato"
+	"bs-configmanager-noentry": "Nessun dato trovato",
+	"bs-configmanager-discardchanges": "Ignora le modifiche?"
 }
