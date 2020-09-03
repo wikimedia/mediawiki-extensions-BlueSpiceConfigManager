@@ -3,7 +3,7 @@
 namespace BlueSpice\ConfigManager\ResourceLoader;
 
 use BlueSpice\ConfigDefinition;
-use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 
 class Messages extends \ResourceLoaderModule {
 	/**
@@ -15,7 +15,9 @@ class Messages extends \ResourceLoaderModule {
 	 */
 	public function getMessages() {
 		$messages = parent::getMessages();
-		$cfgDefFactory = Services::getInstance()->getService( 'BSConfigDefinitionFactory' );
+		$cfgDefFactory = MediaWikiServices::getInstance()->getService(
+			'BSConfigDefinitionFactory'
+		);
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
 			$cfgDef = $cfgDefFactory->factory( $name );
 			if ( !$cfgDef ) {
@@ -34,7 +36,7 @@ class Messages extends \ResourceLoaderModule {
 	 * @return array
 	 */
 	protected function extractPathMessages( ConfigDefinition $cfgDef, &$messages ) {
-		$msgFactory = Services::getInstance()->getService( 'BSSettingPathFactory' );
+		$msgFactory = MediaWikiServices::getInstance()->getService( 'BSSettingPathFactory' );
 
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {
