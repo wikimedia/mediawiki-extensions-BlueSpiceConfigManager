@@ -7,7 +7,6 @@ use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\Context;
 use BlueSpice\Data\RecordSet;
 use BlueSpice\Data\Settings\Store;
-use BlueSpice\Services;
 
 class ConfigManager extends \BSApiTasksBase {
 
@@ -76,14 +75,6 @@ class ConfigManager extends \BSApiTasksBase {
 			$result->success = true;
 		}
 		return $result;
-	}
-
-	/**
-	 *
-	 * @return Services
-	 */
-	protected function getServices() {
-		return Services::getInstance();
 	}
 
 	/**
