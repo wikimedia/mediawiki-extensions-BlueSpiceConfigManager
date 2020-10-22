@@ -214,17 +214,21 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	},
 
 	onBtnOKClick: function( oButton, oEvent ) {
-		var data = this.getData();
-		var taskData = {};
-		for( var i in data ) {
-			if (data[i].name.endsWith("[]")) {
-				short=data[i].name.slice(0, -2);
-				(taskData[short] || (taskData[short] = [])).push(data[i].value);
-			} else {
-				taskData[data[i].name] = data[i].value;
+		this.getData().done( function( data ) {
+			var taskData = {};
+			for( var i in data ) {
+				if ( !data.hasOwnProperty( i ) ) {
+					continue;
+				}
+				if (data[i].name.endsWith("[]")) {
+					var short = data[i].name.slice(0, -2);
+					(taskData[short] || (taskData[short] = [])).push(data[i].value);
+				} else {
+					taskData[data[i].name] = data[i].value;
+				}
 			}
-		}
-		this.save( taskData );
+			this.save( taskData );
+		}.bind( this ) );
 	},
 
 	onBtnResetClick: function( oButton, oEvent ) {

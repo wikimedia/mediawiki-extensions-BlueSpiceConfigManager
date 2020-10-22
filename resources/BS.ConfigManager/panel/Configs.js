@@ -143,33 +143,72 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 	},
 
 	getData: function() {
-		var data = {};
-		$( "#" + this.formId )
-		.on( 'submit', function( e ) {
-			data = $(this).serializeArray();
-			e.preventDefault();
-			return false;
-		}).submit();
-		//checkboxes that are not selected will be ignored by html standards
-		$('#' + this.formId + ' input[type=checkbox]:not(:checked)' ).each(
-			function() {
-				data.push( { "name": this.name, "value": false } );
-			}
-		);
+		var data = {},
+			dfd = $.Deferred();
 
-		// Get data from infused OOUI widgets
+		this.checkValidity().done( function() {
+			$( "#" + this.formId )
+				.on( 'submit', function( e ) {
+					data = $(this).serializeArray();
+					e.preventDefault();
+					return false;
+				}).submit();
+			//checkboxes that are not selected will be ignored by html standards
+			$('#' + this.formId + ' input[type=checkbox]:not(:checked)' ).each(
+				function() {
+					data.push( { "name": this.name, "value": false } );
+				}
+			);
+
+			// Get data from infused OOUI widgets
+			for ( var field in this.oouiWidgets ) {
+				var value = this.oouiWidgets[field].getValue();
+				if( this.oouiWidgets[field] instanceof OO.ui.CheckboxInputWidget ) {
+					value = this.oouiWidgets[field].isSelected();
+				}
+
+				data.push( {
+					name: field,
+					value: value
+				} );
+			}
+
+			dfd.resolve( data );
+		}.bind( this ) ).fail( function() {
+			dfd.reject();
+		} );
+
+		return dfd.promise();
+	},
+
+	checkValidity: function() {
+		var toCheck = [],
+			dfd = $.Deferred();
+
 		for ( var field in this.oouiWidgets ) {
-			var value = this.oouiWidgets[field].getValue();
-			if( this.oouiWidgets[field] instanceof OO.ui.CheckboxInputWidget ) {
-				value = this.oouiWidgets[field].isSelected();
+			if ( !this.oouiWidgets.hasOwnProperty( field ) ) {
+				continue;
 			}
-			data.push( {
-				name: field,
-				value: value
-			});
+			if ( typeof this.oouiWidgets[field].getValidity === 'function' ) {
+				toCheck.push( this.oouiWidgets[field] );
+			}
 		}
+		this.doCheckValidity( toCheck, dfd );
 
-		return data;
+		return dfd.promise();
+	},
+
+	doCheckValidity: function( inputs, dfd ) {
+		if ( inputs.length === 0 ) {
+			return dfd.resolve();
+		}
+		var current = inputs.shift();
+		current.getValidity().done( function() {
+			this.doCheckValidity( inputs, dfd );
+		}.bind( this ) ).fail( function() {
+			current.setValidityFlag( false );
+			dfd.reject();
+		} );
 	},
 
 	setDirty: function( dirty ) {
