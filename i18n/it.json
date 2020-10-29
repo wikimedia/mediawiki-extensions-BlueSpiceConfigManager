@@ -3,6 +3,7 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
+			"Gianfranco",
 			"Sarah Bernabei",
 			"Selven",
 			"ValeJappo"
@@ -14,5 +15,7 @@
 	"bs-configmanager-noentry": "Nessun dato trovato",
 	"apihelp-bs-configmanager-tasks-summary": "Gestisci attività",
 	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi",
-	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]",
+	"bs-bluespiceconfigmanager-admintool-label": "Gestore configurazione",
+	"bluespiceconfigmanager": "Gestore configurazione"
 }
