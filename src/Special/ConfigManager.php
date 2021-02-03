@@ -18,7 +18,6 @@ class ConfigManager extends ManagerBase {
 	/**
 	 *
 	 * @param string $param
-	 * @return type
 	 */
 	public function execute( $param ) {
 		parent::execute( $param );

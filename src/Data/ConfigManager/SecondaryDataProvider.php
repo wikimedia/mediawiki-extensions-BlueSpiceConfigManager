@@ -24,7 +24,6 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 	/**
 	 *
 	 * @param IRecord &$dataSet
-	 * @return IRecord
 	 */
 	protected function doExtend( &$dataSet ) {
 		$cfgDfn = $this->factory->factory( $dataSet->get( Record::NAME ) );
