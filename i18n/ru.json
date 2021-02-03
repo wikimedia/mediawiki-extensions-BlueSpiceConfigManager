@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
-			"Gazimagomedov",
 			"Facenapalm",
-			"Vlad5250",
-			"Romanko Mikhail"
+			"Gazimagomedov",
+			"Meerrahtar",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
@@ -14,5 +15,6 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "просмотр специальной страницы «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Менеджер конфигурации",
 	"bs-configmanager-discardchanges": "Отменить изменения?",
-	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями"
+	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
+	"bs-configmanager-noentry": "Запись не найдена"
 }

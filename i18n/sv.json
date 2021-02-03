@@ -3,9 +3,10 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
-			"WikiPhoenix",
+			"Mjälten",
 			"Sturban",
-			"Mjälten"
+			"Technic2",
+			"WikiPhoenix"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationshanterare",
@@ -15,6 +16,6 @@
 	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
 	"bs-configmanager-noentry": "Ingen post hittades",
 	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",
-	"right-bluespiceconfigmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
+	"right-bluespiceconfigmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
 	"apihelp-bs-configmanager-store-summary": "Hantera roller"
 }

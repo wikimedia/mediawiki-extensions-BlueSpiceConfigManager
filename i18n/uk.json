@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
 			"Andriykopanytsia",
-			"Piramidion",
 			"Movses",
-			"Vlad5250"
+			"Piramidion",
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфігурації",

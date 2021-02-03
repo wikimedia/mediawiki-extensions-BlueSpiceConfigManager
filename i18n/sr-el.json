@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-bluespiceconfigmanager-admintool-label": "Menadžer konfiguracije",
 	"action-bluespiceconfigmanager-viewspecialpage": "pogledaj posebnu stranicu \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Menadžer konfiguracije",
