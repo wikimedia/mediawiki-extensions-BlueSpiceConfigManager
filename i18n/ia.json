@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuration",
+	"action-bluespiceconfigmanager-viewspecialpage": "vider le pagina special \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Gestor de configuration",
+	"bs-configmanager-desc": "Offere al administratores le possibilitate de configurar tote le wiki ab un singule pagina special",
+	"bs-configmanager-discardchanges": "Abandonar modificationes?",
+	"bs-configmanager-noentry": "Nulle entrata trovate",
+	"apihelp-bs-configmanager-tasks-summary": "Gerer cargas",
+	"apihelp-bs-configmanager-store-summary": "Gerer immagazinages",
+	"right-bluespiceconfigmanager-viewspecialpage": "Accesso al pagina special [[Special:BlueSpiceConfigManager]]"
+}
