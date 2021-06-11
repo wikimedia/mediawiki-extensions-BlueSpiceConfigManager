@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Skalcaa"
 		]
 	},
-	"bs-configmanager-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani"
+	"bs-configmanager-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani",
+	"bs-configmanager-discardchanges": "Zavržem spremembe?"
 }

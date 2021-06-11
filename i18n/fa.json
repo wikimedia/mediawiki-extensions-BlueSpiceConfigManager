@@ -4,10 +4,17 @@
 			"Alirezaaa",
 			"Amirsara",
 			"FarsiNevis",
-			"Huji"
+			"Huji",
+			"Jeeputer"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:bluespiceconfigmanager}}»",
 	"bs-configmanager-desc": "به مدیران این امکان را می‌دهد که تمام ویکی را از طریق یک صفحهٔ ویژه پیکربندی کنند",
-	"bs-configmanager-discardchanges": "دور ریختن تغییرات"
+	"bs-configmanager-discardchanges": "دور ریختن تغییرات",
+	"bs-bluespiceconfigmanager-admintool-label": "مدیریت پیکربندی",
+	"bluespiceconfigmanager": "مدیریت پیکربندی",
+	"bs-configmanager-noentry": "ورودی یافت نشد",
+	"apihelp-bs-configmanager-tasks-summary": "مدیریت وظیفه‌ها",
+	"apihelp-bs-configmanager-store-summary": "مدیریت مخزن‌ها",
+	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:BlueSpiceConfigManager]]"
 }
