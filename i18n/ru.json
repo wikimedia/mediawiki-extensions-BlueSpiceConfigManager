@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Facenapalm",
 			"Gazimagomedov",
 			"Meerrahtar",
@@ -16,5 +17,6 @@
 	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"bs-configmanager-noentry": "Запись не найдена",
 	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
-	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]",
+	"apihelp-bs-configmanager-store-summary": "Управление хранилищами"
 }
