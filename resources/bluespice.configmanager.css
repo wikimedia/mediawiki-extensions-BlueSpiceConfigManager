@@ -1,8 +1,23 @@
-
 .bs-configmanager-configpanel-content {
-	padding: 10px;
+	padding: 10px 10px 10px 20px;
 }
 
 .bs-configmanager-configpanel-section {
 	margin-bottom: 10px;
+}
+
+fieldset.bs-configmanager-configpanel-section {
+	border: 1px solid #3e5893;
+	margin: 0 0 1em 0;
+	padding: 1em;
+	line-height: 1.5em;
+}
+
+fieldset.bs-configmanager-configpanel-section legend {
+	font-weight: bold;
+}
+
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top .oo-ui-fieldLayout-help,
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline .oo-ui-fieldLayout-help {
+	margin: 0;
 }
