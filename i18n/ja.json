@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"RYOUMA1117",
 			"Shirayuki",
 			"Suyama"
 		]
@@ -12,5 +13,7 @@
 	"bs-configmanager-noentry": "エントリが見つかりません",
 	"apihelp-bs-configmanager-tasks-summary": "タスクを管理",
 	"apihelp-bs-configmanager-store-summary": "ストアを管理",
-	"right-bluespiceconfigmanager-viewspecialpage": "特別ページ [[Special:BlueSpiceConfigManager]] を利用"
+	"right-bluespiceconfigmanager-viewspecialpage": "特別ページ [[Special:BlueSpiceConfigManager]] を利用",
+	"bs-bluespiceconfigmanager-admintool-label": "コンフィグマネージャー",
+	"bluespiceconfigmanager": "コンフィグマネージャー"
 }
