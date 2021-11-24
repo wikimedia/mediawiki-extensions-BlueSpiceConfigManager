@@ -3,10 +3,13 @@
 		"authors": [
 			"Aefgh39622",
 			"Shirayuki",
-			"Suyama"
+			"Suyama",
+			"RYOUMA1117"
 		]
 	},
+	"bs-bluespiceconfigmanager-admintool-label": "コンフィグマネージャー",
 	"action-bluespiceconfigmanager-viewspecialpage": "特別ページ「{{int:bluespiceconfigmanager}}」の閲覧",
+	"bluespiceconfigmanager": "コンフィグマネージャー",
 	"bs-configmanager-desc": "1 つの特別なページからウィキ全体を構成する、管理者に可能性を提供します",
 	"bs-configmanager-discardchanges": "変更内容を破棄しますか？",
 	"bs-configmanager-noentry": "エントリが見つかりません",

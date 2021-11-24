@@ -4,13 +4,14 @@
 			"Carlosmg.dg",
 			"DannyS712",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Jakeukalane"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
 	"action-bluespiceconfigmanager-viewspecialpage": "ver la página especial «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Gestor de configuración",
-	"bs-configmanager-desc": "Permite a los administradores configurar todo el wiki desde una única página especial",
+	"bs-configmanager-desc": "Permite a los administradores configurar toda la wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
