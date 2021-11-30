@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"RYOUMA1117",
 			"Shirayuki",
 			"Suyama"
 		]
@@ -12,5 +13,7 @@
 	"bs-configmanager-discardchanges": "変更内容を破棄しますか？",
 	"bs-configmanager-noentry": "エントリが見つかりません",
 	"apihelp-bs-configmanager-tasks-summary": "タスクを管理",
-	"apihelp-bs-configmanager-store-summary": "ストアを管理"
+	"apihelp-bs-configmanager-store-summary": "ストアを管理",
+	"bs-bluespiceconfigmanager-admintool-label": "コンフィグマネージャー",
+	"bluespiceconfigmanager": "コンフィグマネージャー"
 }
