@@ -9,6 +9,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Config manager",
 	"action-bluespiceconfigmanager-viewspecialpage": "view special page \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Config manager",
+	"bs-configmanager-text": "Configuration",
 	"bs-configmanager-desc": "Offers the possibility to admins, to configurate the whole wiki from a single special page",
 	"bs-configmanager-discardchanges": "Discard changes?",
 	"bs-configmanager-noentry": "No entry found",

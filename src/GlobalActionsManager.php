@@ -46,20 +46,20 @@ class GlobalActionsManager extends RestrictedTextLink {
 	 * @return Message
 	 */
 	public function getText() : Message {
-		return Message::newFromKey( 'bs-bluespiceconfigmanager-admintool-label' );
+		return Message::newFromKey( 'bs-configmanager-text' );
 	}
 
 	/**
 	 * @return Message
 	 */
 	public function getTitle() : Message {
-		return Message::newFromKey( 'bs-bluespiceconfigmanager-desc' );
+		return Message::newFromKey( 'bs-configmanager-desc' );
 	}
 
 	/**
 	 * @return Message
 	 */
 	public function getAriaLabel() : Message {
-		return Message::newFromKey( 'bs-bluespiceconfigmanager-admintool-label' );
+		return Message::newFromKey( 'bs-configmanager-text' );
 	}
 }

@@ -13,6 +13,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Anchor text for the config manager.",
 	"action-bluespiceconfigmanager-viewspecialpage": "label for denied special page\n{{doc-action|bluespiceconfigmanager-viewspecialpage}}",
 	"bluespiceconfigmanager": "title label for special page",
+	"bs-configmanager-text": "Label for global actions",
 	"bs-configmanager-desc": "Description of the BlueSpiceConfigManager extension",
 	"bs-configmanager-discardchanges": "Text for prompt that asks you if you want to discard changes made in config manager",
 	"bs-configmanager-noentry": "Display text when no entry could be found in config manger search",
