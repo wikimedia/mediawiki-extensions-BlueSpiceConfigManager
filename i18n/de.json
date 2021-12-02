@@ -9,6 +9,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
 	"action-bluespiceconfigmanager-viewspecialpage": "die Spezialseite „{{int:bluespiceconfigmanager}}“ anzusehen",
 	"bluespiceconfigmanager": "Konfigurationsverwaltung",
+	"bs-configmanager-text": "Konfiguration",
 	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
 	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
