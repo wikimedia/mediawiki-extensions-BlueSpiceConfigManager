@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DreZhsh",
 			"Eihel",
 			"Gomoko",
 			"Thibaut120094",
@@ -16,5 +17,6 @@
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
 	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
-	"right-bluespiceconfigmanager-viewspecialpage": "Accès à la page spéciale [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Accès à la page spéciale [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-text": "Configuration"
 }
