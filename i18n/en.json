@@ -15,5 +15,10 @@
 	"bs-configmanager-noentry": "No entry found",
 	"apihelp-bs-configmanager-tasks-summary": "Manage tasks",
 	"apihelp-bs-configmanager-store-summary": "Manage stores",
-	"right-bluespiceconfigmanager-viewspecialpage": "Access to the special page [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Access to the special page [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Configuration manager log",
+	"log-description-bs-config-manager": "Log changes in configuration manager.",
+	"log-show-hide-bs-config-manager": "$1 configuration manager log",
+	"logeventslist-bs-config-manager-log": "Configuration manager log",
+	"logentry-bs-config-manager-modify": "$1 changed setting $4 from $5 to $6"
 }

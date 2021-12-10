@@ -69,6 +69,15 @@
 	"AvailableRights": [
 		"bluespiceconfigmanager-viewspecialpage"
 	],
+	"LogTypes": [
+		"bs-config-manager"
+	],
+	"FilterLogTypes": {
+		"bs-config-manager": true
+	},
+	"LogActionsHandlers": {
+		"bs-config-manager/*": "LogFormatter"
+	},
 	"ResourceModules": {
 		"ext.bluespice.configmanager": {
 			"scripts": "bluespice.configmanager.js",
