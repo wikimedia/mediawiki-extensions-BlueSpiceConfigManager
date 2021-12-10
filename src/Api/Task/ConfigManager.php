@@ -5,8 +5,13 @@ namespace BlueSpice\ConfigManager\Api\Task;
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\Context;
+use BlueSpice\Data\Filter\StringValue;
+use BlueSpice\Data\ReaderParams;
 use BlueSpice\Data\RecordSet;
 use BlueSpice\Data\Settings\Store;
+use FormatJson;
+use ManualLogEntry;
+use SpecialPage;
 
 class ConfigManager extends \BSApiTasksBase {
 
@@ -60,9 +65,9 @@ class ConfigManager extends \BSApiTasksBase {
 			$records[] = $record;
 		}
 
-		$recordSet = $this->getStore()->getWriter()->write(
-			new RecordSet( $records )
-		);
+		$newRecordSet = new RecordSet( $records );
+		$changes = $this->compareRecords( $newRecordSet );
+		$recordSet = $this->getStore()->getWriter()->write( $newRecordSet );
 		foreach ( $recordSet->getRecords() as $record ) {
 			if ( $record->getStatus()->isOK() ) {
 				continue;
@@ -73,6 +78,7 @@ class ConfigManager extends \BSApiTasksBase {
 		}
 		if ( empty( $result->message ) ) {
 			$result->success = true;
+			$this->doLog( $changes );
 		}
 		return $result;
 	}
@@ -86,5 +92,106 @@ class ConfigManager extends \BSApiTasksBase {
 			new Context( $this->getContext(), $this->getConfig() ),
 			$this->getServices()->getDBLoadBalancer()
 		);
+	}
+
+	/**
+	 *
+	 * @param RecordSet $recordSet
+	 * @return array
+	 */
+	private function compareRecords( $recordSet ): array {
+		$records = $recordSet->getRecords();
+		$changes = [];
+		foreach ( $records as $record ) {
+			$recordName = $record->get( Record::NAME );
+			$originalRecordSet = $this->getStore()->getReader()->read(
+				new ReaderParams( [
+					ReaderParams::PARAM_FILTER => [
+						[
+							'type' => 'string',
+							'field' => Record::NAME,
+							'value' => $recordName,
+							'comparison' => StringValue::COMPARISON_EQUALS
+						]
+					]
+				] )
+			);
+			$originalRecords = $originalRecordSet->getRecords();
+			$recordValue = $record->get( Record::VALUE );
+			$originalValue = $originalRecords[0]->get( Record::VALUE );
+			if ( $originalValue !== $recordValue ) {
+				$changes[$recordName] = [
+					'configName' => $recordName,
+					'originalValue' => $originalValue,
+					'newValue' => $recordValue
+				];
+			}
+		}
+		return $changes;
+	}
+
+	/**
+	 *
+	 * @param array $changes
+	 * @return void
+	 */
+	private function doLog( $changes ) {
+		foreach ( $changes as $name => $change ) {
+			if ( $name === 'DistributionConnectorEventBusEventServices' ) {
+				continue;
+			}
+
+			$this->insertLog(
+				'modify',
+				[
+					'4::configName' => $change['configName'],
+					'5::originalValue' => $this->stringifyLogValue( $change['originalValue'] ),
+					'6::newValue' => $this->stringifyLogValue( $change['newValue'] )
+				]
+			);
+		}
+	}
+
+	/**
+	 *
+	 * @param string $type
+	 * @param array $params
+	 */
+	private function insertLog( $type, $params ) {
+		$targetTitle = SpecialPage::getTitleFor( 'ConfigManager' );
+		$user = $this->getUser();
+		$services = $this->getServices();
+
+		$logger = new ManualLogEntry( 'bs-config-manager', $type );
+		$logger->setPerformer( $user );
+		$logger->setTarget( $targetTitle );
+		$logger->setParameters( $params );
+		$logger->insert( $services->getDBLoadBalancer()->getConnection( DB_PRIMARY ) );
+	}
+
+	/**
+	 * @param mixed $value
+	 * @return string
+	 */
+	private function stringifyLogValue( $value ): string {
+		$logString = '';
+		switch ( $value ) {
+			case ( $value === true ):
+				$logString = 'true';
+				break;
+			case ( $value === false ):
+				$logString = 'false';
+				break;
+			case ( is_numeric( $value ) ):
+				$logString = (string)$value;
+				break;
+			case ( is_array( $value ) ):
+				$logString = FormatJson::encode( $value );
+				break;
+			default:
+				$logString = $value;
+				break;
+		}
+		return $logString;
 	}
 }
