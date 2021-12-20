@@ -7,6 +7,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuration",
 	"action-bluespiceconfigmanager-viewspecialpage": "vider le pagina special \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gestor de configuration",
+	"bs-configmanager-text": "Configuration",
 	"bs-configmanager-desc": "Offere al administratores le possibilitate de configurar tote le wiki ab un singule pagina special",
 	"bs-configmanager-discardchanges": "Abandonar modificationes?",
 	"bs-configmanager-noentry": "Nulle entrata trovate",

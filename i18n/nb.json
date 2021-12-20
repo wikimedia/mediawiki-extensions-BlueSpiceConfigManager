@@ -7,6 +7,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurasjonsbehandler",
 	"action-bluespiceconfigmanager-viewspecialpage": "vise spesialsiden «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Konfigurasjonsbehandler",
+	"bs-configmanager-text": "Konfigurasjon",
 	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
 	"bs-configmanager-discardchanges": "Forkaste endringer?",
 	"bs-configmanager-noentry": "Ingen post funnet",
