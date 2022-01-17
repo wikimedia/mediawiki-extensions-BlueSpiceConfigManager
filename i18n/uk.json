@@ -11,6 +11,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфігурації",
 	"action-bluespiceconfigmanager-viewspecialpage": "перегляд спеціальної сторінки «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Менеджер конфігурації",
+	"bs-configmanager-text": "Конфігурація",
 	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
 	"bs-configmanager-discardchanges": "Відхилити зміни?",
 	"bs-configmanager-noentry": "Жодного запису не знайдено",
