@@ -16,5 +16,6 @@
 	"bs-configmanager-noentry": "Жодного запису не знайдено",
 	"apihelp-bs-configmanager-tasks-summary": "Керувати завданнями",
 	"apihelp-bs-configmanager-store-summary": "Керувати сховищами",
-	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-text": "Конфігурація"
 }
