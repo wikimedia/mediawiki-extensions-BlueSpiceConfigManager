@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Can"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Yapılandırma Yöneticisi",
 	"action-bluespiceconfigmanager-viewspecialpage": "özel sayfayı görüntüle \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Yapılandırma Yöneticisi",
+	"bs-configmanager-text": "Yapılandırma",
 	"bs-configmanager-desc": "Yöneticilere, tüm wikiyi tek bir özel sayfadan yapılandırma imkanı sunar.",
 	"bs-configmanager-discardchanges": "Değişiklikleri gözardı edilsin mi?",
 	"bs-configmanager-noentry": "Giriş bulunamadı",
