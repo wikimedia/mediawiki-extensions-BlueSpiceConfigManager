@@ -21,3 +21,9 @@ fieldset.bs-configmanager-configpanel-section legend {
 .bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline .oo-ui-fieldLayout-help {
 	margin: 0;
 }
+
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body,
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline > .oo-ui-fieldLayout-body,
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header {
+	max-width: unset;
+}
