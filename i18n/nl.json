@@ -3,7 +3,8 @@
 		"authors": [
 			"Esketti",
 			"Mainframe98",
-			"McDutchie"
+			"McDutchie",
+			"Nickthijssen1994"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "de speciale pagina \"{{int:bluespiceconfigmanager}}\" te bekijken",
@@ -14,5 +15,6 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Configuratiebeheer",
 	"bluespiceconfigmanager": "Configuratiebeheer",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
-	"apihelp-bs-configmanager-store-summary": "Opslag beheren"
+	"apihelp-bs-configmanager-store-summary": "Opslag beheren",
+	"bs-configmanager-text": "Instellingen"
 }
