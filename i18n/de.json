@@ -15,5 +15,10 @@
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
 	"apihelp-bs-configmanager-tasks-summary": "Verwaltet Aufgaben",
 	"apihelp-bs-configmanager-store-summary": "Verwaltet Speicher",
-	"right-bluespiceconfigmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Konfigurationsverwaltungs-Logbuch",
+	"log-description-bs-config-manager": "Logbuch von Änderungen in der Konfigurationsverwaltung.",
+	"log-show-hide-bs-config-manager": "$1 Konfigurationsverwaltungs-Logbuch",
+	"logeventslist-bs-config-manager-log": "Konfigurationsverwaltungs-Logbuch",
+	"logentry-bs-config-manager-modify": "$1 {{GENDER:$2|hat}} die Einstellung für $4 von $5 zu $6 geändert"
 }
