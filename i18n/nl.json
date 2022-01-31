@@ -3,12 +3,14 @@
 		"authors": [
 			"Esketti",
 			"Mainframe98",
-			"McDutchie"
+			"McDutchie",
+			"Nickthijssen1994"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Configuratiebeheer",
 	"action-bluespiceconfigmanager-viewspecialpage": "de speciale pagina \"{{int:bluespiceconfigmanager}}\" te bekijken",
 	"bluespiceconfigmanager": "Configuratiebeheer",
+	"bs-configmanager-text": "Instellingen",
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
 	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
