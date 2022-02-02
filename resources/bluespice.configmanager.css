@@ -27,3 +27,7 @@ fieldset.bs-configmanager-configpanel-section legend {
 .bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header {
 	max-width: unset;
 }
+
+.bs-configmanager-configpanel-section .oo-ui-fieldLayout-body .oo-ui-fieldLayout-header label {
+	width: 95%;
+}
