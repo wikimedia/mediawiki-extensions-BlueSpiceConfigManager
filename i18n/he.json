@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"Steeve815"
+			"Steeve815",
+			"Avma"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "ניהול הגדרות תצורה",
@@ -12,5 +13,8 @@
 	"bs-configmanager-discardchanges": "למחוק את השינויים?",
 	"bs-configmanager-noentry": "לא נמצא ערך",
 	"apihelp-bs-configmanager-tasks-summary": "ניהול משימות",
-	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים"
+	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים",
+	"log-name-bs-config-manager": "יומן ניהול תצורה",
+	"log-description-bs-config-manager": "שינויים ביומן ניהול תצורה.",
+	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה"
 }
