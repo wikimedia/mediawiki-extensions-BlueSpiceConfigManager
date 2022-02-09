@@ -137,7 +137,7 @@ class ConfigManager extends \BSApiTasksBase {
 	 */
 	private function doLog( $changes ) {
 		foreach ( $changes as $name => $change ) {
-			if ( $name === 'DistributionConnectorEventBusEventServices' ) {
+			if ( in_array( $name, $this->logExcludeList() ) ) {
 				continue;
 			}
 
@@ -185,13 +185,18 @@ class ConfigManager extends \BSApiTasksBase {
 			case ( is_numeric( $value ) ):
 				$logString = (string)$value;
 				break;
-			case ( is_array( $value ) ):
-				$logString = FormatJson::encode( $value );
-				break;
 			default:
-				$logString = $value;
+				$logString = FormatJson::encode( $value );
 				break;
 		}
 		return $logString;
+	}
+
+	/**
+	 *
+	 * @return array
+	 */
+	private function logExcludeList(): array {
+		return $this->getContext()->getConfig()->get( 'ConfigManagerLogExcludeList' );
 	}
 }
