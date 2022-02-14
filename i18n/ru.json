@@ -8,7 +8,8 @@
 			"Merrahtar",
 			"Okras",
 			"Romanko Mikhail",
-			"Vlad5250"
+			"Vlad5250",
+			"Tanzun"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
@@ -18,6 +19,10 @@
 	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"bs-configmanager-noentry": "Запись не найдена",
 	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
+	"apihelp-bs-configmanager-store-summary": "Управление хранилищами",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]",
-	"apihelp-bs-configmanager-store-summary": "Управление хранилищами"
+	"log-name-bs-config-manager": "Журнал Диспетчера конфигураций",
+	"log-description-bs-config-manager": "Изменения в журнале Диспетчера конфигураций",
+	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
+	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6"
 }
