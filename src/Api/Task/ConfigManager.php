@@ -4,6 +4,7 @@ namespace BlueSpice\ConfigManager\Api\Task;
 
 use BlueSpice\Api\Response\Standard;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
+use BlueSpice\ConfigManager\Data\ConfigManager\Store as ConfigManagerStore;
 use BlueSpice\Context;
 use BlueSpice\Data\Filter\StringValue;
 use BlueSpice\Data\ReaderParams;
@@ -96,6 +97,18 @@ class ConfigManager extends \BSApiTasksBase {
 
 	/**
 	 *
+	 * @return ConfigManagerStore
+	 */
+	private function getCMStore() {
+		return new ConfigManagerStore(
+			new Context( $this->getContext(), $this->getConfig() ),
+			$this->getServices()->getDBLoadBalancer(),
+			$this->getServices()->getService( 'BSConfigDefinitionFactory' )
+		);
+	}
+
+	/**
+	 *
 	 * @param RecordSet $recordSet
 	 * @return array
 	 */
@@ -104,7 +117,7 @@ class ConfigManager extends \BSApiTasksBase {
 		$changes = [];
 		foreach ( $records as $record ) {
 			$recordName = $record->get( Record::NAME );
-			$originalRecordSet = $this->getStore()->getReader()->read(
+			$originalRecordSet = $this->getCMStore()->getReader()->read(
 				new ReaderParams( [
 					ReaderParams::PARAM_FILTER => [
 						[
@@ -175,19 +188,14 @@ class ConfigManager extends \BSApiTasksBase {
 	 */
 	private function stringifyLogValue( $value ): string {
 		$logString = '';
-		switch ( $value ) {
-			case ( $value === true ):
-				$logString = 'true';
-				break;
-			case ( $value === false ):
+		if ( $value === true ) {
+			$logString = 'true';
+		} elseif ( $value === false ) {
 				$logString = 'false';
-				break;
-			case ( is_numeric( $value ) ):
-				$logString = (string)$value;
-				break;
-			default:
-				$logString = FormatJson::encode( $value );
-				break;
+		} elseif ( is_numeric( $value ) ) {
+			$logString = (string)$value;
+		} else {
+			$logString = FormatJson::encode( $value );
 		}
 		return $logString;
 	}
