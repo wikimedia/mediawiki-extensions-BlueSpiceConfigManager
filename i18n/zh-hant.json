@@ -17,5 +17,7 @@
 	"apihelp-bs-configmanager-tasks-summary": "管理任務",
 	"apihelp-bs-configmanager-store-summary": "管理儲存",
 	"right-bluespiceconfigmanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceConfigManager]] 的權限。",
-	"log-name-bs-config-manager": "管理者日誌"
+	"log-name-bs-config-manager": "管理者日誌",
+	"log-show-hide-bs-config-manager": "$1管理者日誌",
+	"logeventslist-bs-config-manager-log": "管理者日誌"
 }
