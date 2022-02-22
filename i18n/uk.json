@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
+			"DDPAT",
 			"Movses",
 			"Piramidion",
 			"Samflint",
@@ -20,5 +21,8 @@
 	"apihelp-bs-configmanager-store-summary": "Керувати сховищами",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]",
 	"log-name-bs-config-manager": "Журнал менеджера конфігурацій",
-	"logeventslist-bs-config-manager-log": "Журнал менеджера конфігурацій"
+	"log-description-bs-config-manager": "Журнал змін у менеджері конфігурацій.",
+	"log-show-hide-bs-config-manager": "$1 журнал менеджера конфігурації",
+	"logeventslist-bs-config-manager-log": "Журнал менеджера конфігурацій",
+	"logentry-bs-config-manager-modify": "$1 змінено налаштування $4 з $5 на $6"
 }
