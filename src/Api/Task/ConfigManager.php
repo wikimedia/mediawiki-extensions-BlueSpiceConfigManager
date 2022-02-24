@@ -131,7 +131,8 @@ class ConfigManager extends \BSApiTasksBase {
 			);
 			$originalRecords = $originalRecordSet->getRecords();
 			$recordValue = $record->get( Record::VALUE );
-			$originalValue = $originalRecords[0]->get( Record::VALUE );
+			$originalValue = !empty( $originalRecords ) ?
+				$originalRecords[0]->get( Record::VALUE ) : null;
 			if ( $originalValue !== $recordValue ) {
 				$changes[$recordName] = [
 					'configName' => $recordName,
