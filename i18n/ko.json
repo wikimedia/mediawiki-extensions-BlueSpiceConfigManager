@@ -14,5 +14,9 @@
 	"bs-configmanager-noentry": "항목을 찾을 수 없습니다",
 	"apihelp-bs-configmanager-tasks-summary": "태스크 관리",
 	"apihelp-bs-configmanager-store-summary": "스토어 관리",
-	"right-bluespiceconfigmanager-viewspecialpage": "[[Special:BlueSpiceConfigManager]] 특수 문서로 접근"
+	"right-bluespiceconfigmanager-viewspecialpage": "[[Special:BlueSpiceConfigManager]] 특수 문서로 접근",
+	"log-name-bs-config-manager": "구성 관리자 기록",
+	"log-show-hide-bs-config-manager": "구성 관리자 기록 $1",
+	"logeventslist-bs-config-manager-log": "구성 관리자 기록",
+	"logentry-bs-config-manager-modify": "$1님이 $4 설정을 $5 값에서 $6 값으로 변경함"
 }
