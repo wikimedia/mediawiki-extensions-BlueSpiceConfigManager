@@ -5,17 +5,25 @@
 			"Movses",
 			"Piramidion",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"DDPAT",
+			"Ice bulldog",
+			"Samflint"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфігурації",
 	"action-bluespiceconfigmanager-viewspecialpage": "перегляд спеціальної сторінки «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Менеджер конфігурації",
+	"bs-configmanager-text": "Конфігурація",
 	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
 	"bs-configmanager-discardchanges": "Відхилити зміни?",
 	"bs-configmanager-noentry": "Жодного запису не знайдено",
 	"apihelp-bs-configmanager-tasks-summary": "Керувати завданнями",
 	"apihelp-bs-configmanager-store-summary": "Керувати сховищами",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]",
-	"bs-configmanager-text": "Конфігурація"
+	"log-name-bs-config-manager": "Журнал менеджера конфігурацій",
+	"log-description-bs-config-manager": "Журнал змін у менеджері конфігурацій.",
+	"log-show-hide-bs-config-manager": "$1 журнал менеджера конфігурації",
+	"logeventslist-bs-config-manager-log": "Журнал менеджера конфігурацій",
+	"logentry-bs-config-manager-modify": "$1 змінено налаштування $4 з $5 на $6"
 }
