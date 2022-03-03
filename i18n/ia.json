@@ -13,5 +13,6 @@
 	"bs-configmanager-noentry": "Nulle entrata trovate",
 	"apihelp-bs-configmanager-tasks-summary": "Gerer cargas",
 	"apihelp-bs-configmanager-store-summary": "Gerer immagazinages",
-	"right-bluespiceconfigmanager-viewspecialpage": "Accesso al pagina special [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Accesso al pagina special [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Registro del gestor de configuration"
 }
