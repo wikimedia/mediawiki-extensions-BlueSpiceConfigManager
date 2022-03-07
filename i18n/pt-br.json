@@ -3,16 +3,23 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Juan90264"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gerente de Configuração",
 	"action-bluespiceconfigmanager-viewspecialpage": "ver página especial \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gerenciador da configuração",
+	"bs-configmanager-text": "Configuração",
 	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
 	"bs-configmanager-discardchanges": "Descartar mudanças?",
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gerenciar tarefas",
 	"apihelp-bs-configmanager-store-summary": "Gerenciar armazenamento",
-	"right-bluespiceconfigmanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceConfigManager]].",
+	"log-name-bs-config-manager": "Registro do gerenciador de configuração",
+	"log-description-bs-config-manager": "Registre as alterações no gerenciador de configuração.",
+	"log-show-hide-bs-config-manager": "$1 registro do gerenciador de configuração",
+	"logeventslist-bs-config-manager-log": "Registro do gerenciador de configuração",
+	"logentry-bs-config-manager-modify": "$1 alterou a configuração $4 de $5 para $6"
 }
