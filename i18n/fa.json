@@ -5,7 +5,8 @@
 			"Amirsara",
 			"FarsiNevis",
 			"Huji",
-			"Jeeputer"
+			"Jeeputer",
+			"LordProfo"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:bluespiceconfigmanager}}»",
@@ -16,5 +17,6 @@
 	"bs-configmanager-noentry": "ورودی یافت نشد",
 	"apihelp-bs-configmanager-tasks-summary": "مدیریت وظیفه‌ها",
 	"apihelp-bs-configmanager-store-summary": "مدیریت مخزن‌ها",
-	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-text": "پیکربندی"
 }
