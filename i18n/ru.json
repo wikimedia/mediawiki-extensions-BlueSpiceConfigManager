@@ -4,10 +4,12 @@
 			"DDPAT",
 			"Facenapalm",
 			"Gazimagomedov",
+			"Ice bulldog",
 			"Meerrahtar",
 			"Merrahtar",
 			"Okras",
 			"Romanko Mikhail",
+			"Tanzun",
 			"Vlad5250"
 		]
 	},
@@ -19,5 +21,9 @@
 	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
 	"bs-configmanager-noentry": "Запись не найдена",
-	"apihelp-bs-configmanager-store-summary": "Управление хранилищами"
+	"apihelp-bs-configmanager-store-summary": "Управление хранилищами",
+	"log-name-bs-config-manager": "Журнал Диспетчера конфигураций",
+	"log-description-bs-config-manager": "Изменения в журнале Диспетчера конфигураций",
+	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
+	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6"
 }

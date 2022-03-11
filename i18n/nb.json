@@ -12,5 +12,6 @@
 	"bs-configmanager-noentry": "Ingen post funnet",
 	"apihelp-bs-configmanager-tasks-summary": "Behandle oppgaver",
 	"apihelp-bs-configmanager-store-summary": "Behandle lagringer",
-	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-text": "Konfigurasjon"
 }

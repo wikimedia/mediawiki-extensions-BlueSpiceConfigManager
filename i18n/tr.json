@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Can"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Yapılandırma Yöneticisi",
@@ -12,5 +13,6 @@
 	"bs-configmanager-noentry": "Giriş bulunamadı",
 	"apihelp-bs-configmanager-tasks-summary": "Görevleri yönet",
 	"apihelp-bs-configmanager-store-summary": "Mağazaları yönet",
-	"right-bluespiceconfigmanager-viewspecialpage": "Özel sayfaya erişin [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Özel sayfaya erişin [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-text": "Yapılandırma"
 }
