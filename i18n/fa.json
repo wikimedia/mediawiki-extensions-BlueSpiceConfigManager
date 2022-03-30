@@ -5,7 +5,9 @@
 			"Amirsara",
 			"FarsiNevis",
 			"Huji",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser",
+			"LordProfo"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "مدیریت پیکربندی",
@@ -16,5 +18,5 @@
 	"bs-configmanager-noentry": "ورودی یافت نشد",
 	"apihelp-bs-configmanager-tasks-summary": "مدیریت وظیفه‌ها",
 	"apihelp-bs-configmanager-store-summary": "مدیریت مخزن‌ها",
-	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به صفحهٔ ویژه [[Special:BlueSpiceConfigManager]]"
 }
