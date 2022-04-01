@@ -3,6 +3,7 @@
 		"authors": [
 			"Carlosmg.dg",
 			"DannyS712",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Jakeukalane",
 			"Macofe"
@@ -11,10 +12,16 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
 	"action-bluespiceconfigmanager-viewspecialpage": "ver la página especial «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Gestor de configuración",
+	"bs-configmanager-text": "Configuración",
 	"bs-configmanager-desc": "Permite a los administradores configurar toda la wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
 	"apihelp-bs-configmanager-store-summary": "Administrar roles",
-	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Registro del administrador de la configuración",
+	"log-description-bs-config-manager": "Registrar los cambios en el gestor de configuración.",
+	"log-show-hide-bs-config-manager": "$1 registro del administrador de configuración",
+	"logeventslist-bs-config-manager-log": "Registro del administrador de la configuración",
+	"logentry-bs-config-manager-modify": "$1 cambio de configuración $4 desde $5 a $6"
 }
