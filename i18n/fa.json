@@ -3,6 +3,7 @@
 		"authors": [
 			"Alirezaaa",
 			"Amirsara",
+			"Beginneruser",
 			"FarsiNevis",
 			"Huji",
 			"Jeeputer",
@@ -17,6 +18,6 @@
 	"bs-configmanager-noentry": "ورودی یافت نشد",
 	"apihelp-bs-configmanager-tasks-summary": "مدیریت وظیفه‌ها",
 	"apihelp-bs-configmanager-store-summary": "مدیریت مخزن‌ها",
-	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:BlueSpiceConfigManager]]",
+	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به صفحهٔ ویژه [[Special:BlueSpiceConfigManager]]",
 	"bs-configmanager-text": "پیکربندی"
 }
