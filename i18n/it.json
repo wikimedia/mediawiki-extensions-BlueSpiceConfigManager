@@ -4,6 +4,7 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"GpieroMW",
 			"Sarah Bernabei",
 			"Selven",
 			"ValeJappo"
@@ -12,6 +13,7 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Gestore configurazione",
 	"action-bluespiceconfigmanager-viewspecialpage": "vedere la pagina speciale \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gestore configurazione",
+	"bs-configmanager-text": "Configurazione",
 	"bs-configmanager-desc": "Offre la possibilità agli amministratori, di configurare tutta la wiki da un'unica pagina speciale",
 	"bs-configmanager-discardchanges": "Ignora le modifiche?",
 	"bs-configmanager-noentry": "Nessun dato trovato",
