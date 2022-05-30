@@ -9,12 +9,15 @@
 			"Okras",
 			"Romanko Mikhail",
 			"Vlad5250",
-			"Tanzun"
+			"Tanzun",
+			"Ice bulldog",
+			"WindEwriX"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
 	"action-bluespiceconfigmanager-viewspecialpage": "просмотр специальной страницы «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Менеджер конфигурации",
+	"bs-configmanager-text": "Настройка",
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
 	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"bs-configmanager-noentry": "Запись не найдена",
@@ -23,6 +26,7 @@
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceConfigManager]]",
 	"log-name-bs-config-manager": "Журнал Диспетчера конфигураций",
 	"log-description-bs-config-manager": "Изменения в журнале Диспетчера конфигураций",
+	"log-show-hide-bs-config-manager": "$1 журнал диспетчера конфигураций",
 	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
 	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6"
 }
