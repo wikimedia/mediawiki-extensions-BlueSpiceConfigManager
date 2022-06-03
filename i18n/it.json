@@ -4,6 +4,7 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"GpieroMW",
 			"Sarah Bernabei",
 			"Selven",
 			"ValeJappo"
@@ -17,5 +18,6 @@
 	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi",
 	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]",
 	"bs-bluespiceconfigmanager-admintool-label": "Gestore configurazione",
-	"bluespiceconfigmanager": "Gestore configurazione"
+	"bluespiceconfigmanager": "Gestore configurazione",
+	"bs-configmanager-text": "Configurazione"
 }

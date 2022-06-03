@@ -10,7 +10,8 @@
 			"Okras",
 			"Romanko Mikhail",
 			"Tanzun",
-			"Vlad5250"
+			"Vlad5250",
+			"WindEwriX"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
@@ -25,5 +26,7 @@
 	"log-name-bs-config-manager": "Журнал Диспетчера конфигураций",
 	"log-description-bs-config-manager": "Изменения в журнале Диспетчера конфигураций",
 	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
-	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6"
+	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6",
+	"bs-configmanager-text": "Настройка",
+	"log-show-hide-bs-config-manager": "$1 журнал диспетчера конфигураций"
 }
