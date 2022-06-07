@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceConfigManager",
-	"version": "4.2.0-alpha",
+	"version": "4.2.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:ConfigManager",
 	"author": [
 		"Patric Wirth"
