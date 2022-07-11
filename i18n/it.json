@@ -19,5 +19,10 @@
 	"bs-configmanager-noentry": "Nessun dato trovato",
 	"apihelp-bs-configmanager-tasks-summary": "Gestisci attività",
 	"apihelp-bs-configmanager-store-summary": "Gestisci gli archivi",
-	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Registro dell'amministratore della configurazione",
+	"log-description-bs-config-manager": "Registro delle modifiche nel gestore delle configurazioni.",
+	"log-show-hide-bs-config-manager": "registro gestore delle configurazioni $1",
+	"logeventslist-bs-config-manager-log": "Registro gestore della configurazione",
+	"logentry-bs-config-manager-modify": "$1 ha modificato l'impostazione $4 da $5 a $6"
 }

@@ -19,5 +19,7 @@
 	"right-bluespiceconfigmanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceConfigManager]] 的權限。",
 	"log-name-bs-config-manager": "管理者日誌",
 	"log-show-hide-bs-config-manager": "$1管理者日誌",
-	"logeventslist-bs-config-manager-log": "管理者日誌"
+	"logeventslist-bs-config-manager-log": "管理者日誌",
+	"log-description-bs-config-manager": "在設置管理的日誌變動。",
+	"logentry-bs-config-manager-modify": "$1將設定$4從$5更改成$6"
 }
