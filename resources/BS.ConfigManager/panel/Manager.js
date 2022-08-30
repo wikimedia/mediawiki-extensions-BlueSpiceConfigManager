@@ -65,7 +65,8 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 		});
 
 		this.tfSearch = Ext.create( 'Ext.form.field.Text', {
-			flex: 4
+			flex: 4,
+			ariaRole: 'search'
 		});
 		this.tfSearch.on( 'change', me.onSearchFieldChanged, this );
 
