@@ -5,7 +5,8 @@
 			"Lakejason0",
 			"Liuxinyu970226",
 			"佛壁灯",
-			"科劳"
+			"科劳",
+			"Qiyue2001"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "配置管理器",
@@ -17,5 +18,7 @@
 	"bs-configmanager-noentry": "找不到记录",
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
 	"apihelp-bs-configmanager-store-summary": "管理商店",
-	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。"
+	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。",
+	"logeventslist-bs-config-manager-log": "配置管理者日志",
+	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6"
 }
