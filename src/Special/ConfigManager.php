@@ -4,7 +4,6 @@ namespace BlueSpice\ConfigManager\Special;
 
 use BlueSpice\ConfigDefinition;
 use BlueSpice\Special\ManagerBase;
-use MediaWiki\MediaWikiServices;
 
 class ConfigManager extends ManagerBase {
 
@@ -32,7 +31,7 @@ class ConfigManager extends ManagerBase {
 	 * @param array &$pathMessages
 	 */
 	protected function extractPathMessageKeys( $cfgDef, &$pathMessages ) {
-		$msgFactory = MediaWikiServices::getInstance()->getService( 'BSSettingPathFactory' );
+		$msgFactory = $this->services->getService( 'BSSettingPathFactory' );
 		foreach ( $cfgDef->getPaths() as $path ) {
 			foreach ( explode( '/', $path ) as $section ) {
 				$msgKey = $msgFactory->getMessageKey( $section );
@@ -66,8 +65,7 @@ class ConfigManager extends ManagerBase {
 	 * @return array
 	 */
 	protected function getJSVars() {
-		$cfgDefFactory = MediaWikiServices::getInstance()
-			->getService( 'BSConfigDefinitionFactory' );
+		$cfgDefFactory = $this->services->getService( 'BSConfigDefinitionFactory' );
 		$pathMessages = [];
 
 		foreach ( $cfgDefFactory->getRegisteredDefinitions() as $name ) {
