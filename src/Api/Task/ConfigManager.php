@@ -45,7 +45,7 @@ class ConfigManager extends \BSApiTasksBase {
 		$result = $this->makeStandardReturn();
 
 		$records = [];
-		$factory = $this->getServices()->getService( 'BSConfigDefinitionFactory' );
+		$factory = $this->services->getService( 'BSConfigDefinitionFactory' );
 		foreach ( (array)$taskData as $cfgName => $value ) {
 			$field = $factory->factory( $cfgName );
 			if ( !$field ) {
@@ -91,7 +91,7 @@ class ConfigManager extends \BSApiTasksBase {
 	protected function getStore() {
 		return new Store(
 			new Context( $this->getContext(), $this->getConfig() ),
-			$this->getServices()->getDBLoadBalancer()
+			$this->services->getDBLoadBalancer()
 		);
 	}
 
@@ -102,8 +102,8 @@ class ConfigManager extends \BSApiTasksBase {
 	private function getCMStore() {
 		return new ConfigManagerStore(
 			new Context( $this->getContext(), $this->getConfig() ),
-			$this->getServices()->getDBLoadBalancer(),
-			$this->getServices()->getService( 'BSConfigDefinitionFactory' )
+			$this->services->getDBLoadBalancer(),
+			$this->services->getService( 'BSConfigDefinitionFactory' )
 		);
 	}
 
@@ -174,13 +174,12 @@ class ConfigManager extends \BSApiTasksBase {
 	private function insertLog( $type, $params ) {
 		$targetTitle = SpecialPage::getTitleFor( 'ConfigManager' );
 		$user = $this->getUser();
-		$services = $this->getServices();
 
 		$logger = new ManualLogEntry( 'bs-config-manager', $type );
 		$logger->setPerformer( $user );
 		$logger->setTarget( $targetTitle );
 		$logger->setParameters( $params );
-		$logger->insert( $services->getDBLoadBalancer()->getConnection( DB_MASTER ) );
+		$logger->insert( $this->services->getDBLoadBalancer()->getConnection( DB_MASTER ) );
 	}
 
 	/**
