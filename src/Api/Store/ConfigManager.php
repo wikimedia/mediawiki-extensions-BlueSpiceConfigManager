@@ -4,7 +4,6 @@ namespace BlueSpice\ConfigManager\Api\Store;
 
 use BlueSpice\ConfigManager\Data\ConfigManager\Store;
 use BlueSpice\Context;
-use MediaWiki\MediaWikiServices;
 
 class ConfigManager extends \BlueSpice\Api\Store {
 
@@ -21,11 +20,10 @@ class ConfigManager extends \BlueSpice\Api\Store {
 	 * @return Store
 	 */
 	protected function makeDataStore() {
-		$services = MediaWikiServices::getInstance();
 		return new Store(
 			new Context( \RequestContext::getMain(), $this->getConfig() ),
-			$services->getDBLoadBalancer(),
-			$services->getService( 'BSConfigDefinitionFactory' )
+			$this->services->getDBLoadBalancer(),
+			$this->services->getService( 'BSConfigDefinitionFactory' )
 		);
 	}
 }
