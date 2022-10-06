@@ -19,6 +19,7 @@
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
 	"apihelp-bs-configmanager-store-summary": "管理商店",
 	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。",
+	"log-show-hide-bs-config-manager": "$1配置管理者日志",
 	"logeventslist-bs-config-manager-log": "配置管理者日志",
 	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6"
 }
