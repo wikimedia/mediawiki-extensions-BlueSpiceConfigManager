@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Avma",
 			"Guycn2",
 			"Steeve815"
@@ -16,5 +17,9 @@
 	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים",
 	"log-name-bs-config-manager": "יומן ניהול תצורה",
 	"log-description-bs-config-manager": "שינויים ביומן ניהול תצורה.",
-	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה"
+	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה",
+	"bs-configmanager-text": "תצורה",
+	"right-bluespiceconfigmanager-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceConfigManager]]",
+	"log-show-hide-bs-config-manager": "יומן ניהול תצורת $1",
+	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6"
 }

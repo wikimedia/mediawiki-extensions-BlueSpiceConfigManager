@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Amire80",
 			"Kizule",
 			"Patric Wirth",
 			"Raymond",
@@ -25,5 +26,5 @@
 	"log-description-bs-config-manager": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-config-manager": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
 	"logeventslist-bs-config-manager-log": "Config manager log option label on [[Special:Log]]",
-	"logentry-bs-config-manager-modify": "Log message about changes in config manager.\nParameters:\n* $4 - name of the setting $5 - original value of the setting $6 - new value of the setting"
+	"logentry-bs-config-manager-modify": "Log message about changes in config manager.\nParameters:\n* $4 - name of the setting\n* $5 - original value of the setting\n* $6 - new value of the setting"
 }
