@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Avma",
 			"Guycn2",
 			"Steeve815"
@@ -9,12 +10,16 @@
 	"bs-bluespiceconfigmanager-admintool-label": "ניהול הגדרות תצורה",
 	"action-bluespiceconfigmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "ניהול הגדרות תצורה",
+	"bs-configmanager-text": "תצורה",
 	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
 	"bs-configmanager-discardchanges": "למחוק את השינויים?",
 	"bs-configmanager-noentry": "לא נמצא ערך",
 	"apihelp-bs-configmanager-tasks-summary": "ניהול משימות",
 	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים",
+	"right-bluespiceconfigmanager-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceConfigManager]]",
 	"log-name-bs-config-manager": "יומן ניהול תצורה",
 	"log-description-bs-config-manager": "שינויים ביומן ניהול תצורה.",
-	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה"
+	"log-show-hide-bs-config-manager": "יומן ניהול תצורת $1",
+	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה",
+	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6"
 }
