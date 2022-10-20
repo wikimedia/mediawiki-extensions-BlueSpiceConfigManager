@@ -6,12 +6,12 @@ use BlueSpice\Api\Response\Standard;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store as ConfigManagerStore;
 use BlueSpice\Context;
-use BlueSpice\Data\Filter\StringValue;
-use BlueSpice\Data\ReaderParams;
-use BlueSpice\Data\RecordSet;
 use BlueSpice\Data\Settings\Store;
 use FormatJson;
 use ManualLogEntry;
+use MWStake\MediaWiki\Component\DataStore\Filter\StringValue;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
+use MWStake\MediaWiki\Component\DataStore\RecordSet;
 use SpecialPage;
 
 class ConfigManager extends \BSApiTasksBase {
