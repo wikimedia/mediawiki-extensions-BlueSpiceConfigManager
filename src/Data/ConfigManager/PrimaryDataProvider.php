@@ -3,13 +3,14 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\IDatabase;
 
 class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
 	/**
 	 *
-	 * @var \BlueSpice\Data\ReaderParams
+	 * @var ReaderParams
 	 */
 	protected $readerParams = null;
 
@@ -31,7 +32,7 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
 	/**
 	 *
-	 * @param \BlueSpice\Data\ReaderParams $params
+	 * @param ReaderParams $params
 	 * @return array
 	 */
 	public function makeData( $params ) {
