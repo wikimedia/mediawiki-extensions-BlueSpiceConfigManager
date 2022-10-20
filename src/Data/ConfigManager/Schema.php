@@ -2,7 +2,7 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
-use BlueSpice\Data\FieldType;
+use MWStake\MediaWiki\Component\DataStore\FieldType;
 
 class Schema extends \BlueSpice\Data\Settings\Schema {
 	public function __construct() {

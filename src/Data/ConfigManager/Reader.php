@@ -3,7 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
-use BlueSpice\Data\ReaderParams;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class Reader extends \BlueSpice\Data\Settings\Reader {
