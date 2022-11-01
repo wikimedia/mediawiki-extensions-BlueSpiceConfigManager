@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد"
 		]
 	},
@@ -12,5 +13,11 @@
 	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
 	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
 	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر",
-	"right-bluespiceconfigmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-text": "ترتيب",
+	"log-name-bs-config-manager": "سجل مدير التكوين",
+	"log-description-bs-config-manager": "سجل التغييرات في مدير التكوين.",
+	"log-show-hide-bs-config-manager": "سجل مدير التكوين $1",
+	"logeventslist-bs-config-manager-log": "سجل مدير التكوين",
+	"logentry-bs-config-manager-modify": "غيّر $1 إعداد $4 $5 $6"
 }
