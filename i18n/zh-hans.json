@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Evesiesta",
 			"Hwboehm",
 			"Lakejason0",
 			"Liuxinyu970226",
@@ -21,5 +22,6 @@
 	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。",
 	"logeventslist-bs-config-manager-log": "配置管理者日志",
 	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6",
-	"log-show-hide-bs-config-manager": "$1配置管理者日志"
+	"log-show-hide-bs-config-manager": "$1配置管理者日志",
+	"log-name-bs-config-manager": "配置管理者日志"
 }
