@@ -272,7 +272,6 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 			this.btnOK.enable();
 			this.btnOK.addCls( 'x-btn-progressive' );
 			this.btnReset.enable();
-			this.btnOK.focus();
 		} else {
 			this.btnOK.disable();
 			this.btnOK.removeCls( 'x-btn-progressive' );
