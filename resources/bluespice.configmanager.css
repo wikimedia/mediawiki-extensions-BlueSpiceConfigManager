@@ -31,3 +31,25 @@ fieldset.bs-configmanager-configpanel-section legend {
 .bs-configmanager-configpanel-section .oo-ui-fieldLayout-body .oo-ui-fieldLayout-header label {
 	width: 95%;
 }
+
+.tooltip{
+	display: inline-block;
+	display: flex;
+	justify-content: flex-end;
+	overflow: hidden;
+	z-index: 0;
+	padding: 1rem 0rem;
+}
+
+.tooltip-inner {
+	background-color: #000000;
+	color: white;
+	max-width: 60%;
+	border-radius: 0;
+	border: 2px solid white;
+	text-align: left;
+}
+
+.tooltip-arrow {
+	display: none !important;
+}

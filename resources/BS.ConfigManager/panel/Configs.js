@@ -102,6 +102,34 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 				try {
 					var widgetId = me.oouiWidgets[field];
 					var widget = OO.ui.infuse( $( '#' + widgetId ) );
+					const parent = document.querySelectorAll(
+						".bs-configmanager-configpanel-section"
+					);
+					Object.values( parent ).map( ( data ) => {
+						const child = data.querySelectorAll(
+						".oo-ui-fieldLayout-help.oo-ui-buttonWidget"
+						);
+						Object.values( child ).map( ( value ) => {
+							var infoIconAnchor = value.children[0];
+							var infoIcon = value.children[0].children[0];
+							$( infoIconAnchor ).tooltip({
+								trigger: "click",
+								placement: "bottom"
+							});
+							$( infoIconAnchor ).focus(()=>{
+								$( infoIconAnchor ).tooltip( "show" );
+							});
+							$( infoIconAnchor ).focusout(()=>{
+								$( infoIconAnchor ).tooltip( "hide" );
+							});
+
+							$( document ).mouseup( function ( e ) {
+								if ( e.target !== infoIcon ) {
+									$( infoIconAnchor ).tooltip( "hide" );
+								}
+							});
+						});
+					});
 					widget.on( 'change', function() { me.setDirty( true ) } );
 					// Now we are able to replace widget id with an instance
 					me.oouiWidgets[field] = widget;
