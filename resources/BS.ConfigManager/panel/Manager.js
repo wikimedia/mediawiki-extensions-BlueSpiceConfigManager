@@ -72,6 +72,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 
 		this.btnOK = Ext.create( 'Ext.Button', {
 			text: mw.message( 'bs-extjs-save' ).plain(),
+			ariaLabel: mw.message( 'bs-extjs-save' ).plain(),
 			id: this.getId() + '-btn-ok',
 			cls: 'bs-extjs-btn-ok',
 			disabled: true,
@@ -81,6 +82,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 
 		this.btnReset = Ext.create( 'Ext.Button', {
 			text: mw.message( 'bs-extjs-reset' ).plain(),
+			ariaLabel: mw.message( 'bs-extjs-reset' ).plain(),
 			id: this.getId() + '-btn-reset',
 			cls: 'bs-extjs-btn-reset',
 			disabled: true,
