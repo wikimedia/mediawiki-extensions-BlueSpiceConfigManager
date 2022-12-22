@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use MWStake\MediaWiki\Component\DataStore\IReader;
 
 class Writer extends \BlueSpice\Data\Settings\Writer {
 
@@ -14,11 +15,11 @@ class Writer extends \BlueSpice\Data\Settings\Writer {
 
 	/**
 	 * @param ConfigDefinitionFactory $factory
-	 * @param \BlueSpice\Data\IReader $reader
+	 * @param IReader $reader
 	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
 	 * @param \IContextSource|null $context
 	 */
-	public function __construct( ConfigDefinitionFactory $factory, \BlueSpice\Data\IReader $reader,
+	public function __construct( ConfigDefinitionFactory $factory, IReader $reader,
 		$loadBalancer, \IContextSource $context = null ) {
 		parent::__construct( $reader, $loadBalancer, $context, $context->getConfig() );
 		$this->factory = $factory;

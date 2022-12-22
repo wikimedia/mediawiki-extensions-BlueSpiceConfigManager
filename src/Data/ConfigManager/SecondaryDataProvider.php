@@ -3,9 +3,9 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
-use BlueSpice\Data\IRecord;
+use MWStake\MediaWiki\Component\DataStore\IRecord;
 
-class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
+class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\SecondaryDataProvider {
 
 	/**
 	 *
