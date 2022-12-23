@@ -32,24 +32,43 @@ fieldset.bs-configmanager-configpanel-section legend {
 	width: 95%;
 }
 
-.tooltip{
-	display: inline-block;
+.tooltip {
+	position: relative;
 	display: flex;
-	justify-content: flex-end;
-	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 941px;
 	z-index: 0;
-	padding: 1rem 0rem;
+}
+
+.tooltip.show {
+	opacity: 1;
 }
 
 .tooltip-inner {
-	background-color: #000000;
-	color: white;
-	max-width: 60%;
-	border-radius: 0;
-	border: 2px solid white;
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #a2a9b1;
 	text-align: left;
+	top: 10px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+	left: 33em;
 }
 
-.tooltip-arrow {
-	display: none !important;
+.tooltip .tooltip-arrow {
+	z-index: 1;
+}
+
+.tooltip .tooltip-arrow::before {
+	content: '';
+	position: absolute;
+	border: 1px solid #a2a9b1;
+	border-width: 0 1px 1px 0;
+	padding: 5px;
+	transform: rotate(-135deg);
+	background-color: #fff;
+	top: 4.5px;
 }
