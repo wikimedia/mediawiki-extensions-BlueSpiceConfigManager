@@ -26,5 +26,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceConfigManager"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
