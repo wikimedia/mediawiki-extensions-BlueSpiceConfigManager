@@ -13,7 +13,7 @@
 	"bluespiceconfigmanager": "Upravitelj konfiguracije",
 	"bs-configmanager-text": "Konfiguracija",
 	"bs-configmanager-noentry": "Ni najdenih vnosov",
-	"apihelp-bs-configmanager-tasks-summary": "Upravlja naloge",
+	"apihelp-bs-configmanager-tasks-summary": "Upravlja opravila",
 	"apihelp-bs-configmanager-store-summary": "Upravlja shrambe",
 	"right-bluespiceconfigmanager-viewspecialpage": "Dostop do posebne strani [[Special:BlueSpiceConfigManager]]",
 	"log-name-bs-config-manager": "Dnevnik upravitelja konfiguracije",
