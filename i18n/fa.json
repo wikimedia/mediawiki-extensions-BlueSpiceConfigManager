@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"0PAWN0",
 			"Alirezaaa",
 			"Amirsara",
 			"Beginneruser",
@@ -19,5 +20,6 @@
 	"bs-configmanager-noentry": "ورودی یافت نشد",
 	"apihelp-bs-configmanager-tasks-summary": "مدیریت وظیفه‌ها",
 	"apihelp-bs-configmanager-store-summary": "مدیریت مخزن‌ها",
-	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به صفحهٔ ویژه [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "دسترسی به صفحهٔ ویژه [[Special:BlueSpiceConfigManager]]",
+	"logentry-bs-config-manager-modify": "$1 تنظیم $4 را از $5 به $6 تغییر داد."
 }
