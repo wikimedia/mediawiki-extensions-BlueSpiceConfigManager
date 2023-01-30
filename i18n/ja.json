@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"Buehl",
 			"RYOUMA1117",
 			"Shirayuki",
 			"Suyama"
@@ -15,5 +16,7 @@
 	"bs-configmanager-noentry": "エントリが見つかりません",
 	"apihelp-bs-configmanager-tasks-summary": "タスクを管理",
 	"apihelp-bs-configmanager-store-summary": "ストアを管理",
-	"right-bluespiceconfigmanager-viewspecialpage": "特別ページ [[Special:BlueSpiceConfigManager]] を利用"
+	"right-bluespiceconfigmanager-viewspecialpage": "特別ページ [[Special:BlueSpiceConfigManager]] を利用",
+	"bs-configmanager-text": "設定",
+	"log-name-bs-config-manager": "設定変更の記録"
 }
