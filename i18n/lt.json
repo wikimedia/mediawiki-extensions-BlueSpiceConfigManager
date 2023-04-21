@@ -1,8 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Nokeoo"
 		]
 	},
-	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio"
+	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
+	"bs-bluespiceconfigmanager-admintool-label": "Konfigūracijos tvarkyklė",
+	"action-bluespiceconfigmanager-viewspecialpage": "žiūrėti specialų puslapį „{{int:bluespiceconfigmanager}}“",
+	"bluespiceconfigmanager": "Konfigūracijos tvarkyklė",
+	"bs-configmanager-text": "Konfigūracija",
+	"bs-configmanager-discardchanges": "Atsisakyti pakeitimų?",
+	"bs-configmanager-noentry": "Įrašas nerastas",
+	"apihelp-bs-configmanager-tasks-summary": "Tvarkyti užduotis",
+	"right-bluespiceconfigmanager-viewspecialpage": "Prieiti prie specialaus puslapio [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Konfigūracijos tvarkyklės žurnalas",
+	"log-description-bs-config-manager": "Registruoti pakeitimus konfigūracijos tvarkyklėje.",
+	"log-show-hide-bs-config-manager": "$1 konfigūracijos tvarkyklės žurnalas",
+	"logeventslist-bs-config-manager-log": "Konfigūracijos tvarkyklės žurnalas",
+	"logentry-bs-config-manager-modify": "$1 pakeitė nustatymą $4 iš $5 į $6"
 }
