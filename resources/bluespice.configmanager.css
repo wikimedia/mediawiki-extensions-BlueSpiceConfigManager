@@ -66,7 +66,7 @@ fieldset.bs-configmanager-configpanel-section legend {
 	content: '';
 	position: absolute;
 	border: 1px solid #a2a9b1;
-	border-width: 0 1px 1px 0;
+	border-width: 0 1px 1px 0 !important;
 	padding: 5px;
 	transform: rotate(-135deg);
 	background-color: #fff;
