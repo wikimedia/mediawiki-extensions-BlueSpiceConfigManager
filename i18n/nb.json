@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"EdoAug"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurasjonsbehandler",
@@ -13,5 +14,7 @@
 	"bs-configmanager-noentry": "Ingen post funnet",
 	"apihelp-bs-configmanager-tasks-summary": "Behandle oppgaver",
 	"apihelp-bs-configmanager-store-summary": "Behandle lagringer",
-	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]].",
+	"log-name-bs-config-manager": "Konfigurasjonsbehandlerlogg",
+	"log-description-bs-config-manager": "Loggendringer i konfigurasjonsbehandleren."
 }
