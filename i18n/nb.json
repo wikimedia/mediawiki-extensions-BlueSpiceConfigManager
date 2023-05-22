@@ -16,5 +16,7 @@
 	"apihelp-bs-configmanager-store-summary": "Behandle lagringer",
 	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]].",
 	"log-name-bs-config-manager": "Konfigurasjonsbehandlerlogg",
-	"log-description-bs-config-manager": "Loggendringer i konfigurasjonsbehandleren."
+	"log-description-bs-config-manager": "Loggendringer i konfigurasjonsbehandleren.",
+	"log-show-hide-bs-config-manager": "$1 konfigurasjonsbehandlingslogg",
+	"logeventslist-bs-config-manager-log": "Konfigurasjonsbehandlingslogg"
 }
