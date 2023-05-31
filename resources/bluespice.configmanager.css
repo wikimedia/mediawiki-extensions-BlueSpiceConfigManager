@@ -32,43 +32,35 @@ fieldset.bs-configmanager-configpanel-section legend {
 	width: 95%;
 }
 
-.tooltip {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	max-width: 941px;
-	z-index: 0;
-}
-
-.tooltip.show {
-	opacity: 1;
-}
-
 .tooltip-inner {
-	position: absolute;
 	background-color: #fff;
 	color: #000;
 	border: 1px solid #a2a9b1;
-	text-align: left;
-	top: 10px;
-	border-radius: 2px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
-	left: 33em;
+	padding-top: 15px;
+	border-radius: 2px;
+	transform: translate(-40%,0);
+	-webkit-transform: translate(-40%,0);
 }
-
 .tooltip .tooltip-arrow {
 	z-index: 1;
 }
-
 .tooltip .tooltip-arrow::before {
-	content: '';
-	position: absolute;
-	border: 1px solid #a2a9b1;
-	border-width: 0 1px 1px 0 !important;
-	padding: 5px;
+	border-color: white !important;
+	background-color: white;
+	width: 14px;
+	height: 14px;
 	transform: rotate(-135deg);
-	background-color: #fff;
-	top: 4.5px;
+	-webkit-transform: rotate(-135deg);
+	
+}
+.tooltip[data-popper-placement="top"] .tooltip-arrow::before {
+	border-left: 1px solid #a2a9b1 !important;
+	border-top: 1px solid #a2a9b1 !important;
+	top: -8px;
+}
+.tooltip[data-popper-placement="bottom"] .tooltip-arrow::before {
+	border-right: 1px solid #a2a9b1 !important;
+	border-bottom: 1px solid #a2a9b1 !important;
+	top: 0;
 }
