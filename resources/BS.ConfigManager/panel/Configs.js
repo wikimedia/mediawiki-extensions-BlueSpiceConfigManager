@@ -113,7 +113,7 @@ Ext.define( 'BS.ConfigManager.panel.Configs', {
 							var infoIconAnchor = value.children[0];
 							var infoIcon = value.children[0].children[0];
 							$( infoIconAnchor ).tooltip({
-								trigger: "click",
+								trigger: "click focus",
 								placement: "bottom"
 							});
 							$( infoIconAnchor ).focus(()=>{
