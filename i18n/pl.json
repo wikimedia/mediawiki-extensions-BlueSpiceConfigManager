@@ -7,5 +7,6 @@
 		]
 	},
 	"bs-configmanager-discardchanges": "Porzucić zmiany?",
-	"right-bluespiceconfigmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-text": "Konfiguracja"
 }
