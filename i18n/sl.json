@@ -3,7 +3,8 @@
 		"authors": [
 			"Dbc334",
 			"Eleassar",
-			"Skalcaa"
+			"Skalcaa",
+			"Upwinxp"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Upravitelj konfiguracije",
@@ -20,5 +21,5 @@
 	"log-description-bs-config-manager": "Dnevnik sprememb v upravitelju konfiguracije.",
 	"log-show-hide-bs-config-manager": "$1 dnevnik sprememb v upravitelju konfiguracije",
 	"logeventslist-bs-config-manager-log": "Dnevnik upravitelja konfiguracije",
-	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} nastavitev $4 s $5 na $6"
+	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil/a}} nastavitev $4 s $5 na $6"
 }
