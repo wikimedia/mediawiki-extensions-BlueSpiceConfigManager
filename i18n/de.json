@@ -4,7 +4,8 @@
 			"Hwboehm",
 			"Metalhead64",
 			"Mschlindwein",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
@@ -14,6 +15,8 @@
 	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
 	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
+	"bs-configmanager-mainpath": "Hauptpfad",
+	"bs-configmanager-search": "Suche",
 	"apihelp-bs-configmanager-tasks-summary": "Verwaltet Aufgaben",
 	"apihelp-bs-configmanager-store-summary": "Verwaltet Speicher",
 	"right-bluespiceconfigmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceConfigManager]]",
