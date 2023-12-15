@@ -9,7 +9,8 @@
 			"Shirayuki",
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Umherirrender",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Anchor text for the config manager.",
@@ -19,6 +20,8 @@
 	"bs-configmanager-desc": "Description of the BlueSpiceConfigManager extension",
 	"bs-configmanager-discardchanges": "Text for prompt that asks you if you want to discard changes made in config manager",
 	"bs-configmanager-noentry": "Display text when no entry could be found in config manger search",
+	"bs-configmanager-mainpath": "Label for main path combobox in config manager",
+	"bs-configmanager-search": "Label for search field in config manager",
 	"apihelp-bs-configmanager-tasks-summary": "{{doc-apihelp-summary|bs-configmanager-tasks}}",
 	"apihelp-bs-configmanager-store-summary": "{{doc-apihelp-summary|bs-configmanager-store}}",
 	"right-bluespiceconfigmanager-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceConfigManager]].\n{{doc-right|bluespiceconfigmanager-viewspecialpage}}",

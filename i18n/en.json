@@ -3,7 +3,8 @@
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
-			"Patric Wirth"
+			"Patric Wirth",
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Config manager",
@@ -13,6 +14,8 @@
 	"bs-configmanager-desc": "Offers the possibility to admins, to configurate the whole wiki from a single special page",
 	"bs-configmanager-discardchanges": "Discard changes?",
 	"bs-configmanager-noentry": "No entry found",
+	"bs-configmanager-mainpath": "Main path",
+	"bs-configmanager-search": "Search",
 	"apihelp-bs-configmanager-tasks-summary": "Manage tasks",
 	"apihelp-bs-configmanager-store-summary": "Manage stores",
 	"right-bluespiceconfigmanager-viewspecialpage": "Access to the special page [[Special:BlueSpiceConfigManager]]",
