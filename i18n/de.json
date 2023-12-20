@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>",
 			"Hwboehm",
 			"Metalhead64",
 			"Mschlindwein",
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
