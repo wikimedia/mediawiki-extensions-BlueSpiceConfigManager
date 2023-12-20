@@ -3,7 +3,8 @@
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
-			"Patric Wirth"
+			"Patric Wirth",
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Config manager",
@@ -20,5 +21,7 @@
 	"log-description-bs-config-manager": "Log changes in configuration manager.",
 	"log-show-hide-bs-config-manager": "$1 configuration manager log",
 	"logeventslist-bs-config-manager-log": "Configuration manager log",
-	"logentry-bs-config-manager-modify": "$1 changed setting $4 from $5 to $6"
+	"logentry-bs-config-manager-modify": "$1 changed setting $4 from $5 to $6",
+	"bs-configmanager-mainpath": "Main path",
+	"bs-configmanager-search": "Search"
 }
