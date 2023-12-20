@@ -3,14 +3,14 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Amire80",
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>",
 			"Kizule",
 			"Patric Wirth",
 			"Raymond",
 			"Shirayuki",
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Umherirrender",
-			"Zoranzoki21",
-			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
+			"Zoranzoki21"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Anchor text for the config manager.",
