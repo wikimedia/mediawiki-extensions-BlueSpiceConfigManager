@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>",
 			"Hwboehm",
 			"Metalhead64",
 			"Mschlindwein",
@@ -21,5 +22,7 @@
 	"log-description-bs-config-manager": "Logbuch von Änderungen in der Konfigurationsverwaltung.",
 	"log-show-hide-bs-config-manager": "$1 Konfigurationsverwaltungs-Logbuch",
 	"logeventslist-bs-config-manager-log": "Konfigurationsverwaltungs-Logbuch",
-	"logentry-bs-config-manager-modify": "$1 änderte die Einstellung für $4 von $5 zu $6"
+	"logentry-bs-config-manager-modify": "$1 änderte die Einstellung für $4 von $5 zu $6",
+	"bs-configmanager-mainpath": "Hauptpfad",
+	"bs-configmanager-search": "Suche"
 }
