@@ -32,6 +32,12 @@ fieldset.bs-configmanager-configpanel-section legend {
 	width: 95%;
 }
 
+.bs-configmanager-extjs-label {
+	font-family: 'Lato';
+	font-weight: normal;
+	line-height: 1.42857143em;
+}
+
 .tooltip.show {
 	opacity: 1;
 }

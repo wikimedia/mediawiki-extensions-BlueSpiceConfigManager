@@ -43,6 +43,9 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 
 		this.cbMainPath = Ext.create( 'Ext.form.field.ComboBox', {
 			store: this.storeMainPath,
+			fieldLabel: mw.message( 'bs-configmanager-mainpath' ).plain(),
+			labelAlign: 'top',
+			labelCls: 'bs-configmanager-extjs-label',
 			valueField: 'mainpath',
 			displayField: 'mainpathdisplay',
 			queryMode: 'local',
@@ -66,7 +69,10 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 
 		this.tfSearch = Ext.create( 'Ext.form.field.Text', {
 			flex: 4,
-			ariaRole: 'search'
+			ariaRole: 'search',
+			fieldLabel: mw.message( 'bs-configmanager-search' ).plain(),
+			labelCls: 'bs-configmanager-extjs-label',
+			labelAlign: 'top'
 		});
 		this.tfSearch.on( 'change', me.onSearchFieldChanged, this );
 
@@ -176,6 +182,10 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 				backgroundColor: '#FFFFFF',
 				backgroundImage: 'none'
 			},
+			layout: {
+				type: 'hbox',
+				align: 'bottom',
+			},
 			items: this.makeTbarItems()
 		});
 	},
@@ -183,9 +193,7 @@ Ext.define( 'BS.ConfigManager.panel.Manager', {
 	makeTbarItems: function() {
 		var arrItems = [];
 		arrItems.push( this.cbMainPath );
-		arrItems.push( '|' );
 		arrItems.push( this.tfSearch );
-		arrItems.push( '|' );
 		arrItems.push( this.btnReset );
 		arrItems.push( this.btnOK );
 		return arrItems;
