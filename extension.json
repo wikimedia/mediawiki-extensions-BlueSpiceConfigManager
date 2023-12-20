@@ -90,9 +90,7 @@
 			],
 			"messages": [
 				"bs-configmanager-discardchanges",
-				"bs-configmanager-noentry",
-				"bs-configmanager-mainpath",
-				"bs-configmanager-search"
+				"bs-configmanager-noentry"
 			]
 		},
 		"ext.bluespice.configmanager.styles": {
