@@ -15,6 +15,7 @@
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
 	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
+	"bs-configmanager-mainpath": "Hoofdpad",
 	"apihelp-bs-configmanager-tasks-summary": "Taken beheren",
 	"apihelp-bs-configmanager-store-summary": "Opslag beheren",
 	"right-bluespiceconfigmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceConfigManager]]",

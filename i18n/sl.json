@@ -14,6 +14,8 @@
 	"bs-configmanager-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani",
 	"bs-configmanager-discardchanges": "Zavržem spremembe?",
 	"bs-configmanager-noentry": "Ni najdenih vnosov",
+	"bs-configmanager-mainpath": "Glavna pot",
+	"bs-configmanager-search": "Iskanje",
 	"apihelp-bs-configmanager-tasks-summary": "Upravlja opravila",
 	"apihelp-bs-configmanager-store-summary": "Upravlja shrambe",
 	"right-bluespiceconfigmanager-viewspecialpage": "Dostop do posebne strani [[Special:BlueSpiceConfigManager]]",
@@ -21,5 +23,5 @@
 	"log-description-bs-config-manager": "Dnevnik sprememb v upravitelju konfiguracije.",
 	"log-show-hide-bs-config-manager": "$1 dnevnik sprememb v upravitelju konfiguracije",
 	"logeventslist-bs-config-manager-log": "Dnevnik upravitelja konfiguracije",
-	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil/a}} nastavitev $4 s $5 na $6"
+	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} nastavitev $4 s $5 na $6"
 }

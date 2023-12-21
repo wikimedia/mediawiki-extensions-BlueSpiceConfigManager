@@ -14,6 +14,8 @@
 	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
 	"bs-configmanager-discardchanges": "למחוק את השינויים?",
 	"bs-configmanager-noentry": "לא נמצא ערך",
+	"bs-configmanager-mainpath": "הנתיב הראשי",
+	"bs-configmanager-search": "חיפוש",
 	"apihelp-bs-configmanager-tasks-summary": "ניהול משימות",
 	"apihelp-bs-configmanager-store-summary": "ניהול אחסונים",
 	"right-bluespiceconfigmanager-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceConfigManager]]",

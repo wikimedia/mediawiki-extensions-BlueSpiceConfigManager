@@ -6,6 +6,7 @@
 			"DiegoAmbrocio",
 			"Fitoschido",
 			"Jakeukalane",
+			"Jmabel",
 			"Macofe"
 		]
 	},
@@ -16,6 +17,7 @@
 	"bs-configmanager-desc": "Permite a los administradores configurar toda la wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
+	"bs-configmanager-search": "Buscar",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
 	"apihelp-bs-configmanager-store-summary": "Administrar roles",
 	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]",
