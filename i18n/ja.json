@@ -3,6 +3,7 @@
 		"authors": [
 			"Aefgh39622",
 			"Buehl",
+			"MathXplore",
 			"RYOUMA1117",
 			"Shirayuki",
 			"Suyama",
@@ -23,5 +24,6 @@
 	"log-description-bs-config-manager": "変更を構成マネージャーに記録します。",
 	"log-show-hide-bs-config-manager": "$1設定変更の記録",
 	"logeventslist-bs-config-manager-log": "設定変更の記録",
-	"logentry-bs-config-manager-modify": "$1が$4の設定を$5から$6に変更しました"
+	"logentry-bs-config-manager-modify": "$1が$4の設定を$5から$6に変更しました",
+	"bs-configmanager-search": "検索"
 }
