@@ -23,5 +23,6 @@
 	"log-show-hide-bs-config-manager": "$1 log configuratiebeheer",
 	"logeventslist-bs-config-manager-log": "Log configuratiebeheer",
 	"logentry-bs-config-manager-modify": "$1 gewijzigde instelling $4 van $5 naar $6",
-	"bs-configmanager-mainpath": "Hoofdpad"
+	"bs-configmanager-mainpath": "Hoofdpad",
+	"bs-configmanager-search": "Zoeken"
 }
