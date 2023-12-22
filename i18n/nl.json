@@ -16,6 +16,7 @@
 	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
 	"bs-configmanager-mainpath": "Hoofdpad",
+	"bs-configmanager-search": "Zoeken",
 	"apihelp-bs-configmanager-tasks-summary": "Taken beheren",
 	"apihelp-bs-configmanager-store-summary": "Opslag beheren",
 	"right-bluespiceconfigmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceConfigManager]]",
