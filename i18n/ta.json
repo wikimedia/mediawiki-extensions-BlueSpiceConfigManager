@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rakeshonwiki"
+			"Fahimrazick"
 		]
 	},
-	"bs-bluespicepreferences-label": "விருப்பத்தேர்வுகள்"
+	"bs-bluespicepreferences-label": "விருப்பத்தேர்வுகள்",
+	"bs-configmanager-mainpath": "முதன்மை வழி",
+	"bs-configmanager-search": "தேடு"
 }
