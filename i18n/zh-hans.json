@@ -25,5 +25,6 @@
 	"logeventslist-bs-config-manager-log": "配置管理者日志",
 	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6",
 	"log-name-bs-config-manager": "配置管理者日志",
-	"log-description-bs-config-manager": "记录配置管理中的更改。"
+	"log-description-bs-config-manager": "记录配置管理中的更改。",
+	"bs-configmanager-search": "搜索"
 }
