@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ChiK"
+			"ChiK",
+			"Vishwanatha Badikana"
 		]
 	},
+	"bs-configmanager-mainpath": "ಮುಕ್ಯೊ ಪುಟೊ",
 	"bs-configmanager-search": "ನಾಡ್‍ಲೆ"
 }

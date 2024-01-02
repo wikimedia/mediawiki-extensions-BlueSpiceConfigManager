@@ -7,7 +7,8 @@
 			"Fitoschido",
 			"Jakeukalane",
 			"Jmabel",
-			"Macofe"
+			"Macofe",
+			"Rodney Araujo"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
@@ -17,6 +18,7 @@
 	"bs-configmanager-desc": "Permite a los administradores configurar toda la wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
+	"bs-configmanager-mainpath": "Ruta principal",
 	"bs-configmanager-search": "Buscar",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
 	"apihelp-bs-configmanager-store-summary": "Administrar roles",
