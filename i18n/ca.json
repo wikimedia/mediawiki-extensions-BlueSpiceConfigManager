@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Edustus",
-			"Fitoschido"
+			"Fitoschido",
+			"SMP"
 		]
 	},
-	"action-bluespiceconfigmanager-viewspecialpage": "mostra la pàgina especial «{{int:bluespiceconfigmanager}}»"
+	"action-bluespiceconfigmanager-viewspecialpage": "veure la pàgina especial «{{int:bluespiceconfigmanager}}»",
+	"right-bluespiceconfigmanager-viewspecialpage": "Accedir a la pàgina especial [[Special:BlueSpiceConfigManager]]"
 }
