@@ -7,7 +7,8 @@
 			"Fitoschido",
 			"Jakeukalane",
 			"Jmabel",
-			"Macofe"
+			"Macofe",
+			"Rodney Araujo"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
@@ -25,5 +26,6 @@
 	"log-show-hide-bs-config-manager": "$1 registro del administrador de configuración",
 	"logeventslist-bs-config-manager-log": "Registro del administrador de la configuración",
 	"logentry-bs-config-manager-modify": "$1 cambio de configuración $4 desde $5 a $6",
-	"bs-configmanager-search": "Buscar"
+	"bs-configmanager-search": "Buscar",
+	"bs-configmanager-mainpath": "Ruta principal"
 }
