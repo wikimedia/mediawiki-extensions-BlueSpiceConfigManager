@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"ChiK"
+			"ChiK",
+			"Vishwanatha Badikana"
 		]
 	},
 	"bs-bluespicepreferences-label": "ಪ್ರಾಶಸ್ತ್ಯೊಲು",
-	"bs-configmanager-search": "ನಾಡ್‍ಲೆ"
+	"bs-configmanager-search": "ನಾಡ್‍ಲೆ",
+	"bs-configmanager-mainpath": "ಮುಕ್ಯೊ ಪುಟೊ"
 }
