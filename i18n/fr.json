@@ -4,6 +4,7 @@
 			"DreZhsh",
 			"Eihel",
 			"Gomoko",
+			"Iketsi",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -16,6 +17,7 @@
 	"bs-configmanager-desc": "Offre aux administrateurs la possibilité de configurer l’intégralité du wiki depuis une unique page spéciale",
 	"bs-configmanager-discardchanges": "Abandonner les modifications ?",
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
+	"bs-configmanager-search": "Rechercher",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
 	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
 	"right-bluespiceconfigmanager-viewspecialpage": "Accès à la page spéciale [[Special:BlueSpiceConfigManager]]",
