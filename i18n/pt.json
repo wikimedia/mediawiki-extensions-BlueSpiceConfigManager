@@ -12,6 +12,8 @@
 	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
 	"bs-configmanager-discardchanges": "Descartar mudanças?",
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
+	"bs-configmanager-mainpath": "Caminho principal",
+	"bs-configmanager-search": "Pesquisar",
 	"apihelp-bs-configmanager-tasks-summary": "Gerir tarefas",
 	"apihelp-bs-configmanager-store-summary": "Gerir armazenamento",
 	"right-bluespiceconfigmanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceConfigManager]]",
