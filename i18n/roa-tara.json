@@ -7,9 +7,12 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Gestore de Configurazione",
 	"action-bluespiceconfigmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gestore d'a configurazione",
+	"bs-configmanager-text": "Configurazione",
 	"bs-configmanager-desc": "Dèje 'a possibbilità a le amministrature, de configurà 'a uicchi da 'na pàgena singole SpecialPage",
 	"bs-configmanager-discardchanges": "Scitte le cangiaminde?",
 	"bs-configmanager-noentry": "Nisciuna vôsce acchiate",
+	"bs-configmanager-mainpath": "Percorse prengepàle",
+	"bs-configmanager-search": "Cirche",
 	"apihelp-bs-configmanager-tasks-summary": "Gestisce le combite",
 	"apihelp-bs-configmanager-store-summary": "Gestisce le archivije",
 	"right-bluespiceconfigmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:BlueSpiceConfigManager]]"
