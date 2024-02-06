@@ -22,6 +22,6 @@
 	"log-show-hide-bs-config-manager": "$1 configuration manager log",
 	"logeventslist-bs-config-manager-log": "Configuration manager log",
 	"logentry-bs-config-manager-modify": "$1 changed setting $4 from $5 to $6",
-	"bs-configmanager-mainpath": "Main path",
+	"bs-configmanager-mainpath": "View mode",
 	"bs-configmanager-search": "Search"
 }
