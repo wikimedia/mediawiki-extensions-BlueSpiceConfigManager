@@ -22,6 +22,6 @@
 	"right-bluespiceconfigmanager-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceConfigManager]]",
 	"log-show-hide-bs-config-manager": "יומן ניהול תצורת $1",
 	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6",
-	"bs-configmanager-mainpath": "הנתיב הראשי",
+	"bs-configmanager-mainpath": "מצב התצוגה",
 	"bs-configmanager-search": "חיפוש"
 }
