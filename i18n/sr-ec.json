@@ -16,5 +16,6 @@
 	"apihelp-bs-configmanager-tasks-summary": "Управљај задацима",
 	"apihelp-bs-configmanager-store-summary": "Управљај продавницама",
 	"right-bluespiceconfigmanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceConfigManager]]",
-	"bs-configmanager-text": "Конфигурација"
+	"bs-configmanager-text": "Конфигурација",
+	"bs-configmanager-mainpath": "Прикажи још"
 }

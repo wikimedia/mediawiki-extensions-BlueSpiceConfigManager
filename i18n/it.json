@@ -25,5 +25,5 @@
 	"log-show-hide-bs-config-manager": "registro gestore delle configurazioni $1",
 	"logeventslist-bs-config-manager-log": "Registro gestore della configurazione",
 	"logentry-bs-config-manager-modify": "$1 ha modificato l'impostazione $4 da $5 a $6",
-	"bs-configmanager-mainpath": "Percorso principale"
+	"bs-configmanager-mainpath": "Modalità di visualizzazione"
 }
