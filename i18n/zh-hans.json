@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aaron Liu",
+			"Anterdc99",
 			"Evesiesta",
 			"Hwboehm",
 			"Lakejason0",
@@ -18,6 +19,7 @@
 	"bs-configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
 	"bs-configmanager-discardchanges": "放弃更改么？",
 	"bs-configmanager-noentry": "找不到记录",
+	"bs-configmanager-mainpath": "查看模式",
 	"bs-configmanager-search": "搜索",
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
 	"apihelp-bs-configmanager-store-summary": "管理商店",
