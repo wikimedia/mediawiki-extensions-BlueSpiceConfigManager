@@ -3,6 +3,7 @@
 		"authors": [
 			"DiGro",
 			"Esketti",
+			"HanV",
 			"Mainframe98",
 			"McDutchie",
 			"Nickthijssen1994"
@@ -15,7 +16,7 @@
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
 	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
-	"bs-configmanager-mainpath": "Hoofdpad",
+	"bs-configmanager-mainpath": "Bekijk modus",
 	"bs-configmanager-search": "Zoeken",
 	"apihelp-bs-configmanager-tasks-summary": "Taken beheren",
 	"apihelp-bs-configmanager-store-summary": "Opslag beheren",
