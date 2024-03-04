@@ -3,6 +3,7 @@
 		"authors": [
 			"DiGro",
 			"Esketti",
+			"HanV",
 			"Mainframe98",
 			"McDutchie",
 			"Nickthijssen1994"
@@ -23,6 +24,6 @@
 	"log-show-hide-bs-config-manager": "$1 log configuratiebeheer",
 	"logeventslist-bs-config-manager-log": "Log configuratiebeheer",
 	"logentry-bs-config-manager-modify": "$1 gewijzigde instelling $4 van $5 naar $6",
-	"bs-configmanager-mainpath": "Hoofdpad",
+	"bs-configmanager-mainpath": "Bekijk modus",
 	"bs-configmanager-search": "Zoeken"
 }
