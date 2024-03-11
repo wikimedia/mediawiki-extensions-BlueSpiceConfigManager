@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arielyurusova",
 			"Cwlin0416",
 			"Kly",
 			"Lakejason0",
@@ -22,5 +23,7 @@
 	"log-description-bs-config-manager": "記錄組態管理的變動。",
 	"log-show-hide-bs-config-manager": "$1管理者日誌",
 	"logeventslist-bs-config-manager-log": "管理者日誌",
-	"logentry-bs-config-manager-modify": "$1將設定$4從$5更改成$6"
+	"logentry-bs-config-manager-modify": "$1將設定$4從$5更改成$6",
+	"bs-configmanager-mainpath": "查看模式",
+	"bs-configmanager-search": "搜尋"
 }
