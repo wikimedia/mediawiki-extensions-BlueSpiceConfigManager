@@ -11,7 +11,8 @@
 			"Romanko Mikhail",
 			"Tanzun",
 			"Vlad5250",
-			"WindEwriX"
+			"WindEwriX",
+			"Yurina Tatiana"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
@@ -28,5 +29,6 @@
 	"log-description-bs-config-manager": "Изменения в журнале Диспетчера конфигураций",
 	"log-show-hide-bs-config-manager": "$1 журнал диспетчера конфигураций",
 	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
-	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6"
+	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6",
+	"bs-configmanager-search": "Поиск"
 }
