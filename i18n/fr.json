@@ -7,7 +7,8 @@
 			"Iketsi",
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Alien333"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",
@@ -17,6 +18,7 @@
 	"bs-configmanager-desc": "Offre aux administrateurs la possibilité de configurer l’intégralité du wiki depuis une unique page spéciale",
 	"bs-configmanager-discardchanges": "Abandonner les modifications ?",
 	"bs-configmanager-noentry": "Aucune entrée trouvée",
+	"bs-configmanager-mainpath": "Mode visualisation",
 	"bs-configmanager-search": "Rechercher",
 	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
 	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
