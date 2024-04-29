@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": []
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Menadžer konfiguracije",
+	"bs-bluespiceconfigmanager-admintool-label": "Menad\u017eer konfiguracije",
 	"action-bluespiceconfigmanager-viewspecialpage": "pogledaj posebnu stranicu \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "Menadžer konfiguracije",
-	"bs-configmanager-desc": "Pruža mogućost administratorima, da konfigurišu ceo viki iz jedne specijalne stranice",
+	"bluespiceconfigmanager": "Menad\u017eer konfiguracije",
+	"bs-configmanager-desc": "Pru\u017ea mogu\u0107ost administratorima, da konfiguri\u0161u ceo viki iz jedne specijalne stranice",
 	"bs-configmanager-discardchanges": "Odbaci promene?",
-	"bs-configmanager-noentry": "Nisu pronađeni unosi",
+	"bs-configmanager-noentry": "Nisu prona\u0111eni unosi",
 	"apihelp-bs-configmanager-tasks-summary": "Upravljaj zadacima",
 	"apihelp-bs-configmanager-store-summary": "Upravljaj prodavnicama",
 	"right-bluespiceconfigmanager-viewspecialpage": "pristup posebnoj stranici [[Special:BlueSpiceConfigManager]]",

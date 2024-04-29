@@ -2,22 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"ديفيد"
+			"\u062f\u064a\u0641\u064a\u062f"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "مدير التهيئة",
-	"action-bluespiceconfigmanager-viewspecialpage": "عرض الصفحة الخاصة \"{{int:bluespiceconfigmanager}}\"",
-	"bluespiceconfigmanager": "مدير التهيئة",
-	"bs-configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
-	"bs-configmanager-discardchanges": "تجاهل التغييرات؟",
-	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
-	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
-	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر",
-	"right-bluespiceconfigmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceConfigManager]].",
-	"bs-configmanager-text": "ترتيب",
-	"log-name-bs-config-manager": "سجل مدير التكوين",
-	"log-description-bs-config-manager": "سجل التغييرات في مدير التكوين.",
-	"log-show-hide-bs-config-manager": "سجل مدير التكوين $1",
-	"logeventslist-bs-config-manager-log": "سجل مدير التكوين",
-	"logentry-bs-config-manager-modify": "غيّر $1 إعداد $4 $5 $6"
+	"bs-bluespiceconfigmanager-admintool-label": "\u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0647\u064a\u0626\u0629",
+	"action-bluespiceconfigmanager-viewspecialpage": "\u0639\u0631\u0636 \u0627\u0644\u0635\u0641\u062d\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "\u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0647\u064a\u0626\u0629",
+	"bs-configmanager-desc": "\u064a\u0648\u0641\u0631 \u0625\u0645\u0643\u0627\u0646\u064a\u0629 \u0644\u0644\u0625\u062f\u0627\u0631\u064a\u064a\u0646; \u0644\u062a\u0643\u0648\u064a\u0646 \u0648\u064a\u0643\u064a \u0628\u0623\u0643\u0645\u0644\u0647 \u0645\u0646 \u0635\u0641\u062d\u0629 \u062e\u0627\u0635\u0629 \u0648\u0627\u062d\u062f\u0629",
+	"bs-configmanager-discardchanges": "\u062a\u062c\u0627\u0647\u0644 \u0627\u0644\u062a\u063a\u064a\u064a\u0631\u0627\u062a\u061f",
+	"bs-configmanager-noentry": "\u0644\u0645 \u064a\u062a\u0645 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u0625\u062f\u062e\u0627\u0644",
+	"apihelp-bs-configmanager-tasks-summary": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0645\u0647\u0627\u0645",
+	"apihelp-bs-configmanager-store-summary": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0645\u062a\u0627\u062c\u0631",
+	"right-bluespiceconfigmanager-viewspecialpage": "\u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649 \u0627\u0644\u0635\u0641\u062d\u0629 \u0627\u0644\u062e\u0627\u0635\u0629 [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-text": "\u062a\u0631\u062a\u064a\u0628",
+	"log-name-bs-config-manager": "\u0633\u062c\u0644 \u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0643\u0648\u064a\u0646",
+	"log-description-bs-config-manager": "\u0633\u062c\u0644 \u0627\u0644\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0643\u0648\u064a\u0646.",
+	"log-show-hide-bs-config-manager": "\u0633\u062c\u0644 \u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0643\u0648\u064a\u0646 $1",
+	"logeventslist-bs-config-manager-log": "\u0633\u062c\u0644 \u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0643\u0648\u064a\u0646",
+	"logentry-bs-config-manager-modify": "\u063a\u064a\u0651\u0631 $1 \u0625\u0639\u062f\u0627\u062f $4 $5 $6"
 }
