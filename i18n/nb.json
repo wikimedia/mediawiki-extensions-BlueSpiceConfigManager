@@ -2,14 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"EdoAug",
-			"Jon Harald Søby"
+			"Jon Harald S\u00f8by"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurasjonsbehandler",
-	"action-bluespiceconfigmanager-viewspecialpage": "vise spesialsiden «{{int:bluespiceconfigmanager}}»",
+	"action-bluespiceconfigmanager-viewspecialpage": "vise spesialsiden \u00ab{{int:bluespiceconfigmanager}}\u00bb",
 	"bluespiceconfigmanager": "Konfigurasjonsbehandler",
 	"bs-configmanager-text": "Konfigurasjon",
-	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
+	"bs-configmanager-desc": "Gir administratorer muligheten til \u00e5 konfigurere hele wikien fra \u00e9n enkel spesialside",
 	"bs-configmanager-discardchanges": "Forkaste endringer?",
 	"bs-configmanager-noentry": "Ingen post funnet",
 	"apihelp-bs-configmanager-tasks-summary": "Behandle oppgaver",
@@ -21,5 +21,5 @@
 	"logeventslist-bs-config-manager-log": "Konfigurasjonsbehandlingslogg",
 	"logentry-bs-config-manager-modify": "$1 endret innstillingen $4 fra $5 til $6",
 	"bs-configmanager-mainpath": "Visningsmodus",
-	"bs-configmanager-search": "Søk"
+	"bs-configmanager-search": "S\u00f8k"
 }
