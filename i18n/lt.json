@@ -5,18 +5,18 @@
 			"Nokeoo"
 		]
 	},
-	"bs-configmanager-desc": "Si\u016blo galimyb\u0119 administratoriams konfig\u016bruoti vis\u0105 viki i\u0161 vieno SpecialausPuslapio",
-	"bs-bluespiceconfigmanager-admintool-label": "Konfig\u016bracijos tvarkykl\u0117",
-	"action-bluespiceconfigmanager-viewspecialpage": "\u017ei\u016br\u0117ti special\u0173 puslap\u012f \u201e{{int:bluespiceconfigmanager}}\u201c",
-	"bluespiceconfigmanager": "Konfig\u016bracijos tvarkykl\u0117",
-	"bs-configmanager-text": "Konfig\u016bracija",
-	"bs-configmanager-discardchanges": "Atsisakyti pakeitim\u0173?",
-	"bs-configmanager-noentry": "\u012era\u0161as nerastas",
-	"apihelp-bs-configmanager-tasks-summary": "Tvarkyti u\u017eduotis",
+	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
+	"bs-bluespiceconfigmanager-admintool-label": "Konfigūracijos tvarkyklė",
+	"action-bluespiceconfigmanager-viewspecialpage": "žiūrėti specialų puslapį „{{int:bluespiceconfigmanager}}“",
+	"bluespiceconfigmanager": "Konfigūracijos tvarkyklė",
+	"bs-configmanager-text": "Konfigūracija",
+	"bs-configmanager-discardchanges": "Atsisakyti pakeitimų?",
+	"bs-configmanager-noentry": "Įrašas nerastas",
+	"apihelp-bs-configmanager-tasks-summary": "Tvarkyti užduotis",
 	"right-bluespiceconfigmanager-viewspecialpage": "Prieiti prie specialaus puslapio [[Special:BlueSpiceConfigManager]]",
-	"log-name-bs-config-manager": "Konfig\u016bracijos tvarkykl\u0117s \u017eurnalas",
-	"log-description-bs-config-manager": "Registruoti pakeitimus konfig\u016bracijos tvarkykl\u0117je.",
-	"log-show-hide-bs-config-manager": "$1 konfig\u016bracijos tvarkykl\u0117s \u017eurnalas",
-	"logeventslist-bs-config-manager-log": "Konfig\u016bracijos tvarkykl\u0117s \u017eurnalas",
-	"logentry-bs-config-manager-modify": "$1 pakeit\u0117 nustatym\u0105 $4 i\u0161 $5 \u012f $6"
+	"log-name-bs-config-manager": "Konfigūracijos tvarkyklės žurnalas",
+	"log-description-bs-config-manager": "Registruoti pakeitimus konfigūracijos tvarkyklėje.",
+	"log-show-hide-bs-config-manager": "$1 konfigūracijos tvarkyklės žurnalas",
+	"logeventslist-bs-config-manager-log": "Konfigūracijos tvarkyklės žurnalas",
+	"logentry-bs-config-manager-modify": "$1 pakeitė nustatymą $4 iš $5 į $6"
 }

@@ -1,7 +1,6 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alien333",
 			"DreZhsh",
 			"Eihel",
 			"Gomoko",
@@ -12,20 +11,19 @@
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",
-	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page sp\u00e9ciale \u00ab\u202f{{int:bluespiceconfigmanager}}\u202f\u00bb",
+	"action-bluespiceconfigmanager-viewspecialpage": "afficher la page spéciale « {{int:bluespiceconfigmanager}} »",
 	"bluespiceconfigmanager": "Gestionnaire de configuration",
 	"bs-configmanager-text": "Configuration",
-	"bs-configmanager-desc": "Offre aux administrateurs la possibilit\u00e9 de configurer l\u2019int\u00e9gralit\u00e9 du wiki depuis une unique page sp\u00e9ciale",
-	"bs-configmanager-discardchanges": "Abandonner les modifications\u202f?",
-	"bs-configmanager-noentry": "Aucune entr\u00e9e trouv\u00e9e",
-	"apihelp-bs-configmanager-tasks-summary": "G\u00e9rer les t\u00e2ches",
-	"apihelp-bs-configmanager-store-summary": "G\u00e9rer les magasins",
-	"right-bluespiceconfigmanager-viewspecialpage": "Acc\u00e8s \u00e0 la page sp\u00e9ciale [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-desc": "Offre aux administrateurs la possibilité de configurer l’intégralité du wiki depuis une unique page spéciale",
+	"bs-configmanager-discardchanges": "Abandonner les modifications ?",
+	"bs-configmanager-noentry": "Aucune entrée trouvée",
+	"apihelp-bs-configmanager-tasks-summary": "Gérer les tâches",
+	"apihelp-bs-configmanager-store-summary": "Gérer les magasins",
+	"right-bluespiceconfigmanager-viewspecialpage": "Accès à la page spéciale [[Special:BlueSpiceConfigManager]]",
 	"log-name-bs-config-manager": "Journal du gestionnaire de configuration",
 	"log-description-bs-config-manager": "Modifications du journal dans le gestionnaire de configuration.",
 	"log-show-hide-bs-config-manager": "Journal du gestionnaire de configuration $1",
 	"logeventslist-bs-config-manager-log": "Journal du gestionnaire de configuration",
-	"logentry-bs-config-manager-modify": "$1 a modifi\u00e9 le param\u00e8tre $4 de $5 en $6",
-	"bs-configmanager-search": "Rechercher",
-	"bs-configmanager-mainpath": "Mode visualisation"
+	"logentry-bs-config-manager-modify": "$1 a modifié le paramètre $4 de $5 en $6",
+	"bs-configmanager-search": "Rechercher"
 }
