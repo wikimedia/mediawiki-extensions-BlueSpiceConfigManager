@@ -4,7 +4,7 @@
 			"Jopparn",
 			"Josve05a",
 			"Lokal Profil",
-			"Mj\u00e4lten",
+			"Mjälten",
 			"Sturban",
 			"Technic2",
 			"WikiPhoenix"
@@ -13,11 +13,11 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationshanterare",
 	"action-bluespiceconfigmanager-viewspecialpage": "visa specialsidan \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Konfigurationshanterare",
-	"bs-configmanager-desc": "Erbjuder m\u00f6jligheten f\u00f6r administrat\u00f6rer att konfigurera hela wikin fr\u00e5n en enda specialsida",
-	"bs-configmanager-discardchanges": "Ignorera \u00e4ndringarna?",
+	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
+	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
 	"bs-configmanager-noentry": "Ingen post hittades",
 	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",
 	"apihelp-bs-configmanager-store-summary": "Hantera roller",
-	"right-bluespiceconfigmanager-viewspecialpage": "\u00c5tkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
-	"bs-configmanager-search": "S\u00f6k"
+	"right-bluespiceconfigmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-search": "Sök"
 }

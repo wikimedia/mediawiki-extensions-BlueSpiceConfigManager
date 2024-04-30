@@ -5,15 +5,15 @@
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestore de Configurazione",
-	"action-bluespiceconfigmanager-viewspecialpage": "'ndruche 'a p\u00e0gena speciale \"{{int:bluespiceconfigmanager}}\"",
+	"action-bluespiceconfigmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gestore d'a configurazione",
-	"bs-configmanager-desc": "D\u00e8je 'a possibbilit\u00e0 a le amministrature, de configur\u00e0 'a uicchi da 'na p\u00e0gena singole SpecialPage",
+	"bs-configmanager-desc": "Dèje 'a possibbilità a le amministrature, de configurà 'a uicchi da 'na pàgena singole SpecialPage",
 	"bs-configmanager-discardchanges": "Scitte le cangiaminde?",
-	"bs-configmanager-noentry": "Nisciuna v\u00f4sce acchiate",
+	"bs-configmanager-noentry": "Nisciuna vôsce acchiate",
 	"apihelp-bs-configmanager-tasks-summary": "Gestisce le combite",
 	"apihelp-bs-configmanager-store-summary": "Gestisce le archivije",
-	"right-bluespiceconfigmanager-viewspecialpage": "Tr\u00e0se jndr'\u00e0 p\u00e0gena speciale [[Special:BlueSpiceConfigManager]]",
+	"right-bluespiceconfigmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:BlueSpiceConfigManager]]",
 	"bs-configmanager-text": "Configurazione",
-	"bs-configmanager-mainpath": "Percorse prengep\u00e0le",
+	"bs-configmanager-mainpath": "Percorse prengepàle",
 	"bs-configmanager-search": "Cirche"
 }

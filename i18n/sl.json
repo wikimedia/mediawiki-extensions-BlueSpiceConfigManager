@@ -7,10 +7,10 @@
 			"Upwinxp"
 		]
 	},
-	"bs-configmanager-desc": "Skrbnikom ponuja mo\u017enost konfiguracije celotnega wiki-ja iz ene PosebneStrani",
-	"bs-configmanager-discardchanges": "Zavr\u017eem spremembe?",
+	"bs-configmanager-desc": "Skrbnikom ponuja možnost konfiguracije celotnega wiki-ja iz ene PosebneStrani",
+	"bs-configmanager-discardchanges": "Zavržem spremembe?",
 	"bs-bluespiceconfigmanager-admintool-label": "Upravitelj konfiguracije",
-	"action-bluespiceconfigmanager-viewspecialpage": "ogled posebne strani \u00bb{{int:bluespiceconfigmanager}}\u00ab",
+	"action-bluespiceconfigmanager-viewspecialpage": "ogled posebne strani »{{int:bluespiceconfigmanager}}«",
 	"bluespiceconfigmanager": "Upravitelj konfiguracije",
 	"bs-configmanager-text": "Konfiguracija",
 	"bs-configmanager-noentry": "Ni najdenih vnosov",
