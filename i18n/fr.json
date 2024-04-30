@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alien333",
 			"DreZhsh",
 			"Eihel",
 			"Gomoko",
@@ -25,5 +26,6 @@
 	"log-show-hide-bs-config-manager": "Journal du gestionnaire de configuration $1",
 	"logeventslist-bs-config-manager-log": "Journal du gestionnaire de configuration",
 	"logentry-bs-config-manager-modify": "$1 a modifié le paramètre $4 de $5 en $6",
-	"bs-configmanager-search": "Rechercher"
+	"bs-configmanager-search": "Rechercher",
+	"bs-configmanager-mainpath": "Mode visualisation"
 }
