@@ -22,6 +22,7 @@
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
 	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"bs-configmanager-noentry": "Запись не найдена",
+	"bs-configmanager-mainpath": "Режим просмотра",
 	"bs-configmanager-search": "Поиск",
 	"apihelp-bs-configmanager-tasks-summary": "Управление заданиями",
 	"apihelp-bs-configmanager-store-summary": "Управление хранилищами",
