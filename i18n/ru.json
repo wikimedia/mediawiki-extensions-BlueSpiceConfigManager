@@ -30,5 +30,6 @@
 	"log-show-hide-bs-config-manager": "$1 журнал диспетчера конфигураций",
 	"logeventslist-bs-config-manager-log": "Журнал Диспетчера конфигураций",
 	"logentry-bs-config-manager-modify": "$1 изменена конфигурация $4: исходное значение — $5; новое значение — $6",
-	"bs-configmanager-search": "Поиск"
+	"bs-configmanager-search": "Поиск",
+	"bs-configmanager-mainpath": "Режим просмотра"
 }
