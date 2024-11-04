@@ -5,11 +5,11 @@
 			"Nokeoo"
 		]
 	},
-	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigūracijos tvarkyklė",
 	"action-bluespiceconfigmanager-viewspecialpage": "žiūrėti specialų puslapį „{{int:bluespiceconfigmanager}}“",
 	"bluespiceconfigmanager": "Konfigūracijos tvarkyklė",
 	"bs-configmanager-text": "Konfigūracija",
+	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
 	"bs-configmanager-discardchanges": "Atsisakyti pakeitimų?",
 	"bs-configmanager-noentry": "Įrašas nerastas",
 	"apihelp-bs-configmanager-tasks-summary": "Tvarkyti užduotis",
