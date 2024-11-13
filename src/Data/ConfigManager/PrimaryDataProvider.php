@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use MediaWiki\Message\Message;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\IDatabase;
 
@@ -72,7 +73,7 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 			Record::NAME => $row->{Record::NAME},
 			Record::VAR_NAME => $cfgDfn->getVariableName(),
 			Record::VALUE => $cfgDfn->getValue(),
-			Record::LABEL => \Message::newFromKey( $cfgDfn->getLabelMessageKey() )->plain(),
+			Record::LABEL => Message::newFromKey( $cfgDfn->getLabelMessageKey() )->plain(),
 			Record::PATHS => $cfgDfn->getPaths(),
 		] );
 	}
