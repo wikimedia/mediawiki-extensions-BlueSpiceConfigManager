@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use MediaWiki\Output\OutputPage;
 use MWStake\MediaWiki\Component\DataStore\IRecord;
 
 class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\SecondaryDataProvider {
@@ -31,7 +32,7 @@ class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\Secon
 			return;
 		}
 		$form = '';
-		\OutputPage::setupOOUI(
+		OutputPage::setupOOUI(
 			'default',
 			'ltr'
 		);

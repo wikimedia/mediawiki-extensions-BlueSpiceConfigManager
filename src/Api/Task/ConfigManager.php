@@ -7,12 +7,13 @@ use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store as ConfigManagerStore;
 use BlueSpice\Context;
 use BlueSpice\Data\Settings\Store;
-use FormatJson;
 use ManualLogEntry;
+use MediaWiki\Html\Html;
+use MediaWiki\Json\FormatJson;
+use MediaWiki\SpecialPage\SpecialPage;
 use MWStake\MediaWiki\Component\DataStore\Filter\StringValue;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use MWStake\MediaWiki\Component\DataStore\RecordSet;
-use SpecialPage;
 
 class ConfigManager extends \BSApiTasksBase {
 
@@ -43,7 +44,6 @@ class ConfigManager extends \BSApiTasksBase {
 	 */
 	public function task_save( $taskData, $aParams ) {
 		$result = $this->makeStandardReturn();
-
 		$records = [];
 		$factory = $this->services->getService( 'BSConfigDefinitionFactory' );
 		foreach ( (array)$taskData as $cfgName => $value ) {
@@ -75,7 +75,7 @@ class ConfigManager extends \BSApiTasksBase {
 			}
 			$result->message .= $record->get( Record::NAME ) . ': ';
 			$result->message .= $record->getStatus()->getHTML( false, false );
-			$result->message .= \Html::element( 'br' );
+			$result->message .= Html::element( 'br' );
 		}
 		if ( empty( $result->message ) ) {
 			$result->success = true;

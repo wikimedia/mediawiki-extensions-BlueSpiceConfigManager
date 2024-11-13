@@ -80,19 +80,35 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.configmanager": {
-			"scripts": "bluespice.configmanager.js",
-			"dependencies": [
-				"ext.bluespice",
-				"ext.bluespice.extjs",
-				"ext.bluespice.oojs",
-				"ext.bluespice.configmanager.messages",
-				"oojs-ui-core"
+			"packageFiles": [
+				"bluespice.configmanager.js",
+				{
+					"name": "pathNames.json",
+					"callback": "\\BlueSpice\\ConfigManager\\ClientConfig::getPathNames"
+				},
+				{
+					"name": "offset.json",
+					"callback": "\\BlueSpice\\ConfigManager\\ClientConfig::getToolbarOffset"
+				},
+				"ui/panel/ConfigManager.js",
+				"ui/pages/ConfigPage.js",
+				"ui/toolbar/ConfigToolbar.js",
+				"ui/booklet/ConfigBooklet.js",
+				"ui/widget/OutlineSelectWidget.js"
 			],
 			"messages": [
-				"bs-configmanager-discardchanges",
 				"bs-configmanager-noentry",
 				"bs-configmanager-mainpath",
-				"bs-configmanager-search"
+				"bs-configmanager-search",
+				"bs-configmanager-discard-open-changes",
+				"bs-configmanager-notify-configuration-saved"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"ext.bluespice.oojs",
+				"ext.bluespice.configmanager.messages",
+				"oojs-ui-core",
+				"ext.oOJSPlus.data"
 			]
 		},
 		"ext.bluespice.configmanager.styles": {
@@ -120,6 +136,9 @@
 			"value": [
 				"DistributionConnectorEventBusEventServices"
 			]
+		},
+		"ConfigManagerToolbarOffset": {
+			"value": 64
 		}
 	},
 	"manifest_version": 2,

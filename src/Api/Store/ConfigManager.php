@@ -4,6 +4,7 @@ namespace BlueSpice\ConfigManager\Api\Store;
 
 use BlueSpice\ConfigManager\Data\ConfigManager\Store;
 use BlueSpice\Context;
+use MediaWiki\Context\RequestContext;
 
 class ConfigManager extends \BlueSpice\Api\Store {
 
@@ -21,7 +22,7 @@ class ConfigManager extends \BlueSpice\Api\Store {
 	 */
 	protected function makeDataStore() {
 		return new Store(
-			new Context( \RequestContext::getMain(), $this->getConfig() ),
+			new Context( RequestContext::getMain(), $this->getConfig() ),
 			$this->services->getDBLoadBalancer(),
 			$this->services->getService( 'BSConfigDefinitionFactory' )
 		);

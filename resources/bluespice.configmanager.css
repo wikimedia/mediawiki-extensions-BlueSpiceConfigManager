@@ -1,3 +1,23 @@
+#contentSub {
+	display: none;
+}
+
+.bs-configmanager-content {
+	margin-top: 1em;
+}
+
+.bs-configmanager-search.oo-ui-fieldLayout.oo-ui-labelElement {
+	margin-top: 1.8em;
+}
+
+#bs-configmanager .bs-configmanager-search .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+	width: 80%;
+}
+
+.bs-configmanager-search .oo-ui-fieldLayout-header {
+	text-align: right;
+}
+
 .bs-configmanager-configpanel-content {
 	padding: 10px 10px 10px 20px;
 }
@@ -6,20 +26,24 @@
 	margin-bottom: 10px;
 }
 
+.bs-configmanager-configpanel-section legend {
+	padding: 0;
+}
+
 fieldset.bs-configmanager-configpanel-section {
-	border: 1px solid #3e5893;
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
 	margin: 0 0 1em 0;
 	padding: 1em;
 	line-height: 1.5em;
 }
 
-fieldset.bs-configmanager-configpanel-section legend {
-	font-weight: bold;
+fieldset.bs-configmanager-configpanel-section > div {
+	margin: 1em 0 0;
 }
 
-.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top .oo-ui-fieldLayout-help,
-.bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline .oo-ui-fieldLayout-help {
-	margin: 0;
+fieldset.bs-configmanager-configpanel-section legend {
+	font-weight: bold;
 }
 
 .bs-configmanager-configpanel-section .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body,
@@ -30,46 +54,4 @@ fieldset.bs-configmanager-configpanel-section legend {
 
 .bs-configmanager-configpanel-section .oo-ui-fieldLayout-body .oo-ui-fieldLayout-header label {
 	width: 95%;
-}
-
-.bs-configmanager-extjs-label {
-	font-family: 'Lato';
-	font-weight: normal;
-	line-height: 1.42857143em;
-}
-
-.tooltip.show {
-	opacity: 1;
-}
-.tooltip-inner {
-	background-color: #fff;
-	color: #000;
-	border: 1px solid #a2a9b1;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
-	border-radius: 2px;
-	text-align: start;
-	padding: 5px 15px;
-	font-family: var(--content-font-family);
-}
-.tooltip .tooltip-arrow {
-	z-index: 1;
-}
-.tooltip .tooltip-arrow::before {
-	border-color: white !important;
-	background-color: white;
-	width: 14px;
-	height: 14px;
-	transform: rotate(-135deg);
-	-webkit-transform: rotate(-135deg);
-	
-}
-.tooltip[data-popper-placement="top"] .tooltip-arrow::before {
-	border-left: 1px solid #a2a9b1 !important;
-	border-top: 1px solid #a2a9b1 !important;
-	top: -8px;
-}
-.tooltip[data-popper-placement="bottom"] .tooltip-arrow::before {
-	border-right: 1px solid #a2a9b1 !important;
-	border-bottom: 1px solid #a2a9b1 !important;
-	top: 0;
 }
