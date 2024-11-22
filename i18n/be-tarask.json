@@ -8,7 +8,6 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Кіраваньне канфігурацыяй",
 	"bs-configmanager-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі",
-	"bs-configmanager-discardchanges": "Скасаваць зьмены?",
 	"bs-configmanager-noentry": "Запіс ня знойдзены",
 	"apihelp-bs-configmanager-tasks-summary": "Кіраваньне заданьнямі",
 	"apihelp-bs-configmanager-store-summary": "Кіраваньне сховішчамі",

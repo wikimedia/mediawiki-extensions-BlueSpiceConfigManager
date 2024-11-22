@@ -14,7 +14,6 @@
 	"bluespiceconfigmanager": "Konfigurationsverwaltung",
 	"bs-configmanager-text": "Konfiguration",
 	"bs-configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
-	"bs-configmanager-discardchanges": "Änderungen verwerfen?",
 	"bs-configmanager-noentry": "Keinen Eintrag gefunden",
 	"bs-configmanager-mainpath": "Anzeigemodus",
 	"bs-configmanager-search": "Suche",

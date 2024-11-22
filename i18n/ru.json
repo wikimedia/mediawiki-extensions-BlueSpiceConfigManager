@@ -20,7 +20,6 @@
 	"bluespiceconfigmanager": "Менеджер конфигурации",
 	"bs-configmanager-text": "Настройка",
 	"bs-configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
-	"bs-configmanager-discardchanges": "Отменить изменения?",
 	"bs-configmanager-noentry": "Запись не найдена",
 	"bs-configmanager-mainpath": "Режим просмотра",
 	"bs-configmanager-search": "Поиск",

@@ -10,7 +10,6 @@
 	"bluespiceconfigmanager": "구성 관리자",
 	"bs-configmanager-text": "구성",
 	"bs-configmanager-desc": "관리자가 하나의 특수 문서에서 위키 전체의 환경 설정을 수정할 수 있게 합니다",
-	"bs-configmanager-discardchanges": "변경 사항을 버리겠습니까?",
 	"bs-configmanager-noentry": "항목을 찾을 수 없습니다",
 	"apihelp-bs-configmanager-tasks-summary": "태스크 관리",
 	"apihelp-bs-configmanager-store-summary": "스토어 관리",
@@ -18,5 +17,6 @@
 	"log-name-bs-config-manager": "구성 관리자 기록",
 	"log-show-hide-bs-config-manager": "구성 관리자 기록 $1",
 	"logeventslist-bs-config-manager-log": "구성 관리자 기록",
-	"logentry-bs-config-manager-modify": "$1님이 $4 설정을 $5 값에서 $6 값으로 변경함"
+	"logentry-bs-config-manager-modify": "$1님이 $4 설정을 $5 값에서 $6 값으로 변경함",
+	"bs-configmanager-notify-configuration-saved": "구성을 저장했습니다"
 }

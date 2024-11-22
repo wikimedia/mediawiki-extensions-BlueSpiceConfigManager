@@ -7,7 +7,6 @@
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "δείτε την ειδική σελίδα \"{{int:bluespiceconfigmanager}}\"",
 	"bs-configmanager-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα",
-	"bs-configmanager-discardchanges": "Απόρριψη των αλλαγών;",
 	"bs-configmanager-noentry": "Δεν βρέθηκε καταχώρηση",
 	"apihelp-bs-configmanager-tasks-summary": "Διαχείριση εργασιών",
 	"apihelp-bs-configmanager-store-summary": "Διαχείριση καταστημάτων"

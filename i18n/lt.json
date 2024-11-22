@@ -10,7 +10,6 @@
 	"bluespiceconfigmanager": "Konfigūracijos tvarkyklė",
 	"bs-configmanager-text": "Konfigūracija",
 	"bs-configmanager-desc": "Siūlo galimybę administratoriams konfigūruoti visą viki iš vieno SpecialausPuslapio",
-	"bs-configmanager-discardchanges": "Atsisakyti pakeitimų?",
 	"bs-configmanager-noentry": "Įrašas nerastas",
 	"apihelp-bs-configmanager-tasks-summary": "Tvarkyti užduotis",
 	"right-bluespiceconfigmanager-viewspecialpage": "Prieiti prie specialaus puslapio [[Special:BlueSpiceConfigManager]]",

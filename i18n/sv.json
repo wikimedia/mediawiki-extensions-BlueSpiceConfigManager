@@ -14,7 +14,6 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "visa specialsidan \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Konfigurationshanterare",
 	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
-	"bs-configmanager-discardchanges": "Ignorera ändringarna?",
 	"bs-configmanager-noentry": "Ingen post hittades",
 	"bs-configmanager-search": "Sök",
 	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",

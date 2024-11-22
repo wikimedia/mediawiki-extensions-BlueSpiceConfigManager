@@ -14,7 +14,6 @@
 	"bluespiceconfigmanager": "組態管理工具",
 	"bs-configmanager-text": "組態",
 	"bs-configmanager-desc": "為管理員提供可從一個特定頁面來設置整個 wiki",
-	"bs-configmanager-discardchanges": "放棄變更？",
 	"bs-configmanager-noentry": "查無項目",
 	"apihelp-bs-configmanager-tasks-summary": "管理任務",
 	"apihelp-bs-configmanager-store-summary": "管理儲存",

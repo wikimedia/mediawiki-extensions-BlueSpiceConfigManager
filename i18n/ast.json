@@ -9,7 +9,6 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "ver la páxina especial «{{int:bluespicepreferences}}»",
 	"bluespiceconfigmanager": "Xestor de configuración",
 	"bs-configmanager-desc": "Da a los alministradores la posibilidá de configurar tola wiki dende una sola páxina especial",
-	"bs-configmanager-discardchanges": "¿Descartar los cambeos?",
 	"bs-configmanager-noentry": "Nun s'atopó nenguna entrada",
 	"apihelp-bs-configmanager-tasks-summary": "Alministrar xeres",
 	"apihelp-bs-configmanager-store-summary": "Alministrar almacenes",

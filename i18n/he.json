@@ -12,7 +12,6 @@
 	"bluespiceconfigmanager": "ניהול הגדרות תצורה",
 	"bs-configmanager-text": "תצורה",
 	"bs-configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
-	"bs-configmanager-discardchanges": "למחוק את השינויים?",
 	"bs-configmanager-noentry": "לא נמצא ערך",
 	"bs-configmanager-mainpath": "מצב התצוגה",
 	"bs-configmanager-search": "חיפוש",
