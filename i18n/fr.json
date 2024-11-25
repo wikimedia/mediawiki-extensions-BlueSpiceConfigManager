@@ -6,6 +6,7 @@
 			"Eihel",
 			"Gomoko",
 			"Iketsi",
+			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -26,5 +27,7 @@
 	"log-description-bs-config-manager": "Modifications du journal dans le gestionnaire de configuration.",
 	"log-show-hide-bs-config-manager": "Journal du gestionnaire de configuration $1",
 	"logeventslist-bs-config-manager-log": "Journal du gestionnaire de configuration",
-	"logentry-bs-config-manager-modify": "$1 a modifié le paramètre $4 de $5 en $6"
+	"logentry-bs-config-manager-modify": "$1 a modifié le paramètre $4 de $5 en $6",
+	"bs-configmanager-discard-open-changes": "Il y a des modifications non enregistrées. Annuler les modifications en cours ?",
+	"bs-configmanager-notify-configuration-saved": "Configuration enregistrée"
 }
