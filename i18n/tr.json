@@ -11,7 +11,6 @@
 	"bluespiceconfigmanager": "Yapılandırma Yöneticisi",
 	"bs-configmanager-text": "Yapılandırma",
 	"bs-configmanager-desc": "Yöneticilere, tüm wikiyi tek bir özel sayfadan yapılandırma imkanı sunar.",
-	"bs-configmanager-discardchanges": "Değişiklikleri gözardı edilsin mi?",
 	"bs-configmanager-noentry": "Giriş bulunamadı",
 	"apihelp-bs-configmanager-tasks-summary": "Görevleri yönet",
 	"apihelp-bs-configmanager-store-summary": "Mağazaları yönet",

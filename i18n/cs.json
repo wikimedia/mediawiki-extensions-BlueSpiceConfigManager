@@ -8,6 +8,5 @@
 	"bs-bluespiceconfigmanager-admintool-label": "Nastavit manažera",
 	"action-bluespiceconfigmanager-viewspecialpage": "Zobrazit speciální stránku \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Konfigurační manažer",
-	"bs-configmanager-discardchanges": "Zahodit změny?",
 	"bs-configmanager-noentry": "Žádný záznam nenalezen"
 }

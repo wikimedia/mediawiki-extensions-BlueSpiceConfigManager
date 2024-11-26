@@ -10,7 +10,6 @@
 	"bluespiceconfigmanager": "Gestor da configuração",
 	"bs-configmanager-text": "Configuração",
 	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
-	"bs-configmanager-discardchanges": "Descartar mudanças?",
 	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
 	"bs-configmanager-mainpath": "Modo de apresentação",
 	"bs-configmanager-search": "Pesquisar",

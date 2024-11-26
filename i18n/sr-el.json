@@ -7,7 +7,6 @@
 	"bluespiceconfigmanager": "Menadžer konfiguracije",
 	"bs-configmanager-text": "Konfiguracija",
 	"bs-configmanager-desc": "Pruža mogućost administratorima, da konfigurišu ceo viki iz jedne specijalne stranice",
-	"bs-configmanager-discardchanges": "Odbaci promene?",
 	"bs-configmanager-noentry": "Nisu pronađeni unosi",
 	"apihelp-bs-configmanager-tasks-summary": "Upravljaj zadacima",
 	"apihelp-bs-configmanager-store-summary": "Upravljaj prodavnicama",

@@ -17,7 +17,6 @@
 	"bluespiceconfigmanager": "配置管理器",
 	"bs-configmanager-text": "配置",
 	"bs-configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
-	"bs-configmanager-discardchanges": "放弃更改么？",
 	"bs-configmanager-noentry": "找不到记录",
 	"bs-configmanager-mainpath": "查看模式",
 	"bs-configmanager-search": "搜索",

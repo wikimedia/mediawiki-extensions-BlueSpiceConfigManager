@@ -14,7 +14,6 @@
 	"bluespiceconfigmanager": "Configuratiebeheer",
 	"bs-configmanager-text": "Instellingen",
 	"bs-configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
-	"bs-configmanager-discardchanges": "Wijzigingen negeren?",
 	"bs-configmanager-noentry": "Geen vermelding gevonden",
 	"bs-configmanager-mainpath": "Bekijk modus",
 	"bs-configmanager-search": "Zoeken",
@@ -25,5 +24,7 @@
 	"log-description-bs-config-manager": "Logwijzigingen in configuratiebeheer.",
 	"log-show-hide-bs-config-manager": "$1 log configuratiebeheer",
 	"logeventslist-bs-config-manager-log": "Log configuratiebeheer",
-	"logentry-bs-config-manager-modify": "$1 gewijzigde instelling $4 van $5 naar $6"
+	"logentry-bs-config-manager-modify": "$1 gewijzigde instelling $4 van $5 naar $6",
+	"bs-configmanager-discard-open-changes": "Er zijn niet-opgeslagen wijzigingen. Openstaande wijzigingen weggooien?",
+	"bs-configmanager-notify-configuration-saved": "Instellingen opgeslagen"
 }

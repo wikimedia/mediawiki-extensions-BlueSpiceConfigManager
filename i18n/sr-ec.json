@@ -12,7 +12,6 @@
 	"bluespiceconfigmanager": "Менаџер конфигурације",
 	"bs-configmanager-text": "Конфигурација",
 	"bs-configmanager-desc": "Пружа могућост администраторима, да конфигуришу цео вики из једне специјалне странице",
-	"bs-configmanager-discardchanges": "Одбаци промене?",
 	"bs-configmanager-noentry": "Нису пронађени уноси",
 	"bs-configmanager-mainpath": "Прикажи још",
 	"apihelp-bs-configmanager-tasks-summary": "Управљај задацима",
