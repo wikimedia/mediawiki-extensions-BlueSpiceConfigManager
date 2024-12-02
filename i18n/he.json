@@ -22,5 +22,7 @@
 	"log-description-bs-config-manager": "שינויים ביומן ניהול תצורה.",
 	"log-show-hide-bs-config-manager": "יומן ניהול תצורת $1",
 	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה",
-	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6"
+	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6",
+	"bs-configmanager-discard-open-changes": "יש שינויים שלא נשמרו. לזרוק את השינויים הפתוחים?",
+	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה"
 }
