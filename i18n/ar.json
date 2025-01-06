@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"ديفيد"
+			"ديفيد",
+			"Cigaryno"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "مدير التهيئة",
@@ -12,6 +13,7 @@
 	"bs-configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
 	"bs-configmanager-discardchanges": "تجاهل التغييرات؟",
 	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
+	"bs-configmanager-search": "ابحث",
 	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
 	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر",
 	"right-bluespiceconfigmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceConfigManager]].",
