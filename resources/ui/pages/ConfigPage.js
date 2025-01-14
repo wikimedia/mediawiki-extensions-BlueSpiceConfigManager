@@ -76,8 +76,9 @@ bs.configmanager.ui.pages.ConfigPage.prototype.setupWidget = function () {
 
 bs.configmanager.ui.pages.ConfigPage.prototype.infuseWidgets = function( content ) {
 	for ( let field in this.oouiWidgets ) {
+		let widgetId = 'unknown';
 		try {
-			let widgetId = this.oouiWidgets[field];
+			widgetId = this.oouiWidgets[field];
 			let widget = OO.ui.infuse( $( content ).find( '#' + widgetId ) );
 
 			const parent = document.querySelectorAll(
@@ -90,7 +91,7 @@ bs.configmanager.ui.pages.ConfigPage.prototype.infuseWidgets = function( content
 				this.emit( 'change' );
 			}.bind( this ) );
 		 } catch( e ) {
-			console.log( 'Widget with id "' + widgetId + '" could not be infused' );
+			console.error( 'Widget with id "' + widgetId + '" could not be infused', e );
 			continue;
 		}
 	}
