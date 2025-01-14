@@ -12,6 +12,7 @@
 	"bs-configmanager-text": "ترتيب",
 	"bs-configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
 	"bs-configmanager-noentry": "لم يتم العثور على إدخال",
+	"bs-configmanager-mainpath": "وضع العرض",
 	"bs-configmanager-search": "ابحث",
 	"apihelp-bs-configmanager-tasks-summary": "إدارة المهام",
 	"apihelp-bs-configmanager-store-summary": "إدارة المتاجر",
@@ -21,5 +22,6 @@
 	"log-show-hide-bs-config-manager": "سجل مدير التكوين $1",
 	"logeventslist-bs-config-manager-log": "سجل مدير التكوين",
 	"logentry-bs-config-manager-modify": "غيّر $1 إعداد $4 $5 $6",
+	"bs-configmanager-discard-open-changes": "هناك تغييرات غير محفوظة. هل تريد تجاهل التغييرات المفتوحة؟",
 	"bs-configmanager-notify-configuration-saved": "حُفظت الإعدادات"
 }
