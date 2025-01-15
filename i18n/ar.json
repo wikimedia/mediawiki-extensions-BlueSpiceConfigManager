@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cigaryno",
 			"Meno25",
-			"ديفيد",
-			"Cigaryno"
+			"ديفيد"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "مدير التهيئة",
@@ -22,5 +22,7 @@
 	"log-description-bs-config-manager": "سجل التغييرات في مدير التكوين.",
 	"log-show-hide-bs-config-manager": "سجل مدير التكوين $1",
 	"logeventslist-bs-config-manager-log": "سجل مدير التكوين",
-	"logentry-bs-config-manager-modify": "غيّر $1 إعداد $4 $5 $6"
+	"logentry-bs-config-manager-modify": "غيّر $1 إعداد $4 $5 $6",
+	"bs-configmanager-discard-open-changes": "هناك تغييرات غير محفوظة. هل تريد تجاهل التغييرات المفتوحة؟",
+	"bs-configmanager-notify-configuration-saved": "حُفظت الإعدادات"
 }

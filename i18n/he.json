@@ -23,5 +23,7 @@
 	"log-show-hide-bs-config-manager": "יומן ניהול תצורת $1",
 	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6",
 	"bs-configmanager-mainpath": "מצב התצוגה",
-	"bs-configmanager-search": "חיפוש"
+	"bs-configmanager-search": "חיפוש",
+	"bs-configmanager-discard-open-changes": "יש שינויים שלא נשמרו. לזרוק את השינויים הפתוחים?",
+	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה"
 }
