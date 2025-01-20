@@ -18,6 +18,8 @@
 	"bs-configmanager-desc": "Permite a los administradores configurar toda la wiki desde una única página especial",
 	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
 	"bs-configmanager-noentry": "No se encontró ninguna entrada",
+	"bs-configmanager-mainpath": "Ruta principal",
+	"bs-configmanager-search": "Buscar",
 	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
 	"apihelp-bs-configmanager-store-summary": "Administrar roles",
 	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]",
@@ -25,7 +27,5 @@
 	"log-description-bs-config-manager": "Registrar los cambios en el gestor de configuración.",
 	"log-show-hide-bs-config-manager": "$1 registro del administrador de configuración",
 	"logeventslist-bs-config-manager-log": "Registro del administrador de la configuración",
-	"logentry-bs-config-manager-modify": "$1 cambio de configuración $4 desde $5 a $6",
-	"bs-configmanager-search": "Buscar",
-	"bs-configmanager-mainpath": "Ruta principal"
+	"logentry-bs-config-manager-modify": "$1 cambio de configuración $4 desde $5 a $6"
 }

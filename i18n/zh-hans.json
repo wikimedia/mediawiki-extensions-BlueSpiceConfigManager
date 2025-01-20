@@ -19,14 +19,14 @@
 	"bs-configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
 	"bs-configmanager-discardchanges": "放弃更改么？",
 	"bs-configmanager-noentry": "找不到记录",
+	"bs-configmanager-mainpath": "查看模式",
+	"bs-configmanager-search": "搜索",
 	"apihelp-bs-configmanager-tasks-summary": "管理任务",
 	"apihelp-bs-configmanager-store-summary": "管理商店",
 	"right-bluespiceconfigmanager-viewspecialpage": "访问页面 [[Special:BlueSpiceConfigManager]] 的权限。",
-	"log-show-hide-bs-config-manager": "$1配置管理者日志",
-	"logeventslist-bs-config-manager-log": "配置管理者日志",
-	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6",
 	"log-name-bs-config-manager": "配置管理者日志",
 	"log-description-bs-config-manager": "记录配置管理中的更改。",
-	"bs-configmanager-search": "搜索",
-	"bs-configmanager-mainpath": "查看模式"
+	"log-show-hide-bs-config-manager": "$1配置管理者日志",
+	"logeventslist-bs-config-manager-log": "配置管理者日志",
+	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6"
 }

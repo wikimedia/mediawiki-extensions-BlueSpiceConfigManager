@@ -12,6 +12,8 @@
 	"bs-configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
 	"bs-configmanager-discardchanges": "Forkaste endringer?",
 	"bs-configmanager-noentry": "Ingen post funnet",
+	"bs-configmanager-mainpath": "Visningsmodus",
+	"bs-configmanager-search": "Søk",
 	"apihelp-bs-configmanager-tasks-summary": "Behandle oppgaver",
 	"apihelp-bs-configmanager-store-summary": "Behandle lagringer",
 	"right-bluespiceconfigmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceConfigManager]].",
@@ -19,7 +21,5 @@
 	"log-description-bs-config-manager": "Loggendringer i konfigurasjonsbehandleren.",
 	"log-show-hide-bs-config-manager": "$1 konfigurasjonsbehandlingslogg",
 	"logeventslist-bs-config-manager-log": "Konfigurasjonsbehandlingslogg",
-	"logentry-bs-config-manager-modify": "$1 endret innstillingen $4 fra $5 til $6",
-	"bs-configmanager-mainpath": "Visningsmodus",
-	"bs-configmanager-search": "Søk"
+	"logentry-bs-config-manager-modify": "$1 endret innstillingen $4 fra $5 til $6"
 }
