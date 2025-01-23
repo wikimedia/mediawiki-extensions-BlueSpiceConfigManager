@@ -3,6 +3,7 @@
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
+use MediaWiki\Context\IContextSource;
 
 class Store extends \BlueSpice\Data\Settings\Store {
 
@@ -14,7 +15,7 @@ class Store extends \BlueSpice\Data\Settings\Store {
 
 	/**
 	 *
-	 * @param \IContextSource $context
+	 * @param IContextSource $context
 	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
 	 * @param ConfigDefinitionFactory $factory
 	 */
