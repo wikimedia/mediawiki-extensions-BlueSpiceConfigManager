@@ -12,8 +12,8 @@ bs.configmanager.ui.toolbar.ConfigToolbar = function ( config ) {
 		{
 			name: 'modi',
 			type: 'menu',
-			header: 'Anzeigenmodus',
-			title: 'Anzeigenmodus',
+			header: mw.message( 'bs-configmanager-mainpath' ).plain(),
+			title: mw.message( 'bs-configmanager-mainpath' ).plain(),
 			promote: [ 'feature' ],
 			include: [ 'feature', 'extension', 'package' ]
 		},
