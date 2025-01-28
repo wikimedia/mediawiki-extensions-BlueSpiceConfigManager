@@ -18,7 +18,7 @@ class ConfigManager extends SpecialPage {
 	 * @inheritDoc
 	 */
 	public function execute( $param ) {
-		$this->setHeaders();
+		parent::execute( $param );
 		$this->getOutput()->addModuleStyles( [ 'ext.bluespice.configmanager.styles' ] );
 		$this->getOutput()->addModules(
 			'ext.bluespice.configmanager'
