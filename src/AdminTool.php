@@ -4,6 +4,7 @@ namespace BlueSpice\ConfigManager;
 
 use BlueSpice\IAdminTool;
 use MediaWiki\Message\Message;
+use MediaWiki\SpecialPage\SpecialPage;
 
 class AdminTool implements IAdminTool {
 
@@ -12,7 +13,7 @@ class AdminTool implements IAdminTool {
 	 * @return string
 	 */
 	public function getURL() {
-		$tool = \SpecialPage::getTitleFor( 'BlueSpiceConfigManager' );
+		$tool = SpecialPage::getTitleFor( 'BlueSpiceConfigManager' );
 		return $tool->getLocalURL();
 	}
 
