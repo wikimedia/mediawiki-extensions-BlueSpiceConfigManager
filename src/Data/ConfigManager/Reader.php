@@ -4,7 +4,6 @@ namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
 use BlueSpice\ConfigDefinitionFactory;
 use MediaWiki\Context\IContextSource;
-use MediaWiki\ContextIContextSource;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\LoadBalancer;
 
