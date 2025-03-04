@@ -1,11 +1,12 @@
 bs.util.registerNamespace( 'bs.configmanager.ui' );
 bs.util.registerNamespace( 'bs.configmanager.ui.pages' );
 
-bs.configmanager.ui.pages.ConfigPage = function ( name, label, configs ) {
+bs.configmanager.ui.pages.ConfigPage = function ( name, label, pathnames, configs ) {
 	bs.configmanager.ui.pages.ConfigPage.parent.call( this, name, {} );
 	this.label = label;
 	this.key = name;
 	this.configs = configs;
+	this.pathNames = pathnames;
 	this.htmlClassPrefix = 'bs-configmanager-configpanel-';
 	this.$element = $( '<div>' );
 	this.setupWidget();
@@ -53,7 +54,12 @@ bs.configmanager.ui.pages.ConfigPage.prototype.setupWidget = function () {
 				content += '<fieldset class="' + sectionClass + '" >';
 				if( sections[2] ) {
 					currentPath = sections[2];
-					content += '<legend>' + currentPath + '</legend>';
+					if ( this.pathNames[ currentPath ] ) {
+						var label = mw.message( this.pathNames[ currentPath ] ).text();
+						content += '<legend>' + label + '</legend>';
+					} else {
+						content += '<legend>' + currentPath + '</legend>';
+					}
 				}
 			}
 		}.bind( this ) );
