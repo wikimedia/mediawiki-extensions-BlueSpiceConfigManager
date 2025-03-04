@@ -119,7 +119,7 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 		var label = pages[ page ].label;
 
 		let configPage = new bs.configmanager.ui.pages.ConfigPage(
-			key, label, activeRecords
+			key, label, this.pathnames, activeRecords
 		);
 		configPage.connect( this, {
 			change: 'onOpenChange'
