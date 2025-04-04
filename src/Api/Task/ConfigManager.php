@@ -28,7 +28,7 @@ class ConfigManager extends \BSApiTasksBase {
 	/**
 	 * Returns an array of tasks and their required permissions
 	 * array('taskname' => array('read', 'edit'))
-	 * @return type
+	 * @return array
 	 */
 	protected function getRequiredTaskPermissions() {
 		return [
@@ -42,7 +42,7 @@ class ConfigManager extends \BSApiTasksBase {
 	 * @param array $aParams
 	 * @return Standard
 	 */
-	public function task_save( $taskData, $aParams ) {
+	public function task_save( $taskData, $aParams ) { // phpcs:ignore MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName, Generic.Files.LineLength.TooLong
 		$result = $this->makeStandardReturn();
 		$records = [];
 		$factory = $this->services->getService( 'BSConfigDefinitionFactory' );

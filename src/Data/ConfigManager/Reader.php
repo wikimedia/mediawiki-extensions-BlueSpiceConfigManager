@@ -21,8 +21,9 @@ class Reader extends \BlueSpice\Data\Settings\Reader {
 	 * @param LoadBalancer $loadBalancer
 	 * @param IContextSource|null $context
 	 */
-	public function __construct( ConfigDefinitionFactory $factory, $loadBalancer,
-		IContextSource $context = null ) {
+	public function __construct(
+		ConfigDefinitionFactory $factory, $loadBalancer, ?IContextSource $context = null
+	) {
 		parent::__construct( $loadBalancer, $context );
 		$this->factory = $factory;
 	}
