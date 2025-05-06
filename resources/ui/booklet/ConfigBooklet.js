@@ -1,6 +1,6 @@
 bs.util.registerNamespace( 'bs.configmanager.ui.booklet' );
 
-require( '../widget/OutlineSelectWidget.js' )
+require( '../widget/OutlineSelectWidget.js' );
 
 bs.configmanager.ui.booklet.ConfigBooklet = function ( cfg ) {
 	cfg = cfg || {};
