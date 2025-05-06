@@ -23,7 +23,7 @@ bs.configmanager.ui.toolbar.ConfigToolbar = function ( config ) {
 			classes: [ 'toolbar-actions' ],
 			include: [ 'reset', 'save' ],
 			align: 'after'
-		},
+		}
 	] );
 
 	this.initialize();
