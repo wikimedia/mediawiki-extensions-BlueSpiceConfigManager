@@ -2,16 +2,16 @@
 
 namespace BlueSpice\ConfigManager\Data\ConfigManager;
 
+use BlueSpice\ConfigDefinition\SecretSetting;
 use BlueSpice\ConfigDefinitionFactory;
 use MediaWiki\Message\Message;
-use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\IDatabase;
 
 class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
 	/**
 	 *
-	 * @var ReaderParams
+	 * @var CMReaderParams
 	 */
 	protected $readerParams = null;
 
@@ -33,7 +33,7 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
 	/**
 	 *
-	 * @param ReaderParams $params
+	 * @param CMReaderParams $params
 	 * @return array
 	 */
 	public function makeData( $params ) {
@@ -72,7 +72,8 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 		$this->data[] = new Record( (object)[
 			Record::NAME => $row->{Record::NAME},
 			Record::VAR_NAME => $cfgDfn->getVariableName(),
-			Record::VALUE => $cfgDfn->getValue(),
+			Record::VALUE => $cfgDfn instanceof SecretSetting && $this->readerParams->isForPublic() ?
+				$cfgDfn->makeSecretValue() : $cfgDfn->getValue(),
 			Record::LABEL => Message::newFromKey( $cfgDfn->getLabelMessageKey() )->plain(),
 			Record::PATHS => $cfgDfn->getPaths(),
 		] );
