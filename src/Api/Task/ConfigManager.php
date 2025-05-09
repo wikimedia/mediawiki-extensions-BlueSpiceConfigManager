@@ -3,6 +3,8 @@
 namespace BlueSpice\ConfigManager\Api\Task;
 
 use BlueSpice\Api\Response\Standard;
+use BlueSpice\ConfigDefinition\SecretSetting;
+use BlueSpice\ConfigManager\Data\ConfigManager\CMReaderParams;
 use BlueSpice\ConfigManager\Data\ConfigManager\Record;
 use BlueSpice\ConfigManager\Data\ConfigManager\Store as ConfigManagerStore;
 use BlueSpice\Context;
@@ -50,6 +52,13 @@ class ConfigManager extends \BSApiTasksBase {
 			$field = $factory->factory( $cfgName );
 			if ( !$field ) {
 				continue;
+			}
+
+			if ( $field instanceof SecretSetting ) {
+				if ( str_starts_with( $value, SecretSetting::SECRET_VALUE ) ) {
+					$value = $this->getCurrentValue( $field->getName(), '' );
+				}
+
 			}
 			$record = new Record( (object)[
 				Record::NAME => $field->getName(),
@@ -117,22 +126,11 @@ class ConfigManager extends \BSApiTasksBase {
 		$changes = [];
 		foreach ( $records as $record ) {
 			$recordName = $record->get( Record::NAME );
-			$originalRecordSet = $this->getCMStore()->getReader()->read(
-				new ReaderParams( [
-					ReaderParams::PARAM_FILTER => [
-						[
-							'type' => 'string',
-							'field' => Record::NAME,
-							'value' => $recordName,
-							'comparison' => StringValue::COMPARISON_EQUALS
-						]
-					]
-				] )
-			);
-			$originalRecords = $originalRecordSet->getRecords();
+			$originalValue = $this->getCurrentValue( $recordName );
 			$recordValue = $record->get( Record::VALUE );
-			$originalValue = !empty( $originalRecords ) ?
-				$originalRecords[0]->get( Record::VALUE ) : null;
+			if ( str_starts_with( $recordValue, SecretSetting::SECRET_VALUE ) ) {
+				continue;
+			}
 			if ( $originalValue !== $recordValue ) {
 				$changes[$recordName] = [
 					'configName' => $recordName,
@@ -206,5 +204,29 @@ class ConfigManager extends \BSApiTasksBase {
 	 */
 	private function logExcludeList(): array {
 		return $this->getContext()->getConfig()->get( 'ConfigManagerLogExcludeList' );
+	}
+
+	/**
+	 * @param string $name
+	 * @param mixed $default
+	 * @return mixed|null
+	 */
+	private function getCurrentValue( string $name, $default = null ) {
+		$originalRecordSet = $this->getCMStore()->getReader()->read(
+			new CMReaderParams( [
+				'forPublic' => false,
+				ReaderParams::PARAM_FILTER => [
+					[
+						'type' => 'string',
+						'field' => Record::NAME,
+						'value' => $name,
+						'comparison' => StringValue::COMPARISON_EQUALS
+					]
+				]
+			] )
+		);
+		$originalRecords = $originalRecordSet->getRecords();
+		return !empty( $originalRecords ) ?
+			$originalRecords[0]->get( Record::VALUE ) : $default;
 	}
 }
