@@ -116,6 +116,9 @@
 		},
 		"ext.bluespice.configmanager.messages": {
 			"class": "\\BlueSpice\\ConfigManager\\ResourceLoader\\Messages"
+		},
+		"ext.bluespice.configManager.skeleton": {
+			"styles": "bluespice.configmanager.skeleton.css"
 		}
 	},
 	"ResourceFileModulePaths": {
