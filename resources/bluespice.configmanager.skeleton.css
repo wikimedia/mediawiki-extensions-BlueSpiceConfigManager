@@ -1,0 +1,106 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 2rem;
+	border-radius: 12px;
+}
+
+.toolbar {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+	margin-bottom: 24px;
+}
+
+.skeleton {
+	background: linear-gradient( 90deg, #eee, #ddd, #eee );
+	background-size: 200% 100%;
+	animation: shimmer 1.5s infinite;
+	border-radius: 6px;
+}
+
+.config-cnt .skeleton {
+	margin: 10px 0;
+	height: 24px;
+}
+
+.toolbar .skeleton {
+	width: 52px;
+	height: 36px;
+	margin: 0 6px;
+}
+
+.toolbar .skeleton.left {
+	width: 92px;
+}
+
+.toolbar .right .skeleton {
+	display: inline-block;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -200% 0;
+	}
+
+	100% {
+		background-position: 200% 0;
+	}
+}
+
+.config-cnt {
+	display: flex;
+}
+
+.config-cnt .menu .skeleton {
+	margin: 20px 0;
+	height: 24px;
+}
+
+.toolbar,
+.search,
+.menu,
+.config {
+	margin-bottom: 24px;
+}
+
+.flex {
+	display: flex;
+}
+
+.config-box {
+	padding: 16px;
+	background: #fff;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+
+.menu {
+	width: 25%;
+	padding: 0 16px 16px;
+}
+
+.config {
+	flex: 1;
+}
+
+.skeleton.title {
+	height: 24px;
+	margin-bottom: 24px;
+}
+
+.skeleton.medium {
+	height: 16px;
+}
+
+.skeleton.small {
+	height: 12px;
+	width: 60%;
+}
+
+.skeleton.input {
+	height: 32px;
+	width: 100%;
+}
