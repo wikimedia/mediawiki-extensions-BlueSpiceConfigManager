@@ -13,6 +13,9 @@
 
 		configManager.connect( this, {
 			loaded: function () {
+				if ( $( document ).find( '#bs-configManager-skeleton-cnt' ) ) {
+					$( '#bs-configManager-skeleton-cnt' ).empty();
+				}
 				let floatingToolbar = false;
 				const offsetHeight = offset.offset;
 				const $toolbar = $( '.bs-configmanager-toolbar' );
