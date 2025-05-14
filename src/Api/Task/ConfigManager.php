@@ -128,7 +128,7 @@ class ConfigManager extends \BSApiTasksBase {
 			$recordName = $record->get( Record::NAME );
 			$originalValue = $this->getCurrentValue( $recordName );
 			$recordValue = $record->get( Record::VALUE );
-			if ( str_starts_with( $recordValue, SecretSetting::SECRET_VALUE ) ) {
+			if ( is_string( $recordValue ) && str_starts_with( $recordValue, SecretSetting::SECRET_VALUE ) ) {
 				continue;
 			}
 			if ( $originalValue !== $recordValue ) {
