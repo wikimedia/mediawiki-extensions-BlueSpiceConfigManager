@@ -89,6 +89,9 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 		classes: [ 'bs-configmanager-panel-booklet' ]
 	} );
 	this.bookletLayout.connect( this, {
+		select: function ( item ) {
+			this.selectedPage = item.data;
+		},
 		keep: function ( item ) {
 			OO.ui.confirm( mw.message( 'bs-configmanager-discard-open-changes' ).text() )
 				.done( ( confirmed ) => {
@@ -127,8 +130,14 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 		configPages.push( configPage );
 	}
 	this.bookletLayout.addPages( configPages );
-	this.bookletLayout.selectFirstSelectablePage();
-	this.selectedPage = this.bookletLayout.getCurrentPage();
+
+	if ( !this.selectedPage ) {
+		this.bookletLayout.selectFirstSelectablePage();
+		this.selectedPage = this.bookletLayout.getCurrentPage();
+	} else {
+		this.bookletLayout.setPage( this.selectedPage );
+	}
+
 	this.$content.append( this.bookletLayout.$element );
 	for ( const i in configPages ) {
 		const currentPage = configPages[ i ];
@@ -164,6 +173,7 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupToolbar = function () {
 	this.toolbar = new bs.configmanager.ui.toolbar.ConfigToolbar();
 	this.toolbar.connect( this, {
 		reset: function () {
+			this.selectedPage = this.bookletLayout.getCurrentPage();
 			this.store.reload();
 		},
 		mode: function ( mode ) {
