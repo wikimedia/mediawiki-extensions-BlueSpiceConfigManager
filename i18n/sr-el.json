@@ -9,6 +9,7 @@
 	"bs-configmanager-desc": "Pruža mogućost administratorima, da konfigurišu ceo viki iz jedne specijalne stranice",
 	"bs-configmanager-discardchanges": "Odbaci promene?",
 	"bs-configmanager-noentry": "Nisu pronađeni unosi",
+	"bs-configmanager-mainpath": "Prikaži još",
 	"apihelp-bs-configmanager-tasks-summary": "Upravljaj zadacima",
 	"apihelp-bs-configmanager-store-summary": "Upravljaj prodavnicama",
 	"right-bluespiceconfigmanager-viewspecialpage": "pristup posebnoj stranici [[Special:BlueSpiceConfigManager]]"
