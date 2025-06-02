@@ -4,6 +4,9 @@
 			"Krisztina"
 		]
 	},
+	"bs-bluespiceconfigmanager-admintool-label": "Konfiguráció menedzser",
+	"action-bluespiceconfigmanager-viewspecialpage": "„{{int:bluespiceconfigmanager}}” speciális lapok megtekintése",
+	"bluespiceconfigmanager": "Konfiguráció menedzser",
 	"bs-configmanager-text": "Beállítások",
 	"bs-configmanager-desc": "Lehetőséget kínál az adminoknak, hogy a teljes wikit egyetlen speciális lapról konfigurálják.",
 	"bs-configmanager-noentry": "Nem található bejegyzés",
