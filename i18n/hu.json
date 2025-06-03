@@ -19,5 +19,6 @@
 	"log-show-hide-bs-config-manager": "$1 konfigurációkezelő napló",
 	"logeventslist-bs-config-manager-log": "Konfigurációkezelő napló",
 	"logentry-bs-config-manager-modify": "$1 módosította $4 beállítást erről: $5 erre: $6",
-	"bs-configmanager-discard-open-changes": "Vannak nem mentett módosítások. Elveted a módosításokat?"
+	"bs-configmanager-discard-open-changes": "Vannak nem mentett módosítások. Elveted a módosításokat?",
+	"bs-configmanager-notify-configuration-saved": "Konfiguráció mentve"
 }
