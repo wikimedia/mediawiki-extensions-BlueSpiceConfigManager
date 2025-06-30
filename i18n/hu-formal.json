@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-configmanager-discard-open-changes": "Vannak nem mentett módosítások. Elveti a módosításokat?"
+}

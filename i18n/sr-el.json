@@ -10,5 +10,6 @@
 	"bs-configmanager-noentry": "Nisu pronađeni unosi",
 	"apihelp-bs-configmanager-tasks-summary": "Upravljaj zadacima",
 	"apihelp-bs-configmanager-store-summary": "Upravljaj prodavnicama",
-	"right-bluespiceconfigmanager-viewspecialpage": "pristup posebnoj stranici [[Special:BlueSpiceConfigManager]]"
+	"right-bluespiceconfigmanager-viewspecialpage": "pristup posebnoj stranici [[Special:BlueSpiceConfigManager]]",
+	"bs-configmanager-mainpath": "Prikaži još"
 }
