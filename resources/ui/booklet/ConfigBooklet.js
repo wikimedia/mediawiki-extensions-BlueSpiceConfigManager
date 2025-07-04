@@ -19,3 +19,9 @@ bs.configmanager.ui.booklet.ConfigBooklet = function ( cfg ) {
 };
 
 OO.inheritClass( bs.configmanager.ui.booklet.ConfigBooklet, OO.ui.BookletLayout );
+
+bs.configmanager.ui.booklet.ConfigBooklet.prototype.onOutlineSelectWidgetSelect = function ( item ) {
+	bs.configmanager.ui.booklet.ConfigBooklet.super.prototype.onOutlineSelectWidgetSelect.call( this, item );
+
+	this.emit( 'select', item );
+};
