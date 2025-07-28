@@ -1,9 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
-	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde huna única páxina especial",
-	"bs-configmanager-discardchanges": "Descartar as modificacións?"
+	"bs-bluespiceconfigmanager-admintool-label": "Xestor de configuración",
+	"action-bluespiceconfigmanager-viewspecialpage": "ver a páxina especial «{{int:bluespiceconfigmanager}}»",
+	"bluespiceconfigmanager": "Xestor de configuración",
+	"bs-configmanager-text": "Configuración",
+	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde unha única páxina especial",
+	"bs-configmanager-discardchanges": "Descartar as modificacións?",
+	"bs-configmanager-noentry": "Non se atopou ningunha entrada",
+	"bs-configmanager-mainpath": "Modo de visualización",
+	"bs-configmanager-search": "Procurar",
+	"apihelp-bs-configmanager-tasks-summary": "Xestionar as tarefas",
+	"apihelp-bs-configmanager-store-summary": "Xestionar os almacenamentos",
+	"right-bluespiceconfigmanager-viewspecialpage": "Acceso á páxina especial [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Rexistro do xestor de configuración",
+	"log-description-bs-config-manager": "Rexistrar os cambios no xestor de configuración.",
+	"log-show-hide-bs-config-manager": "$1 o rexistro do xestor de configuración",
+	"logeventslist-bs-config-manager-log": "Rexistro do xestor de configuración",
+	"logentry-bs-config-manager-modify": "$1 modificou o parámetro «$4» de «$5» a «$6»",
+	"bs-configmanager-discard-open-changes": "Hai cambios sen gardar. Queres descartar os cambios?",
+	"bs-configmanager-notify-configuration-saved": "Gardouse a configuración"
 }
