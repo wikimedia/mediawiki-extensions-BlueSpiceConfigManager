@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "Konfiguráció menedzser",
+	"action-bluespiceconfigmanager-viewspecialpage": "„{{int:bluespiceconfigmanager}}” speciális lapok megtekintése",
+	"bluespiceconfigmanager": "Konfiguráció menedzser",
+	"bs-configmanager-text": "Beállítások",
+	"bs-configmanager-desc": "Lehetőséget kínál az adminoknak, hogy a teljes wikit egyetlen speciális lapról konfigurálják.",
+	"bs-configmanager-noentry": "Nem található bejegyzés",
+	"bs-configmanager-mainpath": "Olvasási mód",
+	"bs-configmanager-search": "Keresés",
+	"apihelp-bs-configmanager-tasks-summary": "Feladatok kezelése",
+	"right-bluespiceconfigmanager-viewspecialpage": "Hozzáférés a [[Special:BlueSpiceConfigManager]] speciális laphoz",
+	"log-name-bs-config-manager": "Konfigurációkezelő napló",
+	"log-description-bs-config-manager": "A konfigurációkezelő változásait naplózza.",
+	"log-show-hide-bs-config-manager": "$1 konfigurációkezelő napló",
+	"logeventslist-bs-config-manager-log": "Konfigurációkezelő napló",
+	"logentry-bs-config-manager-modify": "$1 módosította $4 beállítást erről: $5 erre: $6",
+	"bs-configmanager-discard-open-changes": "Vannak nem mentett módosítások. Elveted a módosításokat?",
+	"bs-configmanager-notify-configuration-saved": "Konfiguráció mentve"
+}
