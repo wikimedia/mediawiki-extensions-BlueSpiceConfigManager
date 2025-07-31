@@ -30,5 +30,7 @@
 	"logeventslist-bs-config-manager-log": "Config manager log option label on [[Special:Log]]",
 	"logentry-bs-config-manager-modify": "Log message about changes in config manager.\nParameters:\n* $4 - name of the setting\n* $5 - original value of the setting\n* $6 - new value of the setting",
 	"bs-configmanager-discard-open-changes": "Text for confirm dialog which is shown if user leaves page without saving changes",
-	"bs-configmanager-notify-configuration-saved": "Label for notification that configuration was saved"
+	"bs-configmanager-notify-configuration-saved": "Label for notification that configuration was saved",
+	"bs-configmanager-toolbar-action-save-label": "Label for toolbar action to save config changes\n{{Identical:Save}}",
+	"bs-configmanager-toolbar-action-discard-label": "Label for toolbar action to discard open config changes\n{{Identical:Discard}}"
 }

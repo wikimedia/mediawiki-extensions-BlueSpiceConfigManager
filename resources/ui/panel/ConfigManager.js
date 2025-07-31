@@ -173,7 +173,7 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupToolbar = function () {
 	this.toolbar = new bs.configmanager.ui.toolbar.ConfigToolbar();
 	this.toolbar.connect( this, {
 		reset: function () {
-			this.selectedPage = this.bookletLayout.getCurrentPage();
+			this.selectedPage = this.bookletLayout.getCurrentPage().getName();
 			this.store.reload();
 		},
 		mode: function ( mode ) {
