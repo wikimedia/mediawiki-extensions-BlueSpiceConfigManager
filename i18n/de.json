@@ -27,5 +27,7 @@
 	"logeventslist-bs-config-manager-log": "Konfigurationsverwaltungs-Logbuch",
 	"logentry-bs-config-manager-modify": "$1 änderte die Einstellung für $4 von $5 zu $6",
 	"bs-configmanager-discard-open-changes": "Es gibt nicht gespeicherte Änderungen. Offene Änderungen verwerfen?",
-	"bs-configmanager-notify-configuration-saved": "Konfiguration gespeichert"
+	"bs-configmanager-notify-configuration-saved": "Konfiguration gespeichert",
+	"bs-configmanager-toolbar-action-save-label": "Speichern",
+	"bs-configmanager-toolbar-action-discard-label": "Verwerfen"
 }

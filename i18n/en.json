@@ -24,5 +24,7 @@
 	"logeventslist-bs-config-manager-log": "Configuration manager log",
 	"logentry-bs-config-manager-modify": "$1 changed setting $4 from $5 to $6",
 	"bs-configmanager-discard-open-changes": "There are unsaved changes. Discard open changes?",
-	"bs-configmanager-notify-configuration-saved": "Configuration saved"
+	"bs-configmanager-notify-configuration-saved": "Configuration saved",
+	"bs-configmanager-toolbar-action-save-label": "Save",
+	"bs-configmanager-toolbar-action-discard-label": "Discard"
 }

@@ -101,7 +101,9 @@
 				"bs-configmanager-mainpath",
 				"bs-configmanager-search",
 				"bs-configmanager-discard-open-changes",
-				"bs-configmanager-notify-configuration-saved"
+				"bs-configmanager-notify-configuration-saved",
+				"bs-configmanager-toolbar-action-save-label",
+				"bs-configmanager-toolbar-action-discard-label"
 			],
 			"dependencies": [
 				"ext.bluespice",

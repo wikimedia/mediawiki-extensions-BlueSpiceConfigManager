@@ -48,7 +48,7 @@ bs.configmanager.ui.toolbar.SaveTool = function () {
 OO.inheritClass( bs.configmanager.ui.toolbar.SaveTool, OO.ui.Tool );
 bs.configmanager.ui.toolbar.SaveTool.static.name = 'save';
 bs.configmanager.ui.toolbar.SaveTool.static.icon = '';
-bs.configmanager.ui.toolbar.SaveTool.static.title = 'Save';
+bs.configmanager.ui.toolbar.SaveTool.static.title = mw.message( 'bs-configmanager-toolbar-action-save-label' ).text();
 bs.configmanager.ui.toolbar.SaveTool.static.flags = [ 'primary', 'progressive' ];
 bs.configmanager.ui.toolbar.SaveTool.static.displayBothIconAndLabel = true;
 
@@ -66,7 +66,7 @@ bs.configmanager.ui.toolbar.ResetTool = function () {
 OO.inheritClass( bs.configmanager.ui.toolbar.ResetTool, OO.ui.Tool );
 bs.configmanager.ui.toolbar.ResetTool.static.name = 'reset';
 bs.configmanager.ui.toolbar.ResetTool.static.icon = '';
-bs.configmanager.ui.toolbar.ResetTool.static.title = 'Reset';
+bs.configmanager.ui.toolbar.ResetTool.static.title = mw.message( 'bs-configmanager-toolbar-action-discard-label' ).text();
 bs.configmanager.ui.toolbar.ResetTool.static.flags = [];
 bs.configmanager.ui.toolbar.ResetTool.static.displayBothIconAndLabel = true;
 bs.configmanager.ui.toolbar.ResetTool.prototype.onSelect = function () {
