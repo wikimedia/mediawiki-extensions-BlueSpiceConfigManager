@@ -22,5 +22,7 @@
 	"logeventslist-bs-config-manager-log": "Rexistro do xestor de configuración",
 	"logentry-bs-config-manager-modify": "$1 modificou o parámetro «$4» de «$5» a «$6»",
 	"bs-configmanager-discard-open-changes": "Hai cambios sen gardar. Queres descartar os cambios?",
-	"bs-configmanager-notify-configuration-saved": "Gardouse a configuración"
+	"bs-configmanager-notify-configuration-saved": "Gardouse a configuración",
+	"bs-configmanager-toolbar-action-save-label": "Gardar",
+	"bs-configmanager-toolbar-action-discard-label": "Desbotar"
 }
