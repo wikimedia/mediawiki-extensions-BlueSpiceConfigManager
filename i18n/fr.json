@@ -6,6 +6,7 @@
 			"Eihel",
 			"Gomoko",
 			"Iketsi",
+			"JLTRY",
 			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
@@ -30,5 +31,6 @@
 	"logeventslist-bs-config-manager-log": "Journal du gestionnaire de configuration",
 	"logentry-bs-config-manager-modify": "$1 a modifié le paramètre $4 de $5 en $6",
 	"bs-configmanager-discard-open-changes": "Il y a des modifications non enregistrées. Annuler les modifications en cours ?",
-	"bs-configmanager-notify-configuration-saved": "Configuration enregistrée"
+	"bs-configmanager-notify-configuration-saved": "Configuration enregistrée",
+	"bs-configmanager-toolbar-action-discard-label": "Abandonner"
 }
