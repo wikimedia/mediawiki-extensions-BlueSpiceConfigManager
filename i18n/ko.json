@@ -18,5 +18,7 @@
 	"log-show-hide-bs-config-manager": "구성 관리자 기록 $1",
 	"logeventslist-bs-config-manager-log": "구성 관리자 기록",
 	"logentry-bs-config-manager-modify": "$1님이 $4 설정을 $5 값에서 $6 값으로 변경함",
-	"bs-configmanager-notify-configuration-saved": "구성을 저장했습니다"
+	"bs-configmanager-notify-configuration-saved": "구성을 저장했습니다",
+	"bs-configmanager-toolbar-action-save-label": "저장",
+	"bs-configmanager-toolbar-action-discard-label": "버리기"
 }
