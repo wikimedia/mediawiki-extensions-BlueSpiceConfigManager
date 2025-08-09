@@ -24,5 +24,7 @@
 	"log-description-bs-config-manager": "Registro delle modifiche nel gestore delle configurazioni.",
 	"log-show-hide-bs-config-manager": "registro gestore delle configurazioni $1",
 	"logeventslist-bs-config-manager-log": "Registro gestore della configurazione",
-	"logentry-bs-config-manager-modify": "$1 ha modificato l'impostazione $4 da $5 a $6"
+	"logentry-bs-config-manager-modify": "$1 ha modificato l'impostazione $4 da $5 a $6",
+	"bs-configmanager-toolbar-action-save-label": "Salva",
+	"bs-configmanager-toolbar-action-discard-label": "Scarta"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "d'Spezialsäit \"{{int:bluespiceconfigmanager}}\" weisen",
-	"bs-configmanager-noentry": "Näischt fonnt"
+	"bs-configmanager-noentry": "Näischt fonnt",
+	"bs-configmanager-toolbar-action-save-label": "Späicheren"
 }

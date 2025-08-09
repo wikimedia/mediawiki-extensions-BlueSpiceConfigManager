@@ -21,5 +21,7 @@
 	"logeventslist-bs-config-manager-log": "Registro del gestor de configuration",
 	"logentry-bs-config-manager-modify": "$1 ha cambiate le parametro $4 de $5 a $6",
 	"bs-configmanager-discard-open-changes": "Il ha cambiamentos non salveguardate. Abandonar le cambiamentos in curso?",
-	"bs-configmanager-notify-configuration-saved": "Configuration salveguardate"
+	"bs-configmanager-notify-configuration-saved": "Configuration salveguardate",
+	"bs-configmanager-toolbar-action-save-label": "Salveguardar",
+	"bs-configmanager-toolbar-action-discard-label": "Discartar"
 }
