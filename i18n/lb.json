@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "d'Spezialsäit \"{{int:bluespiceconfigmanager}}\" weisen",
