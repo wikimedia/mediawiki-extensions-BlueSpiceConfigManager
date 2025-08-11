@@ -4,5 +4,7 @@
 			"Saraiki"
 		]
 	},
-	"bs-configmanager-search": "ڳولو"
+	"bs-configmanager-search": "ڳولو",
+	"bs-configmanager-toolbar-action-save-label": "سانبھو",
+	"bs-configmanager-toolbar-action-discard-label": "مُکاؤ"
 }
