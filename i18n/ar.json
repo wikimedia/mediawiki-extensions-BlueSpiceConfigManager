@@ -24,5 +24,7 @@
 	"bs-configmanager-mainpath": "وضع العرض",
 	"bs-configmanager-search": "ابحث",
 	"bs-configmanager-discard-open-changes": "هناك تغييرات غير محفوظة. هل تريد تجاهل التغييرات المفتوحة؟",
-	"bs-configmanager-notify-configuration-saved": "حُفظت الإعدادات"
+	"bs-configmanager-notify-configuration-saved": "حُفظت الإعدادات",
+	"bs-configmanager-toolbar-action-save-label": "حفظ",
+	"bs-configmanager-toolbar-action-discard-label": "تجاهل"
 }
