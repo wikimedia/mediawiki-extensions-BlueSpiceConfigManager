@@ -27,5 +27,7 @@
 	"bs-configmanager-mainpath": "Bekijk modus",
 	"bs-configmanager-search": "Zoeken",
 	"bs-configmanager-discard-open-changes": "Er zijn niet-opgeslagen wijzigingen. Openstaande wijzigingen weggooien?",
-	"bs-configmanager-notify-configuration-saved": "Instellingen opgeslagen"
+	"bs-configmanager-notify-configuration-saved": "Instellingen opgeslagen",
+	"bs-configmanager-toolbar-action-save-label": "Opslaan",
+	"bs-configmanager-toolbar-action-discard-label": "Weggooien"
 }
