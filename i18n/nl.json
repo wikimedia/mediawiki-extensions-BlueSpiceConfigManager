@@ -26,5 +26,7 @@
 	"logeventslist-bs-config-manager-log": "Log configuratiebeheer",
 	"logentry-bs-config-manager-modify": "$1 gewijzigde instelling $4 van $5 naar $6",
 	"bs-configmanager-discard-open-changes": "Er zijn niet-opgeslagen wijzigingen. Openstaande wijzigingen weggooien?",
-	"bs-configmanager-notify-configuration-saved": "Instellingen opgeslagen"
+	"bs-configmanager-notify-configuration-saved": "Instellingen opgeslagen",
+	"bs-configmanager-toolbar-action-save-label": "Opslaan",
+	"bs-configmanager-toolbar-action-discard-label": "Weggooien"
 }
