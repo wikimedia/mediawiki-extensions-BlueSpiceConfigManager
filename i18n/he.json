@@ -4,6 +4,7 @@
 			"Amire80",
 			"Avma",
 			"Guycn2",
+			"Neriah",
 			"Steeve815"
 		]
 	},
@@ -25,5 +26,7 @@
 	"bs-configmanager-mainpath": "מצב התצוגה",
 	"bs-configmanager-search": "חיפוש",
 	"bs-configmanager-discard-open-changes": "יש שינויים שלא נשמרו. לזרוק את השינויים הפתוחים?",
-	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה"
+	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה",
+	"bs-configmanager-toolbar-action-save-label": "שמירה",
+	"bs-configmanager-toolbar-action-discard-label": "ביטול"
 }
