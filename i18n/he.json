@@ -4,6 +4,7 @@
 			"Amire80",
 			"Avma",
 			"Guycn2",
+			"Neriah",
 			"Steeve815"
 		]
 	},
@@ -24,5 +25,7 @@
 	"logeventslist-bs-config-manager-log": "יומן ניהול תצורה",
 	"logentry-bs-config-manager-modify": "$1 {{GENDER:$1|שינה|שינתה}} את ההגדרה של $4 מהערך $5 לערך $6",
 	"bs-configmanager-discard-open-changes": "יש שינויים שלא נשמרו. לזרוק את השינויים הפתוחים?",
-	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה"
+	"bs-configmanager-notify-configuration-saved": "התצורה נשמרה",
+	"bs-configmanager-toolbar-action-save-label": "שמירה",
+	"bs-configmanager-toolbar-action-discard-label": "ביטול"
 }
