@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"ElangoRamanujam",
 			"Fahimrazick"
 		]
 	},
 	"bs-configmanager-mainpath": "முதன்மை வழி",
-	"bs-configmanager-search": "தேடு"
+	"bs-configmanager-search": "தேடு",
+	"bs-configmanager-toolbar-action-save-label": "சேமிக்கவும்"
 }
