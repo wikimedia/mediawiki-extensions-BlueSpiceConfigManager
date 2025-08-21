@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alien333",
+			"Derugon",
 			"DreZhsh",
 			"Eihel",
 			"Gomoko",
@@ -10,8 +11,7 @@
 			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92",
-			"Derugon"
+			"Wladek92"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Gestionnaire de configuration",

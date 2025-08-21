@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
+			"Mansil alfalb",
 			"Vitorvicentevalente"
 		]
 	},
@@ -20,5 +21,6 @@
 	"log-description-bs-config-manager": "Registar alterações no administrador da configuração.",
 	"log-show-hide-bs-config-manager": "$1 registo do administrador da configuração",
 	"logeventslist-bs-config-manager-log": "Registo do administrador da configuração",
-	"logentry-bs-config-manager-modify": "$1 alterou a definição $4 de $5 para $6"
+	"logentry-bs-config-manager-modify": "$1 alterou a definição $4 de $5 para $6",
+	"bs-configmanager-toolbar-action-save-label": "Guardar"
 }
