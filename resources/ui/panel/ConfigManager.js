@@ -131,7 +131,7 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 	}
 	this.bookletLayout.addPages( configPages );
 
-	if ( !this.selectedPage ) {
+	if ( !this.selectedPage || !configPages.includes( this.selectedPage ) ) {
 		this.bookletLayout.selectFirstSelectablePage();
 		this.selectedPage = this.bookletLayout.getCurrentPage();
 	} else {
