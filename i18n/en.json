@@ -7,7 +7,6 @@
 			"Daniel Riedmüller <daniel.riedmueller@hallowelt.com>"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Config manager",
 	"action-bluespiceconfigmanager-viewspecialpage": "view special page \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Config manager",
 	"bs-configmanager-text": "Configuration",

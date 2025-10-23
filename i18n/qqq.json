@@ -13,7 +13,6 @@
 			"Zoranzoki21"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Anchor text for the config manager.",
 	"action-bluespiceconfigmanager-viewspecialpage": "label for denied special page\n{{doc-action|bluespiceconfigmanager-viewspecialpage}}",
 	"bluespiceconfigmanager": "title label for special page",
 	"bs-configmanager-text": "Label for global actions\n\n{{Identical|Configuration}}",
