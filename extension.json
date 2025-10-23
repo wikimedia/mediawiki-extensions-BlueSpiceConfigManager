@@ -16,9 +16,6 @@
 					"extPath": "/BlueSpiceConfigManager"
 				}
 			},
-			"AdminToolRegistry": {
-				"bs-config-manager": "BlueSpice\\ConfigManager\\AdminTool"
-			},
 			"PermissionRegistry": {
 				"bluespiceconfigmanager-viewspecialpage": {
 					"type": "global",
