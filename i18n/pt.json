@@ -22,5 +22,8 @@
 	"log-show-hide-bs-config-manager": "$1 registo do administrador da configuração",
 	"logeventslist-bs-config-manager-log": "Registo do administrador da configuração",
 	"logentry-bs-config-manager-modify": "$1 alterou a definição $4 de $5 para $6",
-	"bs-configmanager-toolbar-action-save-label": "Guardar"
+	"bs-configmanager-toolbar-action-save-label": "Guardar",
+	"bs-configmanager-discard-open-changes": "Existem alterações não guardadas. Ignorar alterações abertas?",
+	"bs-configmanager-notify-configuration-saved": "Configuração guardada",
+	"bs-configmanager-toolbar-action-discard-label": "Rejeitar"
 }
