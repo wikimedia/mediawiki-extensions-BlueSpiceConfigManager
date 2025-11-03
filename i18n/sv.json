@@ -10,7 +10,6 @@
 			"WikiPhoenix"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationshanterare",
 	"action-bluespiceconfigmanager-viewspecialpage": "visa specialsidan \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Konfigurationshanterare",
 	"bs-configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",

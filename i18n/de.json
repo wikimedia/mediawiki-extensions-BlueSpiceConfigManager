@@ -9,7 +9,6 @@
 			"Vhoesl"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
 	"action-bluespiceconfigmanager-viewspecialpage": "die Spezialseite „{{int:bluespiceconfigmanager}}“ anzusehen",
 	"bluespiceconfigmanager": "Konfigurationsverwaltung",
 	"bs-configmanager-text": "Konfiguration",

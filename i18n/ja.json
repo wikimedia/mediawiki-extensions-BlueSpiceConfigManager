@@ -10,7 +10,6 @@
 			"背番号4のエース"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "コンフィグマネージャー",
 	"action-bluespiceconfigmanager-viewspecialpage": "特別ページ「{{int:bluespiceconfigmanager}}」の閲覧",
 	"bluespiceconfigmanager": "コンフィグマネージャー",
 	"bs-configmanager-text": "設定",

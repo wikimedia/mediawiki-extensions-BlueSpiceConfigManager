@@ -4,7 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuration",
 	"action-bluespiceconfigmanager-viewspecialpage": "vider le pagina special \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Gestor de configuration",
 	"bs-configmanager-text": "Configuration",

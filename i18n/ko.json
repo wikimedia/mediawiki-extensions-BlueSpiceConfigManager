@@ -5,7 +5,6 @@
 			"Ykhwong"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "구성 관리자",
 	"action-bluespiceconfigmanager-viewspecialpage": "특수문서 \"{{int:bluespiceconfigmanager}}\" 보기",
 	"bluespiceconfigmanager": "구성 관리자",
 	"bs-configmanager-text": "구성",

@@ -6,7 +6,6 @@
 			"SaldırganSincap"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Yapılandırma Yöneticisi",
 	"action-bluespiceconfigmanager-viewspecialpage": "özel sayfayı görüntüle \"{{int:bluespiceconfigmanager}}\"",
 	"bluespiceconfigmanager": "Yapılandırma Yöneticisi",
 	"bs-configmanager-text": "Yapılandırma",

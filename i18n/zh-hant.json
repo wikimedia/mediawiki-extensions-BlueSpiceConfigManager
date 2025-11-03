@@ -9,7 +9,6 @@
 			"Winston Sung"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "組態管理工具",
 	"action-bluespiceconfigmanager-viewspecialpage": "檢視特殊頁面「{{int:bluespicepreferences}}」",
 	"bluespiceconfigmanager": "組態管理工具",
 	"bs-configmanager-text": "組態",
