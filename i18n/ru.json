@@ -15,7 +15,6 @@
 			"Yurina Tatiana"
 		]
 	},
-	"bs-bluespiceconfigmanager-admintool-label": "Менеджер конфигурации",
 	"action-bluespiceconfigmanager-viewspecialpage": "просмотр специальной страницы «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Менеджер конфигурации",
 	"bs-configmanager-text": "Настройка",
