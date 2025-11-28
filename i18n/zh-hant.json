@@ -22,5 +22,11 @@
 	"log-description-bs-config-manager": "記錄組態管理的變動。",
 	"log-show-hide-bs-config-manager": "$1管理者日誌",
 	"logeventslist-bs-config-manager-log": "管理者日誌",
-	"logentry-bs-config-manager-modify": "$1將設定$4從$5更改成$6"
+	"logentry-bs-config-manager-modify": "$1將設定$4從$5更改成$6",
+	"bs-configmanager-mainpath": "檢視模式",
+	"bs-configmanager-search": "搜尋",
+	"bs-configmanager-discard-open-changes": "存在未儲存的變更。是否捨棄未儲存的變更？",
+	"bs-configmanager-notify-configuration-saved": "已儲存組態",
+	"bs-configmanager-toolbar-action-save-label": "儲存",
+	"bs-configmanager-toolbar-action-discard-label": "捨棄"
 }
