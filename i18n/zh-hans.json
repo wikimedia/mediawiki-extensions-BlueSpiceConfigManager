@@ -7,6 +7,7 @@
 			"Hwboehm",
 			"Lakejason0",
 			"Liuxinyu970226",
+			"Peterxy12",
 			"Qiyue2001",
 			"佛壁灯",
 			"科劳"
@@ -27,5 +28,9 @@
 	"log-description-bs-config-manager": "记录配置管理中的更改。",
 	"log-show-hide-bs-config-manager": "$1配置管理者日志",
 	"logeventslist-bs-config-manager-log": "配置管理者日志",
-	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6"
+	"logentry-bs-config-manager-modify": "$1将设置$4从$5更改为$6",
+	"bs-configmanager-discard-open-changes": "存在未保存的更改。是否舍弃未保存的更改？",
+	"bs-configmanager-notify-configuration-saved": "已保存配置",
+	"bs-configmanager-toolbar-action-save-label": "保存",
+	"bs-configmanager-toolbar-action-discard-label": "舍弃"
 }
