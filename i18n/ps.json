@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"شاه زمان پټان"
 		]
 	},
-	"bs-bluespicepreferences-label": "غوره توبونه"
+	"bs-bluespicepreferences-label": "غوره توبونه",
+	"bs-configmanager-toolbar-action-save-label": "خوندي‌کول",
+	"bs-configmanager-toolbar-action-discard-label": "پرېښودل"
 }

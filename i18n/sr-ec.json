@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"BadDog",
 			"Kizule",
 			"Milicevic01",
@@ -16,5 +17,8 @@
 	"apihelp-bs-configmanager-tasks-summary": "Управљај задацима",
 	"apihelp-bs-configmanager-store-summary": "Управљај продавницама",
 	"right-bluespiceconfigmanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceConfigManager]]",
-	"bs-configmanager-text": "Конфигурација"
+	"bs-configmanager-text": "Конфигурација",
+	"bs-configmanager-mainpath": "Прикажи још",
+	"bs-configmanager-toolbar-action-save-label": "Сачувај",
+	"bs-configmanager-toolbar-action-discard-label": "Одбаци"
 }

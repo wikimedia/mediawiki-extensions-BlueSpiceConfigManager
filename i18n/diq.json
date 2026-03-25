@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Mirzali"
 		]
 	},
-	"bs-bluespicepreferences-label": "Tercihi"
+	"bs-bluespicepreferences-label": "Tercihi",
+	"bs-configmanager-toolbar-action-save-label": "Qeyd ke"
 }

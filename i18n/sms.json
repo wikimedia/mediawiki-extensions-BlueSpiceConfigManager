@@ -5,6 +5,8 @@
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "ǩiččâd tuåimmseeid \"{{int:bluespiceconfigmanager}}\"",
-	"bs-configmanager-noentry": "Ni mâiʹd ij käunnʼjam",
-	"bs-configmanager-discardchanges": "Haaʹlääk-a ton muttsid tirššled?"
+	"bs-configmanager-noentry": "Ij käunnʼjam ni mii",
+	"bs-configmanager-discardchanges": "Haaʹlääk-a ton muttsid tirššled?",
+	"bs-configmanager-search": "Ooʒʒ",
+	"bs-configmanager-toolbar-action-save-label": "Ruõkk"
 }

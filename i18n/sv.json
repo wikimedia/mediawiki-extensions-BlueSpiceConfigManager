@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
+			"Josve05a",
 			"Lokal Profil",
 			"Mjälten",
 			"Sturban",
@@ -17,5 +18,6 @@
 	"bs-configmanager-noentry": "Ingen post hittades",
 	"apihelp-bs-configmanager-tasks-summary": "Hantera uppgifter",
 	"apihelp-bs-configmanager-store-summary": "Hantera roller",
-	"right-bluespiceconfigmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-search": "Sök"
 }

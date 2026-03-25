@@ -9,5 +9,12 @@
 	"bluespiceconfigmanager": "Конфигурацин менеджер",
 	"bs-configmanager-text": "Нисдаран гӀирс",
 	"bs-configmanager-discardchanges": "Йухабаха хийцамаш?",
-	"bs-configmanager-noentry": "ДӀайаздар цакарий"
+	"bs-configmanager-noentry": "ДӀайаздар цакарий",
+	"bs-configmanager-mainpath": "Хьажаран раж",
+	"bs-configmanager-search": "Лахар",
+	"apihelp-bs-configmanager-tasks-summary": "ТӀедилларан урхалла дар",
+	"apihelp-bs-configmanager-store-summary": "Лармин урхалла дар",
+	"right-bluespiceconfigmanager-viewspecialpage": "белхан [[Special:BlueSpiceConfigManager]] агӀонан тӀекхачар",
+	"log-name-bs-config-manager": "Конфигурацин менеджеран журнал",
+	"logeventslist-bs-config-manager-log": "Конфигурацин менеджеран журнал"
 }

@@ -22,6 +22,6 @@
 	"log-show-hide-bs-config-manager": "$1 dnevnik sprememb v upravitelju konfiguracije",
 	"logeventslist-bs-config-manager-log": "Dnevnik upravitelja konfiguracije",
 	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} nastavitev $4 s $5 na $6",
-	"bs-configmanager-mainpath": "Glavna pot",
+	"bs-configmanager-mainpath": "Način pogleda",
 	"bs-configmanager-search": "Iskanje"
 }

@@ -5,7 +5,8 @@
 			"Hwboehm",
 			"Metalhead64",
 			"Mschlindwein",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Vhoesl"
 		]
 	},
 	"bs-bluespiceconfigmanager-admintool-label": "Konfigurationsverwaltung",
@@ -23,6 +24,10 @@
 	"log-show-hide-bs-config-manager": "$1 Konfigurationsverwaltungs-Logbuch",
 	"logeventslist-bs-config-manager-log": "Konfigurationsverwaltungs-Logbuch",
 	"logentry-bs-config-manager-modify": "$1 änderte die Einstellung für $4 von $5 zu $6",
-	"bs-configmanager-mainpath": "Hauptpfad",
-	"bs-configmanager-search": "Suche"
+	"bs-configmanager-mainpath": "Anzeigemodus",
+	"bs-configmanager-search": "Suche",
+	"bs-configmanager-discard-open-changes": "Es gibt nicht gespeicherte Änderungen. Offene Änderungen verwerfen?",
+	"bs-configmanager-notify-configuration-saved": "Konfiguration gespeichert",
+	"bs-configmanager-toolbar-action-save-label": "Speichern",
+	"bs-configmanager-toolbar-action-discard-label": "Verwerfen"
 }
