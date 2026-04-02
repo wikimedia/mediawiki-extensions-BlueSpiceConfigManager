@@ -4,5 +4,6 @@
 			"Yupik"
 		]
 	},
-	"bs-configmanager-search": "Hae"
+	"bs-configmanager-search": "Hae",
+	"bs-configmanager-toolbar-action-save-label": "Tallenna"
 }
