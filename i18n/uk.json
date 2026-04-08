@@ -6,6 +6,7 @@
 			"Ice bulldog",
 			"Movses",
 			"Piramidion",
+			"Repakr",
 			"Samflint",
 			"Vlad5250",
 			"Ата"
@@ -16,6 +17,8 @@
 	"bs-configmanager-text": "Конфігурація",
 	"bs-configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
 	"bs-configmanager-noentry": "Жодного запису не знайдено",
+	"bs-configmanager-mainpath": "Режим перегляду",
+	"bs-configmanager-search": "Пошук",
 	"apihelp-bs-configmanager-tasks-summary": "Керувати завданнями",
 	"apihelp-bs-configmanager-store-summary": "Керувати сховищами",
 	"right-bluespiceconfigmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceConfigManager]]",
@@ -23,5 +26,9 @@
 	"log-description-bs-config-manager": "Журнал змін у менеджері конфігурацій.",
 	"log-show-hide-bs-config-manager": "$1 журнал менеджера конфігурації",
 	"logeventslist-bs-config-manager-log": "Журнал менеджера конфігурацій",
-	"logentry-bs-config-manager-modify": "$1 змінено налаштування $4 з $5 на $6"
+	"logentry-bs-config-manager-modify": "$1 змінено налаштування $4 з $5 на $6",
+	"bs-configmanager-discard-open-changes": "Є незбережені зміни. Відкинути відкриті зміни?",
+	"bs-configmanager-notify-configuration-saved": "Конфігурацію збережено",
+	"bs-configmanager-toolbar-action-save-label": "Зберегти",
+	"bs-configmanager-toolbar-action-discard-label": "Відкинути"
 }
