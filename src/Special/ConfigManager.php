@@ -9,14 +9,16 @@ use OOJSPlus\Special\OOJSSpecialPage;
 class ConfigManager extends OOJSSpecialPage {
 
 	public function __construct() {
-		parent::__construct(
-			'BlueSpiceConfigManager',
-			'bluespiceconfigmanager-viewspecialpage'
-		);
+		parent::__construct( 'BlueSpiceConfigManager' );
 
 		$this->templateParser = new TemplateParser(
 			dirname( __DIR__, 2 ) . '/resources/templates'
 		);
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'bluespiceconfigmanager-viewspecialpage';
 	}
 
 	/**
