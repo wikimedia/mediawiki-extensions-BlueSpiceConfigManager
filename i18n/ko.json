@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -10,6 +11,7 @@
 	"bs-configmanager-text": "구성",
 	"bs-configmanager-desc": "관리자가 하나의 특수 문서에서 위키 전체의 환경 설정을 수정할 수 있게 합니다",
 	"bs-configmanager-noentry": "항목을 찾을 수 없습니다",
+	"bs-configmanager-search": "검색",
 	"apihelp-bs-configmanager-tasks-summary": "태스크 관리",
 	"apihelp-bs-configmanager-store-summary": "스토어 관리",
 	"right-bluespiceconfigmanager-viewspecialpage": "[[Special:BlueSpiceConfigManager]] 특수 문서로 접근",
