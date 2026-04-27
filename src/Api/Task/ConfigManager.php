@@ -88,6 +88,7 @@ class ConfigManager extends \BSApiTasksBase {
 		}
 		if ( empty( $result->message ) ) {
 			$result->success = true;
+			$this->invalidateSettingsCache();
 			$this->doLog( $changes );
 		}
 		return $result;
@@ -100,8 +101,15 @@ class ConfigManager extends \BSApiTasksBase {
 	protected function getStore() {
 		return new Store(
 			new Context( $this->getContext(), $this->getConfig() ),
-			$this->services->getDBLoadBalancer()
+			$this->services->getDBLoadBalancer(),
+			$this->services->getMainWANObjectCache()
 		);
+	}
+
+	private function invalidateSettingsCache(): void {
+		$cache = $this->services->getMainWANObjectCache();
+		$key = $cache->makeKey( 'BlueSpiceFoundation', 'bs_settings3' );
+		$cache->delete( $key );
 	}
 
 	/**
