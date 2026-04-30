@@ -22,5 +22,8 @@
 	"bs-configmanager-notify-configuration-saved": "구성을 저장했습니다",
 	"bs-configmanager-toolbar-action-save-label": "저장",
 	"bs-configmanager-toolbar-action-discard-label": "버리기",
-	"bs-configmanager-search": "검색"
+	"bs-configmanager-search": "검색",
+	"bs-configmanager-mainpath": "보기 모드",
+	"log-description-bs-config-manager": "구성 관리자 변경 사항에 대한 로그입니다.",
+	"bs-configmanager-discard-open-changes": "저장되지 않은 변경 사항이 있습니다. 변경되지 않은 사항을 버리시겠습니까?"
 }
