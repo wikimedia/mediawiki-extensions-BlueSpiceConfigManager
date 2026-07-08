@@ -39,7 +39,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @param \stdClass $taskData
 	 * @param array $aParams
 	 * @return Standard
@@ -95,7 +94,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @return Store
 	 */
 	protected function getStore() {
@@ -113,7 +111,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @return ConfigManagerStore
 	 */
 	private function getCMStore() {
@@ -125,7 +122,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @param RecordSet $recordSet
 	 * @return array
 	 */
@@ -151,7 +147,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @param array $changes
 	 * @return void
 	 */
@@ -173,7 +168,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @param string $type
 	 * @param array $params
 	 */
@@ -207,7 +201,6 @@ class ConfigManager extends \BSApiTasksBase {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	private function logExcludeList(): array {
