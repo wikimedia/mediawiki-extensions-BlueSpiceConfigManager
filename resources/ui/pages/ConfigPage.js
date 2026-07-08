@@ -55,7 +55,7 @@ bs.configmanager.ui.pages.ConfigPage.prototype.setupWidget = function () {
 				if ( sections[ 2 ] ) {
 					currentPath = sections[ 2 ];
 					if ( this.pathNames[ currentPath ] ) {
-						const label = mw.message( this.pathNames[ currentPath ] ).text(); // eslint-disable-line mediawiki/msg-doc
+						const label = mw.message( this.pathNames[ currentPath ] ).text();
 						content += '<legend>' + label + '</legend>';
 					} else {
 						content += '<legend>' + currentPath + '</legend>';

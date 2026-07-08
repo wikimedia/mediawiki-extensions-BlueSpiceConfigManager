@@ -17,6 +17,7 @@
 	"rules": {
 		"es-x/no-array-prototype-includes": "off",
 		"max-len": "off",
-		"no-jquery/no-global-selector": "off"
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/no-done-fail": "warn"
 	}
 }

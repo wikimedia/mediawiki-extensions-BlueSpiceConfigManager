@@ -74,7 +74,7 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 	for ( const page in pageData ) {
 		let label = pageData[ page ];
 		if ( this.pathnames[ pageData[ page ] ] ) {
-			label = mw.message( this.pathnames[ pageData[ page ] ] ).text(); // eslint-disable-line mediawiki/msg-doc
+			label = mw.message( this.pathnames[ pageData[ page ] ] ).text();
 		}
 		pages.push( {
 			key: pageData[ page ],
