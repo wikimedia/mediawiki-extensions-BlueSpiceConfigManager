@@ -11,7 +11,6 @@ use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 class ConfigManager extends \BlueSpice\Api\Store {
 
 	/**
-	 *
 	 * @return string[]
 	 */
 	protected function getRequiredPermissions() {
@@ -19,7 +18,6 @@ class ConfigManager extends \BlueSpice\Api\Store {
 	}
 
 	/**
-	 *
 	 * @return Store
 	 */
 	protected function makeDataStore() {
@@ -31,7 +29,6 @@ class ConfigManager extends \BlueSpice\Api\Store {
 	}
 
 	/**
-	 *
 	 * @return ReaderParams
 	 */
 	protected function getReaderParams() {

@@ -7,7 +7,6 @@ use MediaWiki\MediaWikiServices;
 class ClientConfig {
 
 	/**
-	 *
 	 * @return array
 	 */
 	public static function getPathNames() {
@@ -38,7 +37,6 @@ class ClientConfig {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	public static function getToolbarOffset() {

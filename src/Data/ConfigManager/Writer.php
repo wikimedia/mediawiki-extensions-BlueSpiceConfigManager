@@ -9,7 +9,6 @@ use MWStake\MediaWiki\Component\DataStore\IReader;
 class Writer extends \BlueSpice\Data\Settings\Writer {
 
 	/**
-	 *
 	 * @var ConfigDefinitionFactory
 	 */
 	protected $factory = null;
