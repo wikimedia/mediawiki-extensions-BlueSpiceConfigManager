@@ -10,19 +10,16 @@ use Wikimedia\Rdbms\IDatabase;
 class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 
 	/**
-	 *
 	 * @var CMReaderParams
 	 */
 	protected $readerParams = null;
 
 	/**
-	 *
 	 * @var ConfigDefinitionFactory
 	 */
 	protected $factory = null;
 
 	/**
-	 *
 	 * @param IDatabase $db
 	 * @param ConfigDefinitionFactory $factory
 	 */
@@ -32,7 +29,6 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 	}
 
 	/**
-	 *
 	 * @param CMReaderParams $params
 	 * @return array
 	 */
@@ -48,7 +44,6 @@ class PrimaryDataProvider extends \BlueSpice\Data\Settings\PrimaryDataProvider {
 	}
 
 	/**
-	 *
 	 * @param \stdClass $row
 	 */
 	protected function appendRowToData( \stdClass $row ) {

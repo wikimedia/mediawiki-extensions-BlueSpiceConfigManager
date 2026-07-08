@@ -20,7 +20,6 @@ class ConfigManager extends OOJSSpecialPage {
 	}
 
 	/**
-	 *
 	 * @return void
 	 */
 	protected function buildSkeleton() {

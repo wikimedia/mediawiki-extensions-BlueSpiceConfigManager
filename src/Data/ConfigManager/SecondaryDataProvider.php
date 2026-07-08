@@ -9,13 +9,11 @@ use MWStake\MediaWiki\Component\DataStore\IRecord;
 class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\SecondaryDataProvider {
 
 	/**
-	 *
 	 * @var ConfigDefinitionFactory
 	 */
 	protected $factory = null;
 
 	/**
-	 *
 	 * @param ConfigDefinitionFactory $factory
 	 */
 	public function __construct( ConfigDefinitionFactory $factory ) {
@@ -23,7 +21,6 @@ class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\Secon
 	}
 
 	/**
-	 *
 	 * @param IRecord &$dataSet
 	 */
 	protected function doExtend( &$dataSet ) {
