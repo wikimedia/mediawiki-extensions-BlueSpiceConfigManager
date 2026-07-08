@@ -10,13 +10,11 @@ use Wikimedia\Rdbms\LoadBalancer;
 class Reader extends \BlueSpice\Data\Settings\Reader {
 
 	/**
-	 *
 	 * @var ConfigDefinitionFactory
 	 */
 	protected $factory = null;
 
 	/**
-	 *
 	 * @param ConfigDefinitionFactory $factory
 	 * @param LoadBalancer $loadBalancer
 	 * @param IContextSource|null $context
@@ -29,7 +27,6 @@ class Reader extends \BlueSpice\Data\Settings\Reader {
 	}
 
 	/**
-	 *
 	 * @param ReaderParams $params
 	 * @return PrimaryDataProvider
 	 */
@@ -38,7 +35,6 @@ class Reader extends \BlueSpice\Data\Settings\Reader {
 	}
 
 	/**
-	 *
 	 * @return SecondaryDataProvider
 	 */
 	protected function makeSecondaryDataProvider() {
@@ -46,7 +42,6 @@ class Reader extends \BlueSpice\Data\Settings\Reader {
 	}
 
 	/**
-	 *
 	 * @return Schema
 	 */
 	public function getSchema() {

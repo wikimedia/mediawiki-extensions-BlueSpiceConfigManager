@@ -8,13 +8,11 @@ use MediaWiki\Context\IContextSource;
 class Store extends \BlueSpice\Data\Settings\Store {
 
 	/**
-	 *
 	 * @var ConfigDefinitionFactory
 	 */
 	protected $factory = null;
 
 	/**
-	 *
 	 * @param IContextSource $context
 	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
 	 * @param ConfigDefinitionFactory $factory
@@ -25,7 +23,6 @@ class Store extends \BlueSpice\Data\Settings\Store {
 	}
 
 	/**
-	 *
 	 * @return Reader
 	 */
 	public function getReader() {
@@ -37,7 +34,6 @@ class Store extends \BlueSpice\Data\Settings\Store {
 	}
 
 	/**
-	 *
 	 * @return Writer
 	 */
 	public function getWriter() {

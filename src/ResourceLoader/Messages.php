@@ -32,7 +32,6 @@ class Messages extends ResourceLoaderModule {
 	}
 
 	/**
-	 *
 	 * @param ConfigDefinition $cfgDef
 	 * @param array &$messages
 	 * @return array
