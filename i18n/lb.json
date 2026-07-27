@@ -6,7 +6,10 @@
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "d'Spezialsäit \"{{int:bluespiceconfigmanager}}\" weisen",
+	"bs-configmanager-text": "Konfiguratioun",
 	"bs-configmanager-noentry": "Näischt fonnt",
+	"bs-configmanager-search": "Sichen",
+	"bs-configmanager-notify-configuration-saved": "Konfiguratioun gespäichert",
 	"bs-configmanager-toolbar-action-save-label": "Späicheren",
 	"bs-configmanager-toolbar-action-discard-label": "Verwerfen"
 }
