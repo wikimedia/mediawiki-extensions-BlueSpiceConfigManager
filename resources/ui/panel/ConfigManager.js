@@ -11,12 +11,12 @@ bs.configmanager.ui.panel.ConfigManager = function ( cfg ) {
 	bs.configmanager.ui.panel.ConfigManager.super.call( this, cfg );
 	this.paths = {};
 	this.mainPaths = [];
-	this.pageNames = [];
 	this.openChanges = false;
 	this.store = new OOJSPlus.ui.data.store.RemoteStore( {
 		action: 'bs-configmanager-store',
 		pageSize: 999
 	} );
+	this.selectedPage = null;
 	this.$element = $( '<div>' ).addClass( 'bs-configmanager-panel' );
 	this.$content = $( '<div>' ).addClass( 'bs-configmanager-content' );
 
@@ -89,9 +89,6 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 		classes: [ 'bs-configmanager-panel-booklet' ]
 	} );
 	this.bookletLayout.connect( this, {
-		select: function ( item ) {
-			this.selectedPage = item.data;
-		},
 		keep: function ( item ) {
 			OO.ui.confirm( mw.message( 'bs-configmanager-discard-open-changes' ).text() )
 				.done( ( confirmed ) => {
@@ -101,7 +98,8 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 					}
 				} );
 		},
-		set: function () {
+		set: function ( page ) {
+			this.selectedPage = page.getName();
 			this.openChanges = false;
 			this.toolbar.tools.save.setDisabled( true );
 		}
@@ -131,11 +129,10 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupBooklet = function () {
 	}
 	this.bookletLayout.addPages( configPages );
 
-	if ( !this.selectedPage || !configPages.includes( this.selectedPage ) ) {
-		this.bookletLayout.selectFirstSelectablePage();
-		this.selectedPage = this.bookletLayout.getCurrentPage();
-	} else {
+	if ( this.selectedPage ) {
 		this.bookletLayout.setPage( this.selectedPage );
+	} else {
+		this.bookletLayout.selectFirstSelectablePage();
 	}
 
 	this.$content.append( this.bookletLayout.$element );
@@ -183,28 +180,21 @@ bs.configmanager.ui.panel.ConfigManager.prototype.setupToolbar = function () {
 		save: function () {
 			const page = this.bookletLayout.getCurrentPage();
 			const saveData = page.getData();
-			const $dfd = $.Deferred();
 			bs.api.tasks.execSilent( 'configmanager', 'save', saveData )
 				.done( ( response ) => {
-					if ( response.error ) {
-						bs.util.alert(
-							'configmanager-save-fail',
-							{
-								titleMsg: 'Error',
-								text: response.error.info
-							},
-							{
-								ok: function () {
-									$dfd.reject( response );
-								}
-							}
-						);
+					if ( response.success === false ) {
+						page.setFailures( response.failedConfigs || {} );
+						mw.notify( mw.message( 'bs-configmanager-notify-configuration-save-failed' ).text(), {
+							type: 'error'
+						} );
 					} else {
-						mw.notify( mw.message( 'bs-configmanager-notify-configuration-saved' ).text() );
+						mw.notify( mw.message( 'bs-configmanager-notify-configuration-saved' ).text(), {
+							type: 'success'
+						} );
+						page.clearFailures();
 						this.toolbar.tools.save.setDisabled( true );
+						this.store.reload();
 					}
-					this.store.reload();
-					return $dfd.resolve( this );
 				} );
 		}
 	} );

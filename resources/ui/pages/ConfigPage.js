@@ -80,7 +80,35 @@ bs.configmanager.ui.pages.ConfigPage.prototype.setupWidget = function () {
 	this.$element.append( content );
 };
 
+bs.configmanager.ui.pages.ConfigPage.prototype.setFailures = function ( failures ) {
+	for ( const field in failures ) {
+		const failureMsg = failures[ field ];
+		if ( this.oouiWidgets[ field ] ) {
+			if ( typeof this.oouiWidgets[ field ].setValidityFlag === 'function' ) {
+				this.oouiWidgets[ field ].setValidityFlag( false );
+			}
+		}
+		if ( this.oouiFieldErrors[ field ] ) {
+			this.oouiFieldErrors[ field ].$element.show();
+			this.oouiFieldErrors[ field ].setLabel( new OO.ui.HtmlSnippet( failureMsg ) );
+		}
+	}
+};
+
+bs.configmanager.ui.pages.ConfigPage.prototype.clearFailures = function () {
+	for ( const field in this.oouiWidgets ) {
+		if ( typeof this.oouiWidgets[ field ].setValidityFlag === 'function' ) {
+			this.oouiWidgets[ field ].setValidityFlag( true );
+		}
+	}
+	for ( const field in this.oouiFieldErrors ) {
+		this.oouiFieldErrors[ field ].$element.hide();
+		this.oouiFieldErrors[ field ].setLabel( '' );
+	}
+};
+
 bs.configmanager.ui.pages.ConfigPage.prototype.infuseWidgets = function ( content ) {
+	this.oouiFieldErrors = {};
 	for ( const field in this.oouiWidgets ) {
 		let widgetId = 'unknown';
 		try {
@@ -92,11 +120,17 @@ bs.configmanager.ui.pages.ConfigPage.prototype.infuseWidgets = function ( conten
 			this.oouiWidgets[ field ].on( 'change', () => {
 				this.emit( 'change' );
 			} );
+			this.oouiFieldErrors[ field ] = new OO.ui.MessageWidget( {
+				type: 'error',
+				inline: true
+			} );
+			this.oouiFieldErrors[ field ].$element.insertAfter( widget.$element.parents( '.oo-ui-fieldLayout-body' ) );
 		} catch ( e ) {
 			console.error( 'Widget with id "' + widgetId + '" could not be infused', e ); // eslint-disable-line no-console
 			continue;
 		}
 	}
+	this.clearFailures();
 };
 
 bs.configmanager.ui.pages.ConfigPage.prototype.getOOUIWidgetElementId = function ( configVar, html ) {
