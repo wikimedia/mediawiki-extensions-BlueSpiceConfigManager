@@ -100,7 +100,8 @@
 				"bs-configmanager-discard-open-changes",
 				"bs-configmanager-notify-configuration-saved",
 				"bs-configmanager-toolbar-action-save-label",
-				"bs-configmanager-toolbar-action-discard-label"
+				"bs-configmanager-toolbar-action-discard-label",
+				"bs-configmanager-notify-configuration-save-failed"
 			],
 			"dependencies": [
 				"ext.bluespice",
