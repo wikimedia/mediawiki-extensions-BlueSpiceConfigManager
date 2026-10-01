@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"action-bluespiceconfigmanager-viewspecialpage": "arag bogga gaarka ah \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Maareeyaha qaabaynta",
+	"bs-configmanager-text": "Qaabeynta",
+	"bs-configmanager-desc": "Waxay maamulayaasha siinaysaa suurtagalnimada inay wikiga oo dhan ka qaabeeyaan hal bog gaar ah",
+	"bs-configmanager-noentry": "Gelitaan lama helin",
+	"bs-configmanager-mainpath": "Habka daawashada",
+	"bs-configmanager-search": "Raadi",
+	"apihelp-bs-configmanager-tasks-summary": "Maamul hawlaha",
+	"apihelp-bs-configmanager-store-summary": "Maamul kaydadka",
+	"right-bluespiceconfigmanager-viewspecialpage": "Gelitaanka bogga gaarka ah [[Special:BlueSpiceConfigManager]]",
+	"log-name-bs-config-manager": "Diiwaanka maareeyaha qaabaynta",
+	"log-description-bs-config-manager": "Diiwaangeli isbeddellada ku jira maareeyaha qaabaynta.",
+	"log-show-hide-bs-config-manager": "Diiwaanka maareeyaha qaabaynta ee $1",
+	"logeventslist-bs-config-manager-log": "Diiwaanka maareynta habaynta",
+	"logentry-bs-config-manager-modify": "$1 beddelay habaynta $4 laga bilaabo $5 una beddelay $6",
+	"bs-configmanager-discard-open-changes": "Waxaa jira isbeddello aan la kaydin. Ma la tuuraa isbeddellada furan?",
+	"bs-configmanager-notify-configuration-saved": "Habaynta waa la kaydiyay",
+	"bs-configmanager-toolbar-action-save-label": "Kaydi",
+	"bs-configmanager-toolbar-action-discard-label": "Iska tuur",
+	"bs-configmanager-notify-configuration-save-failed": "Fashilantay kaydinta habaynta",
+	"bs-configmanager-generic-invalid-field": "Qiime aan sax ahayn"
+}
