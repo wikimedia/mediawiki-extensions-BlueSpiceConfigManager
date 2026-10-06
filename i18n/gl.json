@@ -5,11 +5,10 @@
 			"Toliño"
 		]
 	},
-	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde unha única páxina especial",
-	"bs-bluespiceconfigmanager-admintool-label": "Xestor de configuración",
 	"action-bluespiceconfigmanager-viewspecialpage": "ver a páxina especial «{{int:bluespiceconfigmanager}}»",
 	"bluespiceconfigmanager": "Xestor de configuración",
 	"bs-configmanager-text": "Configuración",
+	"bs-configmanager-desc": "Permite ós administradores configurar todo o wiki desde unha única páxina especial",
 	"bs-configmanager-noentry": "Non se atopou ningunha entrada",
 	"bs-configmanager-mainpath": "Modo de visualización",
 	"bs-configmanager-search": "Procurar",
@@ -24,5 +23,7 @@
 	"bs-configmanager-discard-open-changes": "Hai cambios sen gardar. Queres descartar os cambios?",
 	"bs-configmanager-notify-configuration-saved": "Gardouse a configuración",
 	"bs-configmanager-toolbar-action-save-label": "Gardar",
-	"bs-configmanager-toolbar-action-discard-label": "Desbotar"
+	"bs-configmanager-toolbar-action-discard-label": "Desbotar",
+	"bs-configmanager-notify-configuration-save-failed": "Non se puido gardar a configuración",
+	"bs-configmanager-generic-invalid-field": "Valor non válido"
 }
