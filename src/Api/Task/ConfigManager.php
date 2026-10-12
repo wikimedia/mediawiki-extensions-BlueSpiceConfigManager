@@ -10,6 +10,7 @@ use BlueSpice\ConfigManager\Data\ConfigManager\Store as ConfigManagerStore;
 use BlueSpice\Context;
 use BlueSpice\Data\Settings\Store;
 use ManualLogEntry;
+use MediaWiki\Html\Html;
 use MediaWiki\Json\FormatJson;
 use MediaWiki\SpecialPage\SpecialPage;
 use MWStake\MediaWiki\Component\DataStore\Filter\StringValue;
@@ -68,9 +69,6 @@ class ConfigManager extends \BSApiTasksBase {
 				(array)$taskData
 			);
 			if ( $res !== true ) {
-				if ( $res === false ) {
-					$res = $this->getContext()->msg( 'bs-configmanager-generic-invalid-field' );
-				}
 				$record->getStatus()->fatal( $res );
 			}
 			$records[] = $record;
@@ -79,18 +77,15 @@ class ConfigManager extends \BSApiTasksBase {
 		$newRecordSet = new RecordSet( $records );
 		$changes = $this->compareRecords( $newRecordSet );
 		$recordSet = $this->getStore()->getWriter()->write( $newRecordSet );
-
-		$result->success = false;
-		$result->failedConfigs = [];
-		$formatter = $this->services->getFormatterFactory()->getStatusFormatter( $this->getContext() );
 		foreach ( $recordSet->getRecords() as $record ) {
 			if ( $record->getStatus()->isOK() ) {
 				continue;
 			}
-			$errorMsg = $formatter->getWikiText( $record->getStatus() );
-			$result->failedConfigs[$record->get( Record::NAME )] = $errorMsg;
+			$result->message .= $record->get( Record::NAME ) . ': ';
+			$result->message .= $record->getStatus()->getHTML( false, false );
+			$result->message .= Html::element( 'br' );
 		}
-		if ( empty( $result->failedConfigs ) ) {
+		if ( empty( $result->message ) ) {
 			$result->success = true;
 			$this->invalidateSettingsCache();
 			$this->doLog( $changes );
