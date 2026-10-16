@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
 	"action-bluespiceconfigmanager-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:bluespiceconfigmanager}}»",
@@ -10,5 +11,6 @@
 	"bs-configmanager-noentry": "Запіс ня знойдзены",
 	"apihelp-bs-configmanager-tasks-summary": "Кіраваньне заданьнямі",
 	"apihelp-bs-configmanager-store-summary": "Кіраваньне сховішчамі",
-	"right-bluespiceconfigmanager-viewspecialpage": "Доступ да спэцыяльнай старонкі [[Special:BlueSpiceConfigManager]]."
+	"right-bluespiceconfigmanager-viewspecialpage": "Доступ да спэцыяльнай старонкі [[Special:BlueSpiceConfigManager]].",
+	"bs-configmanager-toolbar-action-discard-label": "Адкінуць"
 }

@@ -31,5 +31,7 @@
 	"bs-configmanager-discard-open-changes": "Text for confirm dialog which is shown if user leaves page without saving changes",
 	"bs-configmanager-notify-configuration-saved": "Label for notification that configuration was saved",
 	"bs-configmanager-toolbar-action-save-label": "Label for toolbar action to save config changes\n{{Identical:Save}}",
-	"bs-configmanager-toolbar-action-discard-label": "Label for toolbar action to discard open config changes\n{{Identical:Discard}}"
+	"bs-configmanager-toolbar-action-discard-label": "Label for toolbar action to discard open config changes\n{{Identical:Discard}}",
+	"bs-configmanager-notify-configuration-save-failed": "Error message when saving configuration failed",
+	"bs-configmanager-generic-invalid-field": "Generic error message for invalid field"
 }

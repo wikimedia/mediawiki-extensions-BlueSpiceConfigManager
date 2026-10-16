@@ -4,6 +4,7 @@
 			"Aaron Liu",
 			"Anterdc99",
 			"Evesiesta",
+			"GuoPC",
 			"Hwboehm",
 			"Lakejason0",
 			"Liuxinyu970226",
@@ -32,5 +33,7 @@
 	"bs-configmanager-discard-open-changes": "存在未保存的更改。是否舍弃未保存的更改？",
 	"bs-configmanager-notify-configuration-saved": "已保存配置",
 	"bs-configmanager-toolbar-action-save-label": "保存",
-	"bs-configmanager-toolbar-action-discard-label": "舍弃"
+	"bs-configmanager-toolbar-action-discard-label": "舍弃",
+	"bs-configmanager-notify-configuration-save-failed": "配置保存失败",
+	"bs-configmanager-generic-invalid-field": "无效值"
 }
