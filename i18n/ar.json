@@ -25,5 +25,7 @@
 	"bs-configmanager-discard-open-changes": "هناك تغييرات غير محفوظة. هل تريد تجاهل التغييرات المفتوحة؟",
 	"bs-configmanager-notify-configuration-saved": "حُفظت الإعدادات",
 	"bs-configmanager-toolbar-action-save-label": "حفظ",
-	"bs-configmanager-toolbar-action-discard-label": "تجاهل"
+	"bs-configmanager-toolbar-action-discard-label": "تجاهل",
+	"bs-configmanager-notify-configuration-save-failed": "فشل حفظ الإعدادات",
+	"bs-configmanager-generic-invalid-field": "قيمة غير صالحة"
 }

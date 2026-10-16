@@ -25,5 +25,7 @@
 	"bs-configmanager-discard-open-changes": "There are unsaved changes. Discard open changes?",
 	"bs-configmanager-notify-configuration-saved": "Configuration saved",
 	"bs-configmanager-toolbar-action-save-label": "Save",
-	"bs-configmanager-toolbar-action-discard-label": "Discard"
+	"bs-configmanager-toolbar-action-discard-label": "Discard",
+	"bs-configmanager-notify-configuration-save-failed": "Failed to save configuration",
+	"bs-configmanager-generic-invalid-field": "Invalid value"
 }

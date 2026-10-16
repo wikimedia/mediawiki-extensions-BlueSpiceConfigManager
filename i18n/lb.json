@@ -8,5 +8,9 @@
 	"action-bluespiceconfigmanager-viewspecialpage": "d'Spezialsäit \"{{int:bluespiceconfigmanager}}\" weisen",
 	"bs-configmanager-noentry": "Näischt fonnt",
 	"bs-configmanager-toolbar-action-save-label": "Späicheren",
-	"bs-configmanager-toolbar-action-discard-label": "Verwerfen"
+	"bs-configmanager-toolbar-action-discard-label": "Verwerfen",
+	"bs-configmanager-text": "Konfiguratioun",
+	"bs-configmanager-search": "Sichen",
+	"bs-configmanager-notify-configuration-saved": "Konfiguratioun gespäichert",
+	"bs-configmanager-generic-invalid-field": "Ongültege Wäert"
 }

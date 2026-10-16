@@ -25,5 +25,7 @@
 	"bs-configmanager-search": "검색",
 	"bs-configmanager-mainpath": "보기 모드",
 	"log-description-bs-config-manager": "구성 관리자 변경 사항에 대한 로그입니다.",
-	"bs-configmanager-discard-open-changes": "저장되지 않은 변경 사항이 있습니다. 변경되지 않은 사항을 버리시겠습니까?"
+	"bs-configmanager-discard-open-changes": "저장되지 않은 변경 사항이 있습니다. 변경되지 않은 사항을 버리시겠습니까?",
+	"bs-configmanager-notify-configuration-save-failed": "구성을 저장하는 데 실패했습니다",
+	"bs-configmanager-generic-invalid-field": "잘못된 값"
 }
