@@ -22,5 +22,11 @@
 	"log-description-bs-config-manager": "Dnevnik sprememb v upravitelju konfiguracije.",
 	"log-show-hide-bs-config-manager": "$1 dnevnik sprememb v upravitelju konfiguracije",
 	"logeventslist-bs-config-manager-log": "Dnevnik upravitelja konfiguracije",
-	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} nastavitev $4 s $5 na $6"
+	"logentry-bs-config-manager-modify": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} nastavitev $4 s $5 na $6",
+	"bs-configmanager-discard-open-changes": "Obstajajo neshranjene spremembe. Ali jih želite zavreči?",
+	"bs-configmanager-notify-configuration-saved": "Nastavitev shranjena",
+	"bs-configmanager-toolbar-action-save-label": "Shrani",
+	"bs-configmanager-toolbar-action-discard-label": "Zavrzi",
+	"bs-configmanager-notify-configuration-save-failed": "Shranjevanje nastavitev ni uspelo",
+	"bs-configmanager-generic-invalid-field": "Neveljavna vrednost"
 }
