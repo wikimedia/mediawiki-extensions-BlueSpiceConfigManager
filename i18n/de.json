@@ -27,5 +27,7 @@
 	"bs-configmanager-discard-open-changes": "Es gibt nicht gespeicherte Änderungen. Offene Änderungen verwerfen?",
 	"bs-configmanager-notify-configuration-saved": "Konfiguration gespeichert",
 	"bs-configmanager-toolbar-action-save-label": "Speichern",
-	"bs-configmanager-toolbar-action-discard-label": "Verwerfen"
+	"bs-configmanager-toolbar-action-discard-label": "Verwerfen",
+	"bs-configmanager-notify-configuration-save-failed": "Die Konfiguration konnte nicht gespeichert werden",
+	"bs-configmanager-generic-invalid-field": "Ungültiger Wert"
 }
