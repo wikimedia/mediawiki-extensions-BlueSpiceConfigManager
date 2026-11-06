@@ -85,7 +85,9 @@ bs.configmanager.ui.pages.ConfigPage.prototype.infuseWidgets = function ( conten
 		let widgetId = 'unknown';
 		try {
 			widgetId = this.oouiWidgets[ field ];
-			const widget = OO.ui.infuse( $( content ).find( '#' + widgetId ) );
+			const widget = OO.ui.infuse( $( content ).find( '#' + widgetId ), {
+				$overlay: true
+			} );
 
 			// Now we are able to replace widget id with an instance
 			this.oouiWidgets[ field ] = widget;
