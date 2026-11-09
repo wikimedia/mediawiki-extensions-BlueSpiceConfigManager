@@ -78,6 +78,11 @@ bs.configmanager.ui.pages.ConfigPage.prototype.setupWidget = function () {
 	content += '</fieldset>';
 	content += '</form>';
 	this.$element.append( content );
+
+	// Secrets in here are never the user's login. Without this, browsers fill saved
+	// credentials into them (and the username into the preceding text field) on the
+	// first user gesture, which marks the page as changed.
+	this.$element.find( 'input[type="password"]' ).attr( 'autocomplete', 'new-password' );
 };
 
 bs.configmanager.ui.pages.ConfigPage.prototype.setFailures = function ( failures ) {
